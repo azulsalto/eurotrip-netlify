@@ -1,0 +1,50 @@
+name: Buscar vuelos y publicar
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  buscar-y-publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install
+      - name: Buscar vuelos a Europa
+        run: npm run search
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+      - name: Guardar resultados
+        run: |
+          git config user.name "eurotrip-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/results.json
+          git diff --cached --quiet || git commit -m "Actualizar ofertas de vuelos"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Publicar página
+        id: deployment
+        uses: actions/deploy-pages@v4
+        
