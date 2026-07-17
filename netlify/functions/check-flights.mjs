@@ -33,7 +33,7 @@ async function searchDeals() {
     currency: "USD",
     max_price: String(WEBSITE_MAX_PRICE),
     stops: "3",
-    hl: "es",
+    hl: "en",
     gl: "ar",
     api_key: required("SERPAPI_KEY")
   });
@@ -41,7 +41,12 @@ async function searchDeals() {
   if (!response.ok) throw new Error(`SerpApi respondió ${response.status}`);
   const data = await response.json();
   if (data.error) throw new Error(data.error);
-  return (data.deals || []).filter(deal => europeanCountries.has(deal.country));
+  const allDeals = data.deals || [];
+  return {
+    allCount: allDeals.length,
+    countries: [...new Set(allDeals.map(deal => deal.country).filter(Boolean))].slice(0, 20),
+    europe: allDeals.filter(deal => europeanCountries.has(deal.country))
+  };
 }
 
 function summarize(deal) {
@@ -103,11 +108,11 @@ function mergeOffers(previous, incoming) {
 export default async () => {
   const store = getStore("eurotrip-state");
   const state = await store.get("state", { type: "json" }) || { alerted: {}, offers: [] };
-  const settled = await Promise.allSettled([searchDeals().then(deals => deals
+  const settled = await Promise.allSettled([searchDeals()]);
+  const response = settled.find(result => result.status === "fulfilled")?.value;
+  const found = (response?.europe || [])
     .filter(deal => Number.isFinite(Number(deal.price)) && deal.start_date && deal.end_date)
-    .map(deal => summarize(deal))
-  )]);
-  const found = settled.flatMap(result => result.status === "fulfilled" ? result.value : []);
+    .map(deal => summarize(deal));
   state.offers = mergeOffers(state.offers, found);
   state.lastRun = new Date().toISOString();
   state.lastErrors = settled.filter(x => x.status === "rejected").map(x => String(x.reason?.message || x.reason)).slice(0, 10);
@@ -123,5 +128,5 @@ export default async () => {
   }
 
   await store.setJSON("state", state);
-  console.log(`Eurotrip Deals: cualquier fecha y duración, todas las aerolíneas, ${found.length} ofertas europeas, ${alerts} alerta, ${state.lastErrors.length} errores.`);
+  console.log(`Eurotrip Deals: ${response?.allCount || 0} ofertas totales, ${found.length} europeas, países: ${(response?.countries || []).join(", ") || "ninguno"}, ${alerts} alerta, ${state.lastErrors.length} errores.`);
 };
