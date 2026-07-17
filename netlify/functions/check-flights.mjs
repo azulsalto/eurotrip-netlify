@@ -1,21 +1,13 @@
 import { getStore } from "@netlify/blobs";
 import nodemailer from "nodemailer";
 
-const flexibleSearch = { name: "Cualquier fecha disponible" };
-const europeanCountries = new Set([
-  "Albania", "Austria", "Belgium", "Bosnia and Herzegovina", "Bulgaria", "Croatia", "Cyprus", "Czechia", "Czech Republic",
-  "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Iceland", "Ireland", "Italy", "Kosovo",
-  "Latvia", "Lithuania", "Luxembourg", "Malta", "Moldova", "Montenegro", "Netherlands", "North Macedonia", "Norway",
-  "Poland", "Portugal", "Romania", "Serbia", "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland", "Turkey",
-  "Türkiye", "United Kingdom",
-  "Albania", "Alemania", "Austria", "Bélgica", "Bosnia y Herzegovina", "Bulgaria", "Chipre", "Croacia", "Dinamarca",
-  "Eslovaquia", "Eslovenia", "España", "Estonia", "Finlandia", "Francia", "Grecia", "Hungría", "Irlanda", "Islandia",
-  "Italia", "Kosovo", "Letonia", "Lituania", "Luxemburgo", "Macedonia del Norte", "Malta", "Moldavia", "Montenegro",
-  "Noruega", "Países Bajos", "Polonia", "Portugal", "Reino Unido", "República Checa", "Rumania", "Serbia", "Suecia",
-  "Suiza", "Turquía"
-]);
 const EMAIL_MAX_PRICE = 800;
 const WEBSITE_MAX_PRICE = 1000;
+const durations = [
+  { value: "1", label: "Fin de semana" },
+  { value: "2", label: "Una semana" },
+  { value: "3", label: "Dos semanas" }
+];
 
 function required(name) {
   const value = Netlify.env.get(name);
@@ -23,16 +15,20 @@ function required(name) {
   return value;
 }
 
-async function searchDeals() {
+async function searchEurope(duration) {
   const query = new URLSearchParams({
-    engine: "google_flights_deals",
+    engine: "google_travel_explore",
     departure_id: "EZE",
+    arrival_area_id: "/m/02j9z",
     type: "1",
+    month: "0",
+    travel_duration: duration.value,
     travel_class: "1",
     adults: "1",
     currency: "USD",
     max_price: String(WEBSITE_MAX_PRICE),
-    stops: "3",
+    stops: "0",
+    travel_mode: "1",
     hl: "en",
     gl: "ar",
     api_key: required("SERPAPI_KEY")
@@ -41,33 +37,27 @@ async function searchDeals() {
   if (!response.ok) throw new Error(`SerpApi respondió ${response.status}`);
   const data = await response.json();
   if (data.error) throw new Error(data.error);
-  const allDeals = data.deals || [];
-  return {
-    allCount: allDeals.length,
-    countries: [...new Set(allDeals.map(deal => deal.country).filter(Boolean))].slice(0, 20),
-    europe: allDeals.filter(deal => europeanCountries.has(deal.country))
-  };
+  return data.destinations || [];
 }
 
-function summarize(deal) {
-  const destination = deal.arrival_airport_code || deal.name;
+function summarize(item, duration) {
+  const airport = item.destination_airport || {};
+  const destination = airport.code || item.name;
   return {
-    key: `EZE-${destination}-${deal.start_date}-${deal.end_date}`,
+    key: `EZE-${destination}-${item.start_date}-${item.end_date}`,
     origin: "EZE",
     destination,
-    destinationName: deal.name || destination,
-    country: deal.country || "Europa",
+    destinationName: item.name || destination,
+    country: item.country || "Europe",
     route: `EZE → ${destination}`,
-    departure: deal.start_date,
-    returnDate: deal.end_date,
-    price: Number(deal.price),
-    averagePrice: Number(deal.average_price) || null,
-    discount: Number(deal.discount_percentage) || null,
-    airlines: deal.airline || "consultar",
-    stops: Number.isFinite(Number(deal.stops)) ? Number(deal.stops) : 0,
-    season: flexibleSearch.name,
+    departure: item.start_date,
+    returnDate: item.end_date,
+    price: Number(item.flight_price),
+    airlines: item.airline || "consultar",
+    stops: Number.isFinite(Number(item.number_of_stops)) ? Number(item.number_of_stops) : 0,
+    season: `Fechas flexibles · ${duration.label}`,
     foundAt: new Date().toISOString(),
-    url: deal.flight_link || "https://www.google.com/travel/flights?hl=es&curr=USD"
+    url: item.link || "https://www.google.com/travel/explore?hl=es&curr=USD"
   };
 }
 
@@ -84,7 +74,7 @@ async function sendEmail(result) {
     `Precio: USD ${result.price.toFixed(2)}`,
     `Aerolínea: ${result.airlines}`,
     `Escalas: ${result.stops}`,
-    `Ver en Google Flights: ${result.url}`,
+    `Verificar en Google: ${result.url}`,
     "El precio puede cambiar; verificá la oferta antes de comprar."
   ].join("\n");
   await transporter.sendMail({
@@ -107,15 +97,17 @@ function mergeOffers(previous, incoming) {
 
 export default async () => {
   const store = getStore("eurotrip-state");
-  const state = await store.get("state", { type: "json" }) || { alerted: {}, offers: [] };
-  const settled = await Promise.allSettled([searchDeals()]);
-  const response = settled.find(result => result.status === "fulfilled")?.value;
-  const found = (response?.europe || [])
-    .filter(deal => Number.isFinite(Number(deal.price)) && deal.start_date && deal.end_date)
-    .map(deal => summarize(deal));
+  const state = await store.get("state", { type: "json" }) || { alerted: {}, offers: [], durationCursor: 0 };
+  const duration = durations[state.durationCursor % durations.length];
+  const destinations = await searchEurope(duration);
+  const found = destinations
+    .filter(item => Number.isFinite(Number(item.flight_price)) && item.start_date && item.end_date)
+    .map(item => summarize(item, duration));
+
   state.offers = mergeOffers(state.offers, found);
+  state.durationCursor = (state.durationCursor + 1) % durations.length;
   state.lastRun = new Date().toISOString();
-  state.lastErrors = settled.filter(x => x.status === "rejected").map(x => String(x.reason?.message || x.reason)).slice(0, 10);
+  state.lastErrors = [];
 
   const newest = found
     .filter(item => item.price <= EMAIL_MAX_PRICE && (!state.alerted[item.key] || item.price < state.alerted[item.key].price))
@@ -128,5 +120,5 @@ export default async () => {
   }
 
   await store.setJSON("state", state);
-  console.log(`Eurotrip Deals: ${response?.allCount || 0} ofertas totales, ${found.length} europeas, países: ${(response?.countries || []).join(", ") || "ninguno"}, ${alerts} alerta, ${state.lastErrors.length} errores.`);
+  console.log(`Eurotrip Explore: Europa, ${duration.label}, ${destinations.length} destinos recibidos, ${found.length} ofertas guardadas, ${alerts} alerta.`);
 };
