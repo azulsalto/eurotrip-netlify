@@ -1,10 +1,12 @@
 {
-  "name": "eurotrip-netlify",
+  "name": "eurotrip-github",
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "scripts": {
+    "search": "node scripts/check-flights.mjs"
+  },
   "dependencies": {
-    "@netlify/blobs": "^10.0.0",
     "nodemailer": "^7.0.0"
   }
 }
