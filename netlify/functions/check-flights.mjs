@@ -7,7 +7,12 @@ const europeanCountries = new Set([
   "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Iceland", "Ireland", "Italy", "Kosovo",
   "Latvia", "Lithuania", "Luxembourg", "Malta", "Moldova", "Montenegro", "Netherlands", "North Macedonia", "Norway",
   "Poland", "Portugal", "Romania", "Serbia", "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland", "Turkey",
-  "Türkiye", "United Kingdom"
+  "Türkiye", "United Kingdom",
+  "Albania", "Alemania", "Austria", "Bélgica", "Bosnia y Herzegovina", "Bulgaria", "Chipre", "Croacia", "Dinamarca",
+  "Eslovaquia", "Eslovenia", "España", "Estonia", "Finlandia", "Francia", "Grecia", "Hungría", "Irlanda", "Islandia",
+  "Italia", "Kosovo", "Letonia", "Lituania", "Luxemburgo", "Macedonia del Norte", "Malta", "Moldavia", "Montenegro",
+  "Noruega", "Países Bajos", "Polonia", "Portugal", "Reino Unido", "República Checa", "Rumania", "Serbia", "Suecia",
+  "Suiza", "Turquía"
 ]);
 const EMAIL_MAX_PRICE = 800;
 const WEBSITE_MAX_PRICE = 1000;
