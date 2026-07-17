@@ -1,0 +1,10 @@
+{
+  "name": "eurotrip-netlify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@netlify/blobs": "^10.0.0",
+    "nodemailer": "^7.0.0"
+  }
+}
