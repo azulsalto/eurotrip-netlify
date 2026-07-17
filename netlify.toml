@@ -1,6 +1,0 @@
-[build]
-  publish = "public"
-  functions = "netlify/functions"
-
-[functions."check-flights"]
-  schedule = "0 12 * * *"
