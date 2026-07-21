@@ -1,6 +1,22 @@
 {
   "offers": [
     {
+      "key": "EZE-VLC-2026-08-10-2026-08-19",
+      "origin": "EZE",
+      "destination": "VLC",
+      "destinationName": "València",
+      "country": "Spain",
+      "route": "EZE → VLC",
+      "departure": "2026-08-10",
+      "returnDate": "2026-08-19",
+      "price": 929,
+      "airlines": "Transavia and KLM",
+      "stops": 1,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-07-21T13:42:43.994Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTEwagcIARIDRVpFGhUSCjIwMjYtMDgtMTlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
+    },
+    {
       "key": "EZE-MAD-2026-11-13-2026-11-21",
       "origin": "EZE",
       "destination": "MAD",
@@ -49,6 +65,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDRVpFGhUSCjIwMjYtMDgtMjByBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
+      "key": "EZE-LIN-2026-11-13-2026-11-21",
+      "origin": "EZE",
+      "destination": "LIN",
+      "destinationName": "Milan",
+      "country": "Italy",
+      "route": "EZE → LIN",
+      "departure": "2026-11-13",
+      "returnDate": "2026-11-21",
+      "price": 986,
+      "airlines": "ITA",
+      "stops": 1,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-07-21T13:42:43.993Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEzagcIARIDRVpFGhUSCjIwMjYtMTEtMjFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
+    },
+    {
       "key": "EZE-OPO-2026-08-13-2026-08-21",
       "origin": "EZE",
       "destination": "OPO",
@@ -66,7 +98,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 1,
-  "lastRun": "2026-07-20T14:21:48.991Z",
+  "durationCursor": 2,
+  "lastRun": "2026-07-21T13:42:43.994Z",
   "lastErrors": []
 }
