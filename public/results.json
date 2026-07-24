@@ -13,7 +13,7 @@
       "airlines": "Transavia and KLM",
       "stops": 1,
       "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-07-22T14:10:44.010Z",
+      "foundAt": "2026-07-24T13:38:35.404Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTEwagcIARIDRVpFGhUSCjIwMjYtMDgtMTlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
     },
     {
@@ -61,7 +61,7 @@
       "airlines": "KLM",
       "stops": 1,
       "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-07-22T14:10:44.010Z",
+      "foundAt": "2026-07-24T13:38:35.404Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTEwagcIARIDRVpFGhUSCjIwMjYtMDgtMTlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
@@ -145,6 +145,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTIyagcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
     },
     {
+      "key": "EZE-LIN-2026-11-19-2026-11-28",
+      "origin": "EZE",
+      "destination": "LIN",
+      "destinationName": "Milan",
+      "country": "Italy",
+      "route": "EZE → LIN",
+      "departure": "2026-11-19",
+      "returnDate": "2026-11-28",
+      "price": 983,
+      "airlines": "ITA",
+      "stops": 1,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-07-24T13:38:35.404Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
+    },
+    {
       "key": "EZE-LIN-2026-08-06-2026-08-20",
       "origin": "EZE",
       "destination": "LIN",
@@ -191,6 +207,22 @@
       "season": "Fechas flexibles · Una semana",
       "foundAt": "2026-07-22T14:10:44.010Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEzagcIARIDRVpFGhUSCjIwMjYtMTEtMjFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
+    },
+    {
+      "key": "EZE-OPO-2026-08-06-2026-08-13",
+      "origin": "EZE",
+      "destination": "OPO",
+      "destinationName": "Porto",
+      "country": "Portugal",
+      "route": "EZE → OPO",
+      "departure": "2026-08-06",
+      "returnDate": "2026-08-13",
+      "price": 991,
+      "airlines": "Air France and KLM",
+      "stops": 2,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-07-24T13:38:35.404Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDRVpFGhUSCjIwMjYtMDgtMTNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbW43"
     },
     {
       "key": "EZE-OPO-2026-08-13-2026-08-21",
@@ -242,7 +274,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 1,
-  "lastRun": "2026-07-23T14:20:30.921Z",
+  "durationCursor": 2,
+  "lastRun": "2026-07-24T13:38:35.404Z",
   "lastErrors": []
 }
