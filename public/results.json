@@ -13,7 +13,7 @@
       "airlines": "Transavia and KLM",
       "stops": 1,
       "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-07-24T13:38:35.404Z",
+      "foundAt": "2026-07-25T13:49:08.359Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTEwagcIARIDRVpFGhUSCjIwMjYtMDgtMTlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
     },
     {
@@ -57,11 +57,11 @@
       "route": "EZE → BCN",
       "departure": "2026-08-10",
       "returnDate": "2026-08-19",
-      "price": 938,
+      "price": 937,
       "airlines": "KLM",
       "stops": 1,
       "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-07-24T13:38:35.404Z",
+      "foundAt": "2026-07-25T13:49:08.359Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTEwagcIARIDRVpFGhUSCjIwMjYtMDgtMTlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
@@ -221,7 +221,7 @@
       "airlines": "ITA",
       "stops": 1,
       "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-07-22T14:10:44.010Z",
+      "foundAt": "2026-07-25T13:49:08.359Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEzagcIARIDRVpFGhUSCjIwMjYtMTEtMjFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
@@ -253,7 +253,7 @@
       "airlines": "Air France and KLM",
       "stops": 2,
       "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-07-24T13:38:35.404Z",
+      "foundAt": "2026-07-25T13:49:08.359Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDRVpFGhUSCjIwMjYtMDgtMTNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbW43"
     },
     {
@@ -271,6 +271,22 @@
       "season": "Fechas flexibles · Dos semanas",
       "foundAt": "2026-07-24T13:59:07.547Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDRVpFGhUSCjIwMjYtMDgtMjFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbW43"
+    },
+    {
+      "key": "EZE-LIS-2026-11-16-2026-11-25",
+      "origin": "EZE",
+      "destination": "LIS",
+      "destinationName": "Lisbon",
+      "country": "Portugal",
+      "route": "EZE → LIS",
+      "departure": "2026-11-16",
+      "returnDate": "2026-11-25",
+      "price": 992,
+      "airlines": "Gol, LEVEL, and Vueling",
+      "stops": 1,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-07-25T13:49:08.359Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTEtMjVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
     },
     {
       "key": "EZE-OPO-2026-08-13-2026-08-21",
@@ -338,7 +354,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 1,
-  "lastRun": "2026-07-25T13:18:59.238Z",
+  "durationCursor": 2,
+  "lastRun": "2026-07-25T13:49:08.359Z",
   "lastErrors": []
 }
