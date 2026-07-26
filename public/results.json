@@ -353,6 +353,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTEzagcIARIDRVpFGhUSCjIwMjYtMDgtMjFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbW43"
     },
     {
+      "key": "EZE-OPO-2026-08-13-2026-08-17",
+      "origin": "EZE",
+      "destination": "OPO",
+      "destinationName": "Porto",
+      "country": "Portugal",
+      "route": "EZE → OPO",
+      "departure": "2026-08-13",
+      "returnDate": "2026-08-17",
+      "price": 993,
+      "airlines": "Air France and KLM",
+      "stops": 2,
+      "season": "Fechas flexibles · Fin de semana",
+      "foundAt": "2026-07-26T13:42:18.325Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTEzagcIARIDRVpFGhUSCjIwMjYtMDgtMTdyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbW43"
+    },
+    {
       "key": "EZE-LIS-2026-08-07-2026-08-21",
       "origin": "EZE",
       "destination": "LIS",
@@ -418,7 +434,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 0,
-  "lastRun": "2026-07-26T13:14:54.171Z",
+  "durationCursor": 1,
+  "lastRun": "2026-07-26T13:42:18.325Z",
   "lastErrors": []
 }
