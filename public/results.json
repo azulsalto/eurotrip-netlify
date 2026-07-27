@@ -73,11 +73,11 @@
       "route": "EZE → BCN",
       "departure": "2026-08-10",
       "returnDate": "2026-08-19",
-      "price": 937,
-      "airlines": "KLM",
+      "price": 936,
+      "airlines": "Transavia and KLM",
       "stops": 1,
       "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-07-25T13:49:08.359Z",
+      "foundAt": "2026-07-27T14:27:12.125Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTEwagcIARIDRVpFGhUSCjIwMjYtMDgtMTlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
@@ -434,7 +434,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 1,
-  "lastRun": "2026-07-26T13:42:18.325Z",
+  "durationCursor": 2,
+  "lastRun": "2026-07-27T14:27:12.125Z",
   "lastErrors": []
 }
