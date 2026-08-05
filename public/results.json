@@ -225,6 +225,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTA4agcIARIDRVpFGhUSCjIwMjYtMDgtMjFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
+      "key": "EZE-MAD-2026-08-13-2026-08-26",
+      "origin": "EZE",
+      "destination": "MAD",
+      "destinationName": "Madrid",
+      "country": "Spain",
+      "route": "EZE → MAD",
+      "departure": "2026-08-13",
+      "returnDate": "2026-08-26",
+      "price": 941,
+      "airlines": "Air France",
+      "stops": 1,
+      "season": "Fechas flexibles · Dos semanas",
+      "foundAt": "2026-08-05T14:23:29.039Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTEzagcIARIDRVpFGhUSCjIwMjYtMDgtMjZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
+    },
+    {
       "key": "EZE-MAD-2026-11-13-2026-11-21",
       "origin": "EZE",
       "destination": "MAD",
@@ -461,7 +477,7 @@
       "airlines": "ITA",
       "stops": 1,
       "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-08-02T13:41:47.820Z",
+      "foundAt": "2026-08-05T14:23:29.039Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
@@ -722,7 +738,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 2,
-  "lastRun": "2026-08-05T14:02:01.176Z",
+  "durationCursor": 0,
+  "lastRun": "2026-08-05T14:23:29.039Z",
   "lastErrors": []
 }
