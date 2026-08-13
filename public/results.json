@@ -465,6 +465,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
     },
     {
+      "key": "EZE-MXP-2026-11-19-2026-11-23",
+      "origin": "EZE",
+      "destination": "MXP",
+      "destinationName": "Milan",
+      "country": "Italy",
+      "route": "EZE → MXP",
+      "departure": "2026-11-19",
+      "returnDate": "2026-11-23",
+      "price": 983,
+      "airlines": "Air Dolomiti and Lufthansa",
+      "stops": 1,
+      "season": "Fechas flexibles · Fin de semana",
+      "foundAt": "2026-08-13T13:25:28.107Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
+    },
+    {
       "key": "EZE-LIN-2026-08-06-2026-08-20",
       "origin": "EZE",
       "destination": "LIN",
@@ -818,7 +834,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 0,
-  "lastRun": "2026-08-13T13:02:40.995Z",
+  "durationCursor": 1,
+  "lastRun": "2026-08-13T13:25:28.107Z",
   "lastErrors": []
 }
