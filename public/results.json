@@ -33,6 +33,38 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEzagcIARIDRVpFGhUSCjIwMjYtMTEtMjJyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
+      "key": "EZE-MAD-2026-11-20-2026-11-29",
+      "origin": "EZE",
+      "destination": "MAD",
+      "destinationName": "Madrid",
+      "country": "Spain",
+      "route": "EZE → MAD",
+      "departure": "2026-11-20",
+      "returnDate": "2026-11-29",
+      "price": 890,
+      "airlines": "ITA and Air Europa",
+      "stops": 1,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-08-14T12:58:43.042Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTIwagcIARIDRVpFGhUSCjIwMjYtMTEtMjlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
+    },
+    {
+      "key": "EZE-VLC-2026-11-16-2026-11-23",
+      "origin": "EZE",
+      "destination": "VLC",
+      "destinationName": "València",
+      "country": "Spain",
+      "route": "EZE → VLC",
+      "departure": "2026-11-16",
+      "returnDate": "2026-11-23",
+      "price": 892,
+      "airlines": "ITA, Lufthansa, and Lufthansa City Airlines",
+      "stops": 2,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-08-14T12:58:43.042Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
+    },
+    {
       "key": "EZE-VLC-2026-08-10-2026-08-19",
       "origin": "EZE",
       "destination": "VLC",
@@ -271,22 +303,6 @@
       "season": "Fechas flexibles · Una semana",
       "foundAt": "2026-07-19T13:12:02.599Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEzagcIARIDRVpFGhUSCjIwMjYtMTEtMjFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
-    },
-    {
-      "key": "EZE-MAD-2026-11-20-2026-11-29",
-      "origin": "EZE",
-      "destination": "MAD",
-      "destinationName": "Madrid",
-      "country": "Spain",
-      "route": "EZE → MAD",
-      "departure": "2026-11-20",
-      "returnDate": "2026-11-29",
-      "price": 955,
-      "airlines": "ITA",
-      "stops": 1,
-      "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-08-12T13:23:37.390Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTIwagcIARIDRVpFGhUSCjIwMjYtMTEtMjlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
       "key": "EZE-VLC-2026-08-08-2026-08-17",
@@ -609,6 +625,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDRVpFGhUSCjIwMjYtMTEtMjJyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
+      "key": "EZE-MXP-2026-11-15-2026-11-23",
+      "origin": "EZE",
+      "destination": "MXP",
+      "destinationName": "Milan",
+      "country": "Italy",
+      "route": "EZE → MXP",
+      "departure": "2026-11-15",
+      "returnDate": "2026-11-23",
+      "price": 984,
+      "airlines": "Air Dolomiti and Lufthansa",
+      "stops": 1,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-08-14T12:58:43.042Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
+    },
+    {
       "key": "EZE-LIN-2026-11-15-2026-11-28",
       "origin": "EZE",
       "destination": "LIN",
@@ -737,6 +769,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDRVpFGhUSCjIwMjYtMDgtMjByBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbW43"
     },
     {
+      "key": "EZE-CDG-2026-11-15-2026-11-23",
+      "origin": "EZE",
+      "destination": "CDG",
+      "destinationName": "Paris",
+      "country": "France",
+      "route": "EZE → CDG",
+      "departure": "2026-11-15",
+      "returnDate": "2026-11-23",
+      "price": 995,
+      "airlines": "Lufthansa",
+      "stops": 1,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-08-14T12:58:43.042Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1cXRq"
+    },
+    {
       "key": "EZE-LIS-2026-08-07-2026-08-21",
       "origin": "EZE",
       "destination": "LIS",
@@ -834,7 +882,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 1,
-  "lastRun": "2026-08-13T13:25:28.107Z",
+  "durationCursor": 2,
+  "lastRun": "2026-08-14T12:58:43.042Z",
   "lastErrors": []
 }
