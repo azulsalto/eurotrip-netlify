@@ -81,6 +81,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTEtMjlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
     },
     {
+      "key": "EZE-VLC-2026-11-19-2026-11-23",
+      "origin": "EZE",
+      "destination": "VLC",
+      "destinationName": "València",
+      "country": "Spain",
+      "route": "EZE → VLC",
+      "departure": "2026-11-19",
+      "returnDate": "2026-11-23",
+      "price": 892,
+      "airlines": "Lufthansa",
+      "stops": 1,
+      "season": "Fechas flexibles · Fin de semana",
+      "foundAt": "2026-08-15T12:31:17.801Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
+    },
+    {
       "key": "EZE-MAD-2026-11-12-2026-11-26",
       "origin": "EZE",
       "destination": "MAD",
@@ -95,6 +111,22 @@
       "season": "Fechas flexibles · Dos semanas",
       "foundAt": "2026-08-14T13:19:56.394Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
+    },
+    {
+      "key": "EZE-MAD-2026-11-12-2026-11-16",
+      "origin": "EZE",
+      "destination": "MAD",
+      "destinationName": "Madrid",
+      "country": "Spain",
+      "route": "EZE → MAD",
+      "departure": "2026-11-12",
+      "returnDate": "2026-11-16",
+      "price": 902,
+      "airlines": "Lufthansa",
+      "stops": 1,
+      "season": "Fechas flexibles · Fin de semana",
+      "foundAt": "2026-08-15T12:31:17.801Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMTZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
       "key": "EZE-VLC-2026-08-10-2026-08-19",
@@ -431,6 +463,22 @@
       "season": "Fechas flexibles · Una semana",
       "foundAt": "2026-08-05T14:02:01.176Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTEzagcIARIDRVpFGhUSCjIwMjYtMDgtMTlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
+    },
+    {
+      "key": "EZE-MXP-2026-11-21-2026-11-23",
+      "origin": "EZE",
+      "destination": "MXP",
+      "destinationName": "Milan",
+      "country": "Italy",
+      "route": "EZE → MXP",
+      "departure": "2026-11-21",
+      "returnDate": "2026-11-23",
+      "price": 979,
+      "airlines": "Air Dolomiti, Lufthansa, and SWISS",
+      "stops": 2,
+      "season": "Fechas flexibles · Fin de semana",
+      "foundAt": "2026-08-15T12:31:17.801Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTIxagcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
       "key": "EZE-LIS-2026-11-09-2026-11-18",
@@ -833,6 +881,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1cXRq"
     },
     {
+      "key": "EZE-CDG-2026-11-12-2026-11-16",
+      "origin": "EZE",
+      "destination": "CDG",
+      "destinationName": "Paris",
+      "country": "France",
+      "route": "EZE → CDG",
+      "departure": "2026-11-12",
+      "returnDate": "2026-11-16",
+      "price": 995,
+      "airlines": "Lufthansa",
+      "stops": 1,
+      "season": "Fechas flexibles · Fin de semana",
+      "foundAt": "2026-08-15T12:31:17.801Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMTZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1cXRq"
+    },
+    {
       "key": "EZE-LIS-2026-08-07-2026-08-21",
       "origin": "EZE",
       "destination": "LIS",
@@ -930,7 +994,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 0,
-  "lastRun": "2026-08-14T13:19:56.394Z",
+  "durationCursor": 1,
+  "lastRun": "2026-08-15T12:31:17.801Z",
   "lastErrors": []
 }
