@@ -93,7 +93,7 @@
       "airlines": "Lufthansa",
       "stops": 1,
       "season": "Fechas flexibles · Fin de semana",
-      "foundAt": "2026-08-15T12:31:17.801Z",
+      "foundAt": "2026-08-16T12:50:41.585Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
     },
     {
@@ -125,7 +125,7 @@
       "airlines": "Lufthansa",
       "stops": 1,
       "season": "Fechas flexibles · Fin de semana",
-      "foundAt": "2026-08-15T12:31:17.801Z",
+      "foundAt": "2026-08-16T12:50:41.585Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMTZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
@@ -509,7 +509,7 @@
       "airlines": "Air Dolomiti, Lufthansa, and SWISS",
       "stops": 2,
       "season": "Fechas flexibles · Fin de semana",
-      "foundAt": "2026-08-15T12:31:17.801Z",
+      "foundAt": "2026-08-16T12:50:41.585Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTIxagcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
@@ -957,7 +957,7 @@
       "airlines": "Lufthansa",
       "stops": 1,
       "season": "Fechas flexibles · Fin de semana",
-      "foundAt": "2026-08-15T12:31:17.801Z",
+      "foundAt": "2026-08-16T12:50:41.585Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMTZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1cXRq"
     },
     {
@@ -1090,7 +1090,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 0,
-  "lastRun": "2026-08-16T12:32:37.510Z",
+  "durationCursor": 1,
+  "lastRun": "2026-08-16T12:50:41.586Z",
   "lastErrors": []
 }
