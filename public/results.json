@@ -77,7 +77,7 @@
       "airlines": "ITA, Lufthansa, and Lufthansa City Airlines",
       "stops": 2,
       "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-08-16T12:32:37.509Z",
+      "foundAt": "2026-08-17T12:55:33.636Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTEtMjlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
     },
     {
@@ -159,6 +159,22 @@
       "season": "Fechas flexibles · Dos semanas",
       "foundAt": "2026-08-16T12:32:37.509Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
+    },
+    {
+      "key": "EZE-MAD-2026-11-12-2026-11-25",
+      "origin": "EZE",
+      "destination": "MAD",
+      "destinationName": "Madrid",
+      "country": "Spain",
+      "route": "EZE → MAD",
+      "departure": "2026-11-12",
+      "returnDate": "2026-11-25",
+      "price": 902,
+      "airlines": "Lufthansa",
+      "stops": 1,
+      "season": "Fechas flexibles · Dos semanas",
+      "foundAt": "2026-08-17T12:55:33.636Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
       "key": "EZE-VLC-2026-08-10-2026-08-19",
@@ -541,7 +557,7 @@
       "airlines": "Air Dolomiti, Lufthansa, and SWISS",
       "stops": 2,
       "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-08-16T12:32:37.509Z",
+      "foundAt": "2026-08-17T12:55:33.636Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTIxagcIARIDRVpFGhUSCjIwMjYtMTItMDRyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
@@ -989,7 +1005,7 @@
       "airlines": "Lufthansa",
       "stops": 1,
       "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-08-16T12:32:37.509Z",
+      "foundAt": "2026-08-17T12:55:33.636Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1cXRq"
     },
     {
@@ -1090,7 +1106,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 2,
-  "lastRun": "2026-08-17T12:37:41.337Z",
+  "durationCursor": 0,
+  "lastRun": "2026-08-17T12:55:33.636Z",
   "lastErrors": []
 }
