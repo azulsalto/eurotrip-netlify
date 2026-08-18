@@ -61,7 +61,7 @@
       "airlines": "ITA, Lufthansa, and Lufthansa City Airlines",
       "stops": 2,
       "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-08-17T12:37:41.337Z",
+      "foundAt": "2026-08-18T12:57:21.143Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
     },
     {
@@ -399,6 +399,22 @@
       "season": "Fechas flexibles · Dos semanas",
       "foundAt": "2026-08-05T14:23:29.039Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTEzagcIARIDRVpFGhUSCjIwMjYtMDgtMjZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
+    },
+    {
+      "key": "EZE-MXP-2026-11-23-2026-11-30",
+      "origin": "EZE",
+      "destination": "MXP",
+      "destinationName": "Milan",
+      "country": "Italy",
+      "route": "EZE → MXP",
+      "departure": "2026-11-23",
+      "returnDate": "2026-11-30",
+      "price": 944,
+      "airlines": "Air France",
+      "stops": 1,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-08-18T12:57:21.143Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTIzagcIARIDRVpFGhUSCjIwMjYtMTEtMzByBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
       "key": "EZE-MAD-2026-11-13-2026-11-21",
@@ -1106,7 +1122,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 1,
-  "lastRun": "2026-08-18T12:38:44.557Z",
+  "durationCursor": 2,
+  "lastRun": "2026-08-18T12:57:21.143Z",
   "lastErrors": []
 }
