@@ -417,6 +417,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTIzagcIARIDRVpFGhUSCjIwMjYtMTEtMzByBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
+      "key": "EZE-LIN-2026-11-16-2026-11-30",
+      "origin": "EZE",
+      "destination": "LIN",
+      "destinationName": "Milan",
+      "country": "Italy",
+      "route": "EZE → LIN",
+      "departure": "2026-11-16",
+      "returnDate": "2026-11-30",
+      "price": 947,
+      "airlines": "Air France and KLM",
+      "stops": 1,
+      "season": "Fechas flexibles · Dos semanas",
+      "foundAt": "2026-08-19T12:39:48.669Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTEtMzByBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
+    },
+    {
       "key": "EZE-MAD-2026-11-13-2026-11-21",
       "origin": "EZE",
       "destination": "MAD",
@@ -1122,7 +1138,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 2,
-  "lastRun": "2026-08-18T12:57:21.143Z",
+  "durationCursor": 0,
+  "lastRun": "2026-08-19T12:39:48.669Z",
   "lastErrors": []
 }
