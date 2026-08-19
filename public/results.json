@@ -93,7 +93,7 @@
       "airlines": "Lufthansa",
       "stops": 1,
       "season": "Fechas flexibles · Fin de semana",
-      "foundAt": "2026-08-18T12:38:44.557Z",
+      "foundAt": "2026-08-19T12:57:50.372Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
     },
     {
@@ -557,7 +557,7 @@
       "airlines": "Air Dolomiti, Lufthansa, and SWISS",
       "stops": 2,
       "season": "Fechas flexibles · Fin de semana",
-      "foundAt": "2026-08-18T12:38:44.557Z",
+      "foundAt": "2026-08-19T12:57:50.372Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTIxagcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
@@ -1138,7 +1138,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 0,
-  "lastRun": "2026-08-19T12:39:48.669Z",
+  "durationCursor": 1,
+  "lastRun": "2026-08-19T12:57:50.372Z",
   "lastErrors": []
 }
