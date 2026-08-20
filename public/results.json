@@ -961,6 +961,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDRVpFGhUSCjIwMjYtMDgtMjByBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbW43"
     },
     {
+      "key": "EZE-PRG-2026-11-19-2026-11-26",
+      "origin": "EZE",
+      "destination": "PRG",
+      "destinationName": "Prague",
+      "country": "Czechia",
+      "route": "EZE → PRG",
+      "departure": "2026-11-19",
+      "returnDate": "2026-11-26",
+      "price": 993,
+      "airlines": "American, British Airways, LEVEL, and Vueling",
+      "stops": 2,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-08-20T12:41:14.067Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn"
+    },
+    {
       "key": "EZE-CDG-2026-11-15-2026-11-23",
       "origin": "EZE",
       "destination": "CDG",
@@ -1041,6 +1057,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1cXRq"
     },
     {
+      "key": "EZE-VLC-2026-11-16-2026-11-24",
+      "origin": "EZE",
+      "destination": "VLC",
+      "destinationName": "València",
+      "country": "Spain",
+      "route": "EZE → VLC",
+      "departure": "2026-11-16",
+      "returnDate": "2026-11-24",
+      "price": 997,
+      "airlines": "ITA, SWISS, and Lufthansa City Airlines",
+      "stops": 2,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-08-20T12:41:14.067Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTEtMjRyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
+    },
+    {
       "key": "EZE-LIS-2026-08-07-2026-08-21",
       "origin": "EZE",
       "destination": "LIS",
@@ -1105,22 +1137,6 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTEwagcIARIDRVpFGhUSCjIwMjYtMDgtMjRyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
     },
     {
-      "key": "EZE-VLC-2026-11-16-2026-11-24",
-      "origin": "EZE",
-      "destination": "VLC",
-      "destinationName": "València",
-      "country": "Spain",
-      "route": "EZE → VLC",
-      "departure": "2026-11-16",
-      "returnDate": "2026-11-24",
-      "price": 999,
-      "airlines": "ITA, Lufthansa, SWISS, and Lufthansa City Airlines",
-      "stops": 2,
-      "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-08-12T13:23:37.390Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTEtMjRyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
-    },
-    {
       "key": "EZE-MAD-2026-08-16-2026-08-22",
       "origin": "EZE",
       "destination": "MAD",
@@ -1138,7 +1154,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 1,
-  "lastRun": "2026-08-19T12:57:50.372Z",
+  "durationCursor": 2,
+  "lastRun": "2026-08-20T12:41:14.067Z",
   "lastErrors": []
 }
