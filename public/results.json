@@ -929,6 +929,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
+      "key": "EZE-PRG-2026-11-19-2026-11-23",
+      "origin": "EZE",
+      "destination": "PRG",
+      "destinationName": "Prague",
+      "country": "Czechia",
+      "route": "EZE → PRG",
+      "departure": "2026-11-19",
+      "returnDate": "2026-11-23",
+      "price": 988,
+      "airlines": "American, British Airways, LEVEL, and Vueling",
+      "stops": 2,
+      "season": "Fechas flexibles · Fin de semana",
+      "foundAt": "2026-08-22T12:50:43.073Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn"
+    },
+    {
       "key": "EZE-OPO-2026-08-06-2026-08-13",
       "origin": "EZE",
       "destination": "OPO",
@@ -991,22 +1007,6 @@
       "season": "Fechas flexibles · Una semana",
       "foundAt": "2026-07-30T13:52:31.555Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTEzagcIARIDRVpFGhUSCjIwMjYtMDgtMjByBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbW43"
-    },
-    {
-      "key": "EZE-PRG-2026-11-19-2026-11-23",
-      "origin": "EZE",
-      "destination": "PRG",
-      "destinationName": "Prague",
-      "country": "Czechia",
-      "route": "EZE → PRG",
-      "departure": "2026-11-19",
-      "returnDate": "2026-11-23",
-      "price": 992,
-      "airlines": "American, British Airways, LEVEL, and Vueling",
-      "stops": 2,
-      "season": "Fechas flexibles · Fin de semana",
-      "foundAt": "2026-08-21T12:39:38.576Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn"
     },
     {
       "key": "EZE-LIN-2026-11-12-2026-11-25",
@@ -1282,7 +1282,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 0,
-  "lastRun": "2026-08-22T12:32:16.304Z",
+  "durationCursor": 1,
+  "lastRun": "2026-08-22T12:50:43.074Z",
   "lastErrors": []
 }
