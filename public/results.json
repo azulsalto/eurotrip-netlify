@@ -65,6 +65,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDRVpFGhUSCjIwMjYtMTEtMjlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
+      "key": "EZE-MAD-2026-11-13-2026-11-28",
+      "origin": "EZE",
+      "destination": "MAD",
+      "destinationName": "Madrid",
+      "country": "Spain",
+      "route": "EZE → MAD",
+      "departure": "2026-11-13",
+      "returnDate": "2026-11-28",
+      "price": 891,
+      "airlines": "ITA",
+      "stops": 1,
+      "season": "Fechas flexibles · Dos semanas",
+      "foundAt": "2026-08-22T12:32:16.304Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEzagcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
+    },
+    {
       "key": "EZE-VLC-2026-11-16-2026-11-23",
       "origin": "EZE",
       "destination": "VLC",
@@ -993,6 +1009,38 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn"
     },
     {
+      "key": "EZE-LIN-2026-11-12-2026-11-25",
+      "origin": "EZE",
+      "destination": "LIN",
+      "destinationName": "Milan",
+      "country": "Italy",
+      "route": "EZE → LIN",
+      "departure": "2026-11-12",
+      "returnDate": "2026-11-25",
+      "price": 992,
+      "airlines": "Air France",
+      "stops": 1,
+      "season": "Fechas flexibles · Dos semanas",
+      "foundAt": "2026-08-22T12:32:16.304Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
+    },
+    {
+      "key": "EZE-VLC-2026-11-09-2026-11-25",
+      "origin": "EZE",
+      "destination": "VLC",
+      "destinationName": "València",
+      "country": "Spain",
+      "route": "EZE → VLC",
+      "departure": "2026-11-09",
+      "returnDate": "2026-11-25",
+      "price": 992,
+      "airlines": "Air France, Gol, and KLM",
+      "stops": 2,
+      "season": "Fechas flexibles · Dos semanas",
+      "foundAt": "2026-08-22T12:32:16.304Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDRVpFGhUSCjIwMjYtMTEtMjVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
+    },
+    {
       "key": "EZE-OPO-2026-08-13-2026-08-21",
       "origin": "EZE",
       "destination": "OPO",
@@ -1234,7 +1282,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 2,
-  "lastRun": "2026-08-21T12:59:20.402Z",
+  "durationCursor": 0,
+  "lastRun": "2026-08-22T12:32:16.304Z",
   "lastErrors": []
 }
