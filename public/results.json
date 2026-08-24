@@ -385,6 +385,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDRVpFGhUSCjIwMjYtMDgtMTlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
+      "key": "EZE-BCN-2026-11-19-2026-11-22",
+      "origin": "EZE",
+      "destination": "BCN",
+      "destinationName": "Barcelona",
+      "country": "Spain",
+      "route": "EZE → BCN",
+      "departure": "2026-11-19",
+      "returnDate": "2026-11-22",
+      "price": 938,
+      "airlines": "LEVEL",
+      "stops": 0,
+      "season": "Fechas flexibles · Fin de semana",
+      "foundAt": "2026-08-24T12:42:45.132Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjJyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
+    },
+    {
       "key": "EZE-MAD-2026-08-10-2026-08-19",
       "origin": "EZE",
       "destination": "MAD",
@@ -1017,11 +1033,11 @@
       "route": "EZE → PRG",
       "departure": "2026-11-19",
       "returnDate": "2026-11-23",
-      "price": 988,
+      "price": 987,
       "airlines": "American, British Airways, LEVEL, and Vueling",
       "stops": 2,
       "season": "Fechas flexibles · Fin de semana",
-      "foundAt": "2026-08-22T12:50:43.073Z",
+      "foundAt": "2026-08-24T12:42:45.132Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn"
     },
     {
@@ -1362,7 +1378,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 0,
-  "lastRun": "2026-08-23T12:52:13.962Z",
+  "durationCursor": 1,
+  "lastRun": "2026-08-24T12:42:45.132Z",
   "lastErrors": []
 }
