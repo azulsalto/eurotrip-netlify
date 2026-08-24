@@ -93,7 +93,7 @@
       "airlines": "ITA and Air Europa",
       "stops": 1,
       "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-08-23T12:33:22.744Z",
+      "foundAt": "2026-08-24T13:01:39.647Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEzagcIARIDRVpFGhUSCjIwMjYtMTEtMjFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
@@ -461,7 +461,7 @@
       "airlines": "ITA, SWISS, and Lufthansa City Airlines",
       "stops": 2,
       "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-08-23T12:33:22.744Z",
+      "foundAt": "2026-08-24T13:01:39.647Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTEtMjRyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
     },
     {
@@ -557,7 +557,7 @@
       "airlines": "Air France",
       "stops": 1,
       "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-08-23T12:33:22.744Z",
+      "foundAt": "2026-08-24T13:01:39.647Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE0agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
@@ -669,7 +669,7 @@
       "airlines": "ITA",
       "stops": 1,
       "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-08-23T12:33:22.744Z",
+      "foundAt": "2026-08-24T13:01:39.647Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
@@ -1041,6 +1041,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn"
     },
     {
+      "key": "EZE-PRG-2026-11-19-2026-11-26",
+      "origin": "EZE",
+      "destination": "PRG",
+      "destinationName": "Prague",
+      "country": "Czechia",
+      "route": "EZE → PRG",
+      "departure": "2026-11-19",
+      "returnDate": "2026-11-26",
+      "price": 987,
+      "airlines": "American, British Airways, LEVEL, and Vueling",
+      "stops": 2,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-08-24T13:01:39.647Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn"
+    },
+    {
       "key": "EZE-OPO-2026-08-06-2026-08-13",
       "origin": "EZE",
       "destination": "OPO",
@@ -1199,22 +1215,6 @@
       "season": "Fechas flexibles · Dos semanas",
       "foundAt": "2026-07-27T14:50:20.054Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDRVpFGhUSCjIwMjYtMDgtMjByBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbW43"
-    },
-    {
-      "key": "EZE-PRG-2026-11-19-2026-11-26",
-      "origin": "EZE",
-      "destination": "PRG",
-      "destinationName": "Prague",
-      "country": "Czechia",
-      "route": "EZE → PRG",
-      "departure": "2026-11-19",
-      "returnDate": "2026-11-26",
-      "price": 993,
-      "airlines": "American, British Airways, LEVEL, and Vueling",
-      "stops": 2,
-      "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-08-20T12:41:14.067Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn"
     },
     {
       "key": "EZE-CDG-2026-11-15-2026-11-23",
@@ -1378,7 +1378,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 1,
-  "lastRun": "2026-08-24T12:42:45.132Z",
+  "durationCursor": 2,
+  "lastRun": "2026-08-24T13:01:39.647Z",
   "lastErrors": []
 }
