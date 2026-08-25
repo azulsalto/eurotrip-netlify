@@ -1049,11 +1049,11 @@
       "route": "EZE → PRG",
       "departure": "2026-11-19",
       "returnDate": "2026-11-23",
-      "price": 987,
+      "price": 986,
       "airlines": "American, British Airways, LEVEL, and Vueling",
       "stops": 2,
       "season": "Fechas flexibles · Fin de semana",
-      "foundAt": "2026-08-24T12:42:45.132Z",
+      "foundAt": "2026-08-25T12:58:12.975Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn"
     },
     {
@@ -1394,7 +1394,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 0,
-  "lastRun": "2026-08-25T12:40:50.794Z",
+  "durationCursor": 1,
+  "lastRun": "2026-08-25T12:58:12.975Z",
   "lastErrors": []
 }
