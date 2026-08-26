@@ -225,6 +225,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
+      "key": "EZE-BCN-2026-11-09-2026-11-16",
+      "origin": "EZE",
+      "destination": "BCN",
+      "destinationName": "Barcelona",
+      "country": "Spain",
+      "route": "EZE → BCN",
+      "departure": "2026-11-09",
+      "returnDate": "2026-11-16",
+      "price": 908,
+      "airlines": "LEVEL",
+      "stops": 0,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-08-26T12:44:16.115Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDRVpFGhUSCjIwMjYtMTEtMTZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
+    },
+    {
       "key": "EZE-VLC-2026-08-10-2026-08-19",
       "origin": "EZE",
       "destination": "VLC",
@@ -401,6 +417,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjJyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
+      "key": "EZE-VLC-2026-11-16-2026-11-24",
+      "origin": "EZE",
+      "destination": "VLC",
+      "destinationName": "València",
+      "country": "Spain",
+      "route": "EZE → VLC",
+      "departure": "2026-11-16",
+      "returnDate": "2026-11-24",
+      "price": 938,
+      "airlines": "ITA, Lufthansa, and Lufthansa City Airlines",
+      "stops": 2,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-08-26T12:44:16.115Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTEtMjRyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
+    },
+    {
       "key": "EZE-MAD-2026-08-10-2026-08-19",
       "origin": "EZE",
       "destination": "MAD",
@@ -447,22 +479,6 @@
       "season": "Fechas flexibles · Una semana",
       "foundAt": "2026-08-21T12:59:20.402Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTEtMjVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
-    },
-    {
-      "key": "EZE-VLC-2026-11-16-2026-11-24",
-      "origin": "EZE",
-      "destination": "VLC",
-      "destinationName": "València",
-      "country": "Spain",
-      "route": "EZE → VLC",
-      "departure": "2026-11-16",
-      "returnDate": "2026-11-24",
-      "price": 939,
-      "airlines": "ITA, SWISS, and Lufthansa City Airlines",
-      "stops": 2,
-      "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-08-24T13:01:39.647Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTEtMjRyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
     },
     {
       "key": "EZE-VLC-2026-11-12-2026-11-27",
@@ -575,6 +591,22 @@
       "season": "Fechas flexibles · Dos semanas",
       "foundAt": "2026-08-19T12:39:48.669Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTEtMzByBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
+    },
+    {
+      "key": "EZE-MAD-2026-11-12-2026-11-21",
+      "origin": "EZE",
+      "destination": "MAD",
+      "destinationName": "Madrid",
+      "country": "Spain",
+      "route": "EZE → MAD",
+      "departure": "2026-11-12",
+      "returnDate": "2026-11-21",
+      "price": 956,
+      "airlines": "ITA",
+      "stops": 1,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-08-26T12:44:16.115Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
       "key": "EZE-VLC-2026-08-08-2026-08-17",
@@ -1394,7 +1426,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 1,
-  "lastRun": "2026-08-25T12:58:12.975Z",
+  "durationCursor": 2,
+  "lastRun": "2026-08-26T12:44:16.115Z",
   "lastErrors": []
 }
