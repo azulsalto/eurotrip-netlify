@@ -65,6 +65,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDRVpFGhUSCjIwMjYtMTEtMjlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
+      "key": "EZE-MAD-2026-11-12-2026-11-21",
+      "origin": "EZE",
+      "destination": "MAD",
+      "destinationName": "Madrid",
+      "country": "Spain",
+      "route": "EZE → MAD",
+      "departure": "2026-11-12",
+      "returnDate": "2026-11-21",
+      "price": 890,
+      "airlines": "ITA",
+      "stops": 1,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-08-27T22:07:09.495Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
+    },
+    {
       "key": "EZE-MAD-2026-11-13-2026-11-28",
       "origin": "EZE",
       "destination": "MAD",
@@ -429,7 +445,7 @@
       "airlines": "ITA, Lufthansa, and Lufthansa City Airlines",
       "stops": 2,
       "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-08-26T12:44:16.115Z",
+      "foundAt": "2026-08-27T22:07:09.495Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTEtMjRyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
     },
     {
@@ -607,22 +623,6 @@
       "season": "Fechas flexibles · Dos semanas",
       "foundAt": "2026-08-19T12:39:48.669Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTEtMzByBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
-    },
-    {
-      "key": "EZE-MAD-2026-11-12-2026-11-21",
-      "origin": "EZE",
-      "destination": "MAD",
-      "destinationName": "Madrid",
-      "country": "Spain",
-      "route": "EZE → MAD",
-      "departure": "2026-11-12",
-      "returnDate": "2026-11-21",
-      "price": 956,
-      "airlines": "ITA",
-      "stops": 1,
-      "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-08-26T12:44:16.115Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
       "key": "EZE-VLC-2026-08-08-2026-08-17",
@@ -1458,7 +1458,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 1,
-  "lastRun": "2026-08-27T21:42:49.713Z",
+  "durationCursor": 2,
+  "lastRun": "2026-08-27T22:07:09.496Z",
   "lastErrors": []
 }
