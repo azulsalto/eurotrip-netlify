@@ -925,7 +925,7 @@
       "airlines": "ITA and Lufthansa",
       "stops": 2,
       "season": "Fechas flexibles · Fin de semana",
-      "foundAt": "2026-08-30T15:59:54.117Z",
+      "foundAt": "2026-08-31T19:01:38.576Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTI3agcIARIDRVpFGhUSCjIwMjYtMTEtMjlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
@@ -1602,7 +1602,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 0,
-  "lastRun": "2026-08-31T18:44:02.613Z",
+  "durationCursor": 1,
+  "lastRun": "2026-08-31T19:01:38.576Z",
   "lastErrors": []
 }
