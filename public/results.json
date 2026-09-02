@@ -801,6 +801,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTE0agcIARIDRVpFGhUSCjIwMjYtMDgtMjByBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
     },
     {
+      "key": "EZE-PRG-2026-11-19-2026-11-23",
+      "origin": "EZE",
+      "destination": "PRG",
+      "destinationName": "Prague",
+      "country": "Czechia",
+      "route": "EZE → PRG",
+      "departure": "2026-11-19",
+      "returnDate": "2026-11-23",
+      "price": 967,
+      "airlines": "American, British Airways, LEVEL, and Vueling",
+      "stops": 2,
+      "season": "Fechas flexibles · Fin de semana",
+      "foundAt": "2026-09-02T15:56:05.418Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn"
+    },
+    {
       "key": "EZE-BCN-2026-11-15-2026-11-22",
       "origin": "EZE",
       "destination": "BCN",
@@ -959,6 +975,22 @@
       "season": "Fechas flexibles · Fin de semana",
       "foundAt": "2026-08-31T19:01:38.576Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTI3agcIARIDRVpFGhUSCjIwMjYtMTEtMjlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
+    },
+    {
+      "key": "EZE-BCN-2026-11-20-2026-11-23",
+      "origin": "EZE",
+      "destination": "BCN",
+      "destinationName": "Barcelona",
+      "country": "Spain",
+      "route": "EZE → BCN",
+      "departure": "2026-11-20",
+      "returnDate": "2026-11-23",
+      "price": 977,
+      "airlines": "ITA and Lufthansa",
+      "stops": 2,
+      "season": "Fechas flexibles · Fin de semana",
+      "foundAt": "2026-09-02T15:56:05.418Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTIwagcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
       "key": "EZE-MAD-2026-08-13-2026-08-19",
@@ -1313,22 +1345,6 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTIxagcIARIDRVpFGhUSCjIwMjctMDMtMDZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
     },
     {
-      "key": "EZE-PRG-2026-11-19-2026-11-23",
-      "origin": "EZE",
-      "destination": "PRG",
-      "destinationName": "Prague",
-      "country": "Czechia",
-      "route": "EZE → PRG",
-      "departure": "2026-11-19",
-      "returnDate": "2026-11-23",
-      "price": 986,
-      "airlines": "American, British Airways, LEVEL, and Vueling",
-      "stops": 2,
-      "season": "Fechas flexibles · Fin de semana",
-      "foundAt": "2026-08-25T12:58:12.975Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn"
-    },
-    {
       "key": "EZE-PRG-2026-11-19-2026-11-26",
       "origin": "EZE",
       "destination": "PRG",
@@ -1583,26 +1599,10 @@
       "season": "Fechas flexibles · Dos semanas",
       "foundAt": "2026-08-17T12:55:33.636Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1cXRq"
-    },
-    {
-      "key": "EZE-LIS-2026-08-07-2026-08-21",
-      "origin": "EZE",
-      "destination": "LIS",
-      "destinationName": "Lisbon",
-      "country": "Portugal",
-      "route": "EZE → LIS",
-      "departure": "2026-08-07",
-      "returnDate": "2026-08-21",
-      "price": 999,
-      "airlines": "KLM",
-      "stops": 1,
-      "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-07-23T13:51:11.656Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTA3agcIARIDRVpFGhUSCjIwMjYtMDgtMjFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
     }
   ],
   "alerted": {},
-  "durationCursor": 0,
-  "lastRun": "2026-09-01T16:25:32.036Z",
+  "durationCursor": 1,
+  "lastRun": "2026-09-02T15:56:05.418Z",
   "lastErrors": []
 }
