@@ -77,7 +77,7 @@
       "airlines": "ITA",
       "stops": 1,
       "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-08-30T16:29:24.906Z",
+      "foundAt": "2026-09-02T16:23:19.033Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
@@ -541,7 +541,7 @@
       "airlines": "ITA and Lufthansa",
       "stops": 2,
       "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-09-01T16:01:55.116Z",
+      "foundAt": "2026-09-02T16:23:19.033Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMTlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5ZjNj"
     },
     {
@@ -717,7 +717,7 @@
       "airlines": "Air France",
       "stops": 1,
       "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-09-01T16:01:55.116Z",
+      "foundAt": "2026-09-02T16:23:19.033Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTEtMjVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
@@ -1297,6 +1297,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
+      "key": "EZE-LGW-2027-02-25-2027-03-06",
+      "origin": "EZE",
+      "destination": "LGW",
+      "destinationName": "London",
+      "country": "United Kingdom",
+      "route": "EZE → LGW",
+      "departure": "2027-02-25",
+      "returnDate": "2027-03-06",
+      "price": 984,
+      "airlines": "LEVEL and Vueling",
+      "stops": 1,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-09-02T16:23:19.032Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTI1agcIARIDRVpFGhUSCjIwMjctMDMtMDZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0anBs"
+    },
+    {
       "key": "EZE-LIN-2026-11-15-2026-11-28",
       "origin": "EZE",
       "destination": "LIN",
@@ -1583,26 +1599,10 @@
       "season": "Fechas flexibles · Una semana",
       "foundAt": "2026-08-17T12:37:41.336Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMTlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1cXRq"
-    },
-    {
-      "key": "EZE-CDG-2026-11-12-2026-11-25",
-      "origin": "EZE",
-      "destination": "CDG",
-      "destinationName": "Paris",
-      "country": "France",
-      "route": "EZE → CDG",
-      "departure": "2026-11-12",
-      "returnDate": "2026-11-25",
-      "price": 995,
-      "airlines": "Lufthansa",
-      "stops": 1,
-      "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-08-17T12:55:33.636Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1cXRq"
     }
   ],
   "alerted": {},
-  "durationCursor": 1,
-  "lastRun": "2026-09-02T15:56:05.418Z",
+  "durationCursor": 2,
+  "lastRun": "2026-09-02T16:23:19.033Z",
   "lastErrors": []
 }
