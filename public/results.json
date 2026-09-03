@@ -977,6 +977,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTIyagcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
     },
     {
+      "key": "EZE-BCN-2026-11-20-2026-11-23",
+      "origin": "EZE",
+      "destination": "BCN",
+      "destinationName": "Barcelona",
+      "country": "Spain",
+      "route": "EZE → BCN",
+      "departure": "2026-11-20",
+      "returnDate": "2026-11-23",
+      "price": 976,
+      "airlines": "ITA and Lufthansa",
+      "stops": 2,
+      "season": "Fechas flexibles · Fin de semana",
+      "foundAt": "2026-09-03T16:13:28.954Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTIwagcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
+    },
+    {
       "key": "EZE-BCN-2026-11-27-2026-11-29",
       "origin": "EZE",
       "destination": "BCN",
@@ -991,22 +1007,6 @@
       "season": "Fechas flexibles · Fin de semana",
       "foundAt": "2026-08-31T19:01:38.576Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTI3agcIARIDRVpFGhUSCjIwMjYtMTEtMjlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
-    },
-    {
-      "key": "EZE-BCN-2026-11-20-2026-11-23",
-      "origin": "EZE",
-      "destination": "BCN",
-      "destinationName": "Barcelona",
-      "country": "Spain",
-      "route": "EZE → BCN",
-      "departure": "2026-11-20",
-      "returnDate": "2026-11-23",
-      "price": 977,
-      "airlines": "ITA and Lufthansa",
-      "stops": 2,
-      "season": "Fechas flexibles · Fin de semana",
-      "foundAt": "2026-09-02T15:56:05.418Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTIwagcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
       "key": "EZE-MAD-2026-08-13-2026-08-19",
@@ -1602,7 +1602,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 0,
-  "lastRun": "2026-09-03T15:44:52.928Z",
+  "durationCursor": 1,
+  "lastRun": "2026-09-03T16:13:28.954Z",
   "lastErrors": []
 }
