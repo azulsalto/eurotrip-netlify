@@ -193,6 +193,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTEtMjVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
     },
     {
+      "key": "EZE-VLC-2026-11-12-2026-11-25",
+      "origin": "EZE",
+      "destination": "VLC",
+      "destinationName": "València",
+      "country": "Spain",
+      "route": "EZE → VLC",
+      "departure": "2026-11-12",
+      "returnDate": "2026-11-25",
+      "price": 897,
+      "airlines": "ITA and Lufthansa",
+      "stops": 2,
+      "season": "Fechas flexibles · Dos semanas",
+      "foundAt": "2026-09-04T16:08:36.553Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
+    },
+    {
       "key": "EZE-MAD-2026-11-12-2026-11-26",
       "origin": "EZE",
       "destination": "MAD",
@@ -305,6 +321,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTIxagcIARIDRVpFGhUSCjIwMjctMDMtMDJyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
+      "key": "EZE-BCN-2027-02-21-2027-03-06",
+      "origin": "EZE",
+      "destination": "BCN",
+      "destinationName": "Barcelona",
+      "country": "Spain",
+      "route": "EZE → BCN",
+      "departure": "2027-02-21",
+      "returnDate": "2027-03-06",
+      "price": 905,
+      "airlines": "LEVEL",
+      "stops": 0,
+      "season": "Fechas flexibles · Dos semanas",
+      "foundAt": "2026-09-04T16:08:36.553Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTIxagcIARIDRVpFGhUSCjIwMjctMDMtMDZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
+    },
+    {
       "key": "EZE-BCN-2026-11-09-2026-11-16",
       "origin": "EZE",
       "destination": "BCN",
@@ -319,22 +351,6 @@
       "season": "Fechas flexibles · Una semana",
       "foundAt": "2026-08-26T12:44:16.115Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDRVpFGhUSCjIwMjYtMTEtMTZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
-    },
-    {
-      "key": "EZE-BCN-2027-02-21-2027-03-06",
-      "origin": "EZE",
-      "destination": "BCN",
-      "destinationName": "Barcelona",
-      "country": "Spain",
-      "route": "EZE → BCN",
-      "departure": "2027-02-21",
-      "returnDate": "2027-03-06",
-      "price": 908,
-      "airlines": "LEVEL",
-      "stops": 0,
-      "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-09-01T16:25:32.036Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTIxagcIARIDRVpFGhUSCjIwMjctMDMtMDZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
       "key": "EZE-BCN-2027-02-25-2027-03-06",
@@ -575,22 +591,6 @@
       "season": "Fechas flexibles · Una semana",
       "foundAt": "2026-09-04T15:43:45.030Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMTlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5ZjNj"
-    },
-    {
-      "key": "EZE-VLC-2026-11-12-2026-11-25",
-      "origin": "EZE",
-      "destination": "VLC",
-      "destinationName": "València",
-      "country": "Spain",
-      "route": "EZE → VLC",
-      "departure": "2026-11-12",
-      "returnDate": "2026-11-25",
-      "price": 938,
-      "airlines": "ITA and Lufthansa",
-      "stops": 2,
-      "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-09-03T15:44:52.927Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
     },
     {
       "key": "EZE-MAD-2026-08-10-2026-08-19",
@@ -1039,6 +1039,22 @@
       "season": "Fechas flexibles · Fin de semana",
       "foundAt": "2026-08-31T19:01:38.576Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTI3agcIARIDRVpFGhUSCjIwMjYtMTEtMjlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
+    },
+    {
+      "key": "EZE-MXP-2027-02-25-2027-03-12",
+      "origin": "EZE",
+      "destination": "MXP",
+      "destinationName": "Milan",
+      "country": "Italy",
+      "route": "EZE → MXP",
+      "departure": "2027-02-25",
+      "returnDate": "2027-03-12",
+      "price": 977,
+      "airlines": "LEVEL and Vueling",
+      "stops": 1,
+      "season": "Fechas flexibles · Dos semanas",
+      "foundAt": "2026-09-04T16:08:36.553Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTI1agcIARIDRVpFGhUSCjIwMjctMDMtMTJyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
       "key": "EZE-MAD-2026-08-13-2026-08-19",
@@ -1583,26 +1599,10 @@
       "season": "Fechas flexibles · Dos semanas",
       "foundAt": "2026-07-27T14:50:20.054Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDRVpFGhUSCjIwMjYtMDgtMjByBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbW43"
-    },
-    {
-      "key": "EZE-CDG-2026-11-15-2026-11-23",
-      "origin": "EZE",
-      "destination": "CDG",
-      "destinationName": "Paris",
-      "country": "France",
-      "route": "EZE → CDG",
-      "departure": "2026-11-15",
-      "returnDate": "2026-11-23",
-      "price": 995,
-      "airlines": "Lufthansa",
-      "stops": 1,
-      "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-08-14T12:58:43.042Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1cXRq"
     }
   ],
   "alerted": {},
-  "durationCursor": 2,
-  "lastRun": "2026-09-04T15:43:45.030Z",
+  "durationCursor": 0,
+  "lastRun": "2026-09-04T16:08:36.553Z",
   "lastErrors": []
 }
