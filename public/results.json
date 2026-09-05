@@ -77,7 +77,7 @@
       "airlines": "ITA",
       "stops": 1,
       "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-09-04T15:43:45.030Z",
+      "foundAt": "2026-09-05T14:57:20.274Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
@@ -289,6 +289,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
+      "key": "EZE-BCN-2027-02-21-2027-03-02",
+      "origin": "EZE",
+      "destination": "BCN",
+      "destinationName": "Barcelona",
+      "country": "Spain",
+      "route": "EZE → BCN",
+      "departure": "2027-02-21",
+      "returnDate": "2027-03-02",
+      "price": 902,
+      "airlines": "LEVEL",
+      "stops": 0,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-09-05T14:57:20.274Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTIxagcIARIDRVpFGhUSCjIwMjctMDMtMDJyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
+    },
+    {
       "key": "EZE-BCN-2027-02-18-2027-03-04",
       "origin": "EZE",
       "destination": "BCN",
@@ -303,22 +319,6 @@
       "season": "Fechas flexibles · Dos semanas",
       "foundAt": "2026-09-03T15:44:52.927Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTE4agcIARIDRVpFGhUSCjIwMjctMDMtMDRyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
-    },
-    {
-      "key": "EZE-BCN-2027-02-21-2027-03-02",
-      "origin": "EZE",
-      "destination": "BCN",
-      "destinationName": "Barcelona",
-      "country": "Spain",
-      "route": "EZE → BCN",
-      "departure": "2027-02-21",
-      "returnDate": "2027-03-02",
-      "price": 905,
-      "airlines": "LEVEL",
-      "stops": 0,
-      "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-09-04T15:43:45.030Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTIxagcIARIDRVpFGhUSCjIwMjctMDMtMDJyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
       "key": "EZE-BCN-2027-02-21-2027-03-06",
@@ -913,6 +913,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEzagcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
+      "key": "EZE-PRG-2026-11-19-2026-11-26",
+      "origin": "EZE",
+      "destination": "PRG",
+      "destinationName": "Prague",
+      "country": "Czechia",
+      "route": "EZE → PRG",
+      "departure": "2026-11-19",
+      "returnDate": "2026-11-26",
+      "price": 969,
+      "airlines": "American, British Airways, LEVEL, and Vueling",
+      "stops": 2,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-09-05T14:57:20.274Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn"
+    },
+    {
       "key": "EZE-PRG-2026-11-12-2026-11-18",
       "origin": "EZE",
       "destination": "PRG",
@@ -959,22 +975,6 @@
       "season": "Fechas flexibles · Dos semanas",
       "foundAt": "2026-08-23T12:52:13.962Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
-    },
-    {
-      "key": "EZE-PRG-2026-11-19-2026-11-26",
-      "origin": "EZE",
-      "destination": "PRG",
-      "destinationName": "Prague",
-      "country": "Czechia",
-      "route": "EZE → PRG",
-      "departure": "2026-11-19",
-      "returnDate": "2026-11-26",
-      "price": 971,
-      "airlines": "American, British Airways, LEVEL, and Vueling",
-      "stops": 2,
-      "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-09-04T15:43:45.030Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn"
     },
     {
       "key": "EZE-OPO-2026-11-01-2026-11-15",
@@ -1602,7 +1602,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 1,
-  "lastRun": "2026-09-05T14:32:23.963Z",
+  "durationCursor": 2,
+  "lastRun": "2026-09-05T14:57:20.274Z",
   "lastErrors": []
 }
