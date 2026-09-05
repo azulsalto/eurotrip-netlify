@@ -1425,6 +1425,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTIyagcIARIDRVpFGhUSCjIwMjctMDMtMDNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
     },
     {
+      "key": "EZE-SVQ-2026-11-19-2026-11-23",
+      "origin": "EZE",
+      "destination": "SVQ",
+      "destinationName": "Seville",
+      "country": "Spain",
+      "route": "EZE → SVQ",
+      "departure": "2026-11-19",
+      "returnDate": "2026-11-23",
+      "price": 987,
+      "airlines": "ITA, Lufthansa, and Lufthansa City Airlines",
+      "stops": 2,
+      "season": "Fechas flexibles · Fin de semana",
+      "foundAt": "2026-09-05T14:32:23.963Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5ZjNj"
+    },
+    {
       "key": "EZE-LGW-2027-02-22-2027-03-08",
       "origin": "EZE",
       "destination": "LGW",
@@ -1583,26 +1599,10 @@
       "season": "Fechas flexibles · Fin de semana",
       "foundAt": "2026-07-26T13:42:18.325Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTEzagcIARIDRVpFGhUSCjIwMjYtMDgtMTdyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbW43"
-    },
-    {
-      "key": "EZE-OPO-2026-08-06-2026-08-20",
-      "origin": "EZE",
-      "destination": "OPO",
-      "destinationName": "Porto",
-      "country": "Portugal",
-      "route": "EZE → OPO",
-      "departure": "2026-08-06",
-      "returnDate": "2026-08-20",
-      "price": 993,
-      "airlines": "Air France",
-      "stops": 1,
-      "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-07-27T14:50:20.054Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDRVpFGhUSCjIwMjYtMDgtMjByBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbW43"
     }
   ],
   "alerted": {},
-  "durationCursor": 0,
-  "lastRun": "2026-09-04T16:08:36.553Z",
+  "durationCursor": 1,
+  "lastRun": "2026-09-05T14:32:23.963Z",
   "lastErrors": []
 }
