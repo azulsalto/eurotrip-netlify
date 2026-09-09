@@ -109,7 +109,7 @@
       "airlines": "ITA",
       "stops": 1,
       "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-08-29T16:34:27.965Z",
+      "foundAt": "2026-09-09T15:53:17.037Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEzagcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
@@ -463,6 +463,22 @@
       "season": "Fechas flexibles · Dos semanas",
       "foundAt": "2026-07-21T14:08:09.491Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTAzagcIARIDRVpFGhUSCjIwMjYtMDgtMTlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
+    },
+    {
+      "key": "EZE-VLC-2026-10-26-2026-11-10",
+      "origin": "EZE",
+      "destination": "VLC",
+      "destinationName": "València",
+      "country": "Spain",
+      "route": "EZE → VLC",
+      "departure": "2026-10-26",
+      "returnDate": "2026-11-10",
+      "price": 930,
+      "airlines": "Air France, Gol, Transavia, and KLM",
+      "stops": 2,
+      "season": "Fechas flexibles · Dos semanas",
+      "foundAt": "2026-09-09T15:53:17.037Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTEwLTI2agcIARIDRVpFGhUSCjIwMjYtMTEtMTByBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
     },
     {
       "key": "EZE-VLC-2026-11-16-2026-11-24",
@@ -1249,6 +1265,38 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTItMDFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
+      "key": "EZE-MXP-2027-02-18-2027-03-06",
+      "origin": "EZE",
+      "destination": "MXP",
+      "destinationName": "Milan",
+      "country": "Italy",
+      "route": "EZE → MXP",
+      "departure": "2027-02-18",
+      "returnDate": "2027-03-06",
+      "price": 980,
+      "airlines": "LEVEL and Vueling",
+      "stops": 1,
+      "season": "Fechas flexibles · Dos semanas",
+      "foundAt": "2026-09-09T15:53:17.037Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTE4agcIARIDRVpFGhUSCjIwMjctMDMtMDZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
+    },
+    {
+      "key": "EZE-LIS-2027-02-25-2027-03-13",
+      "origin": "EZE",
+      "destination": "LIS",
+      "destinationName": "Lisbon",
+      "country": "Portugal",
+      "route": "EZE → LIS",
+      "departure": "2027-02-25",
+      "returnDate": "2027-03-13",
+      "price": 982,
+      "airlines": "LEVEL and Vueling",
+      "stops": 1,
+      "season": "Fechas flexibles · Dos semanas",
+      "foundAt": "2026-09-09T15:53:17.037Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTI1agcIARIDRVpFGhUSCjIwMjctMDMtMTNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
+    },
+    {
       "key": "EZE-LIN-2026-11-19-2026-11-28",
       "origin": "EZE",
       "destination": "LIN",
@@ -1551,58 +1599,10 @@
       "season": "Fechas flexibles · Fin de semana",
       "foundAt": "2026-09-05T14:32:23.963Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5ZjNj"
-    },
-    {
-      "key": "EZE-DUB-2027-02-25-2027-03-10",
-      "origin": "EZE",
-      "destination": "DUB",
-      "destinationName": "Dublin",
-      "country": "Ireland",
-      "route": "EZE → DUB",
-      "departure": "2027-02-25",
-      "returnDate": "2027-03-10",
-      "price": 987,
-      "airlines": "LEVEL and Vueling",
-      "stops": 1,
-      "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-09-06T14:54:30.676Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTI1agcIARIDRVpFGhUSCjIwMjctMDMtMTByBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAyY2Z0"
-    },
-    {
-      "key": "EZE-LGW-2027-02-25-2027-03-05",
-      "origin": "EZE",
-      "destination": "LGW",
-      "destinationName": "London",
-      "country": "United Kingdom",
-      "route": "EZE → LGW",
-      "departure": "2027-02-25",
-      "returnDate": "2027-03-05",
-      "price": 987,
-      "airlines": "LEVEL and Vueling",
-      "stops": 1,
-      "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-09-08T16:26:15.964Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTI1agcIARIDRVpFGhUSCjIwMjctMDMtMDVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0anBs"
-    },
-    {
-      "key": "EZE-LGW-2027-02-22-2027-03-08",
-      "origin": "EZE",
-      "destination": "LGW",
-      "destinationName": "London",
-      "country": "United Kingdom",
-      "route": "EZE → LGW",
-      "departure": "2027-02-22",
-      "returnDate": "2027-03-08",
-      "price": 987,
-      "airlines": "LEVEL and Vueling",
-      "stops": 1,
-      "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-09-07T17:38:36.484Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTIyagcIARIDRVpFGhUSCjIwMjctMDMtMDhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0anBs"
     }
   ],
   "alerted": {},
-  "durationCursor": 2,
-  "lastRun": "2026-09-08T16:26:15.964Z",
+  "durationCursor": 0,
+  "lastRun": "2026-09-09T15:53:17.037Z",
   "lastErrors": []
 }
