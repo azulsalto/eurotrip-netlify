@@ -106,10 +106,10 @@
       "departure": "2026-11-13",
       "returnDate": "2026-11-28",
       "price": 890,
-      "airlines": "ITA",
+      "airlines": "ITA and Air Europa",
       "stops": 1,
       "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-09-09T15:53:17.037Z",
+      "foundAt": "2026-09-10T16:12:16.836Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEzagcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
@@ -1321,11 +1321,11 @@
       "route": "EZE → LIS",
       "departure": "2027-02-25",
       "returnDate": "2027-03-13",
-      "price": 982,
+      "price": 981,
       "airlines": "LEVEL and Vueling",
       "stops": 1,
       "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-09-09T15:53:17.037Z",
+      "foundAt": "2026-09-10T16:12:16.836Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTI1agcIARIDRVpFGhUSCjIwMjctMDMtMTNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
     },
     {
@@ -1602,7 +1602,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 2,
-  "lastRun": "2026-09-10T15:47:51.987Z",
+  "durationCursor": 0,
+  "lastRun": "2026-09-10T16:12:16.837Z",
   "lastErrors": []
 }
