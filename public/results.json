@@ -1313,6 +1313,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTE4agcIARIDRVpFGhUSCjIwMjctMDMtMDZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
+      "key": "EZE-BCN-2027-02-11-2027-02-15",
+      "origin": "EZE",
+      "destination": "BCN",
+      "destinationName": "Barcelona",
+      "country": "Spain",
+      "route": "EZE → BCN",
+      "departure": "2027-02-11",
+      "returnDate": "2027-02-15",
+      "price": 980,
+      "airlines": "LEVEL",
+      "stops": 0,
+      "season": "Fechas flexibles · Fin de semana",
+      "foundAt": "2026-09-11T15:49:53.157Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTExagcIARIDRVpFGhUSCjIwMjctMDItMTVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
+    },
+    {
       "key": "EZE-LIS-2027-02-25-2027-03-13",
       "origin": "EZE",
       "destination": "LIS",
@@ -1407,22 +1423,6 @@
       "season": "Fechas flexibles · Dos semanas",
       "foundAt": "2026-09-03T15:44:52.927Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTIxagcIARIDRVpFGhUSCjIwMjctMDMtMDZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
-    },
-    {
-      "key": "EZE-BCN-2027-02-11-2027-02-15",
-      "origin": "EZE",
-      "destination": "BCN",
-      "destinationName": "Barcelona",
-      "country": "Spain",
-      "route": "EZE → BCN",
-      "departure": "2027-02-11",
-      "returnDate": "2027-02-15",
-      "price": 983,
-      "airlines": "LEVEL",
-      "stops": 0,
-      "season": "Fechas flexibles · Fin de semana",
-      "foundAt": "2026-09-08T15:57:05.744Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTExagcIARIDRVpFGhUSCjIwMjctMDItMTVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
       "key": "EZE-LIN-2026-08-06-2026-08-20",
@@ -1602,7 +1602,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 0,
-  "lastRun": "2026-09-10T16:12:16.837Z",
+  "durationCursor": 1,
+  "lastRun": "2026-09-11T15:49:53.157Z",
   "lastErrors": []
 }
