@@ -109,7 +109,7 @@
       "airlines": "ITA and Air Europa",
       "stops": 1,
       "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-09-12T14:57:20.046Z",
+      "foundAt": "2026-09-13T16:00:09.713Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEzagcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
@@ -1341,7 +1341,7 @@
       "airlines": "LEVEL and Vueling",
       "stops": 1,
       "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-09-12T14:57:20.046Z",
+      "foundAt": "2026-09-13T16:00:09.714Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTI1agcIARIDRVpFGhUSCjIwMjctMDMtMTNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
     },
     {
@@ -1602,7 +1602,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 2,
-  "lastRun": "2026-09-13T15:34:53.855Z",
+  "durationCursor": 0,
+  "lastRun": "2026-09-13T16:00:09.714Z",
   "lastErrors": []
 }
