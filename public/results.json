@@ -93,7 +93,7 @@
       "airlines": "ITA and Air Europa",
       "stops": 1,
       "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-09-13T15:34:53.855Z",
+      "foundAt": "2026-09-14T17:59:15.936Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEzagcIARIDRVpFGhUSCjIwMjYtMTEtMjFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
@@ -447,6 +447,22 @@
       "season": "Fechas flexibles · Dos semanas",
       "foundAt": "2026-09-01T16:25:32.036Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTEwLTI2agcIARIDRVpFGhUSCjIwMjYtMTEtMTFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
+    },
+    {
+      "key": "EZE-BCN-2027-02-22-2027-03-02",
+      "origin": "EZE",
+      "destination": "BCN",
+      "destinationName": "Barcelona",
+      "country": "Spain",
+      "route": "EZE → BCN",
+      "departure": "2027-02-22",
+      "returnDate": "2027-03-02",
+      "price": 929,
+      "airlines": "LEVEL",
+      "stops": 0,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-09-14T17:59:15.936Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTIyagcIARIDRVpFGhUSCjIwMjctMDMtMDJyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
       "key": "EZE-VLC-2026-08-03-2026-08-19",
@@ -879,6 +895,22 @@
       "season": "Fechas flexibles · Una semana",
       "foundAt": "2026-07-30T13:52:31.555Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTA4LTA4agcIARIDRVpFGhUSCjIwMjYtMDgtMTdyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
+    },
+    {
+      "key": "EZE-LIS-2027-02-25-2027-03-03",
+      "origin": "EZE",
+      "destination": "LIS",
+      "destinationName": "Lisbon",
+      "country": "Portugal",
+      "route": "EZE → LIS",
+      "departure": "2027-02-25",
+      "returnDate": "2027-03-03",
+      "price": 964,
+      "airlines": "LEVEL and Vueling",
+      "stops": 1,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-09-14T17:59:15.936Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTI1agcIARIDRVpFGhUSCjIwMjctMDMtMDNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
     },
     {
       "key": "EZE-VLC-2026-08-14-2026-08-20",
@@ -1567,42 +1599,10 @@
       "season": "Fechas flexibles · Una semana",
       "foundAt": "2026-08-14T12:58:43.042Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
-    },
-    {
-      "key": "EZE-LGW-2027-02-25-2027-03-06",
-      "origin": "EZE",
-      "destination": "LGW",
-      "destinationName": "London",
-      "country": "United Kingdom",
-      "route": "EZE → LGW",
-      "departure": "2027-02-25",
-      "returnDate": "2027-03-06",
-      "price": 984,
-      "airlines": "LEVEL and Vueling",
-      "stops": 1,
-      "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-09-02T16:23:19.032Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTI1agcIARIDRVpFGhUSCjIwMjctMDMtMDZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0anBs"
-    },
-    {
-      "key": "EZE-LIN-2026-11-15-2026-11-28",
-      "origin": "EZE",
-      "destination": "LIN",
-      "destinationName": "Milan",
-      "country": "Italy",
-      "route": "EZE → LIN",
-      "departure": "2026-11-15",
-      "returnDate": "2026-11-28",
-      "price": 985,
-      "airlines": "ITA",
-      "stops": 1,
-      "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-08-04T14:03:50.684Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     }
   ],
   "alerted": {},
-  "durationCursor": 1,
-  "lastRun": "2026-09-14T17:38:33.275Z",
+  "durationCursor": 2,
+  "lastRun": "2026-09-14T17:59:15.937Z",
   "lastErrors": []
 }
