@@ -61,7 +61,7 @@
       "airlines": "ITA and Air Europa",
       "stops": 1,
       "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-08-20T13:00:42.436Z",
+      "foundAt": "2026-09-15T16:12:13.620Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDRVpFGhUSCjIwMjYtMTEtMjlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
@@ -207,6 +207,22 @@
       "season": "Fechas flexibles · Dos semanas",
       "foundAt": "2026-09-04T16:08:36.553Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2"
+    },
+    {
+      "key": "EZE-BCN-2027-02-22-2027-03-09",
+      "origin": "EZE",
+      "destination": "BCN",
+      "destinationName": "Barcelona",
+      "country": "Spain",
+      "route": "EZE → BCN",
+      "departure": "2027-02-22",
+      "returnDate": "2027-03-09",
+      "price": 898,
+      "airlines": "LEVEL",
+      "stops": 0,
+      "season": "Fechas flexibles · Dos semanas",
+      "foundAt": "2026-09-15T16:12:13.620Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTIyagcIARIDRVpFGhUSCjIwMjctMDMtMDlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
       "key": "EZE-BCN-2027-02-25-2027-03-06",
@@ -817,6 +833,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
+      "key": "EZE-MXP-2026-11-20-2026-12-06",
+      "origin": "EZE",
+      "destination": "MXP",
+      "destinationName": "Milan",
+      "country": "Italy",
+      "route": "EZE → MXP",
+      "departure": "2026-11-20",
+      "returnDate": "2026-12-06",
+      "price": 944,
+      "airlines": "Air France",
+      "stops": 1,
+      "season": "Fechas flexibles · Dos semanas",
+      "foundAt": "2026-09-15T16:12:13.620Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTIwagcIARIDRVpFGhUSCjIwMjYtMTItMDZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
+    },
+    {
       "key": "EZE-MXP-2026-11-14-2026-11-23",
       "origin": "EZE",
       "destination": "MXP",
@@ -1201,6 +1233,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTIwagcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
+      "key": "EZE-LIS-2027-02-25-2027-03-13",
+      "origin": "EZE",
+      "destination": "LIS",
+      "destinationName": "Lisbon",
+      "country": "Portugal",
+      "route": "EZE → LIS",
+      "departure": "2027-02-25",
+      "returnDate": "2027-03-13",
+      "price": 976,
+      "airlines": "LEVEL and Vueling",
+      "stops": 1,
+      "season": "Fechas flexibles · Dos semanas",
+      "foundAt": "2026-09-15T16:12:13.620Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTI1agcIARIDRVpFGhUSCjIwMjctMDMtMTNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
+    },
+    {
       "key": "EZE-BCN-2026-11-27-2026-11-29",
       "origin": "EZE",
       "destination": "BCN",
@@ -1359,22 +1407,6 @@
       "season": "Fechas flexibles · Fin de semana",
       "foundAt": "2026-09-11T15:49:53.157Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTExagcIARIDRVpFGhUSCjIwMjctMDItMTVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
-    },
-    {
-      "key": "EZE-LIS-2027-02-25-2027-03-13",
-      "origin": "EZE",
-      "destination": "LIS",
-      "destinationName": "Lisbon",
-      "country": "Portugal",
-      "route": "EZE → LIS",
-      "departure": "2027-02-25",
-      "returnDate": "2027-03-13",
-      "price": 980,
-      "airlines": "LEVEL and Vueling",
-      "stops": 1,
-      "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-09-13T16:00:09.714Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTI1agcIARIDRVpFGhUSCjIwMjctMDMtMTNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
     },
     {
       "key": "EZE-LIN-2026-11-19-2026-11-28",
@@ -1567,42 +1599,10 @@
       "season": "Fechas flexibles · Una semana",
       "foundAt": "2026-07-31T14:23:10.702Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE0agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
-    },
-    {
-      "key": "EZE-LIN-2026-11-15-2026-11-22",
-      "origin": "EZE",
-      "destination": "LIN",
-      "destinationName": "Milan",
-      "country": "Italy",
-      "route": "EZE → LIN",
-      "departure": "2026-11-15",
-      "returnDate": "2026-11-22",
-      "price": 984,
-      "airlines": "ITA",
-      "stops": 1,
-      "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-08-03T14:54:12.461Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDRVpFGhUSCjIwMjYtMTEtMjJyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
-    },
-    {
-      "key": "EZE-MXP-2026-11-15-2026-11-23",
-      "origin": "EZE",
-      "destination": "MXP",
-      "destinationName": "Milan",
-      "country": "Italy",
-      "route": "EZE → MXP",
-      "departure": "2026-11-15",
-      "returnDate": "2026-11-23",
-      "price": 984,
-      "airlines": "Air Dolomiti and Lufthansa",
-      "stops": 1,
-      "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-08-14T12:58:43.042Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     }
   ],
   "alerted": {},
-  "durationCursor": 2,
-  "lastRun": "2026-09-14T17:59:15.937Z",
+  "durationCursor": 0,
+  "lastRun": "2026-09-15T16:12:13.620Z",
   "lastErrors": []
 }
