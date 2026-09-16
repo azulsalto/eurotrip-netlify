@@ -129,6 +129,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
+      "key": "EZE-MAD-2026-11-20-2026-11-28",
+      "origin": "EZE",
+      "destination": "MAD",
+      "destinationName": "Madrid",
+      "country": "Spain",
+      "route": "EZE → MAD",
+      "departure": "2026-11-20",
+      "returnDate": "2026-11-28",
+      "price": 890,
+      "airlines": "ITA",
+      "stops": 1,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-09-16T16:05:16.411Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTIwagcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
+    },
+    {
       "key": "EZE-VLC-2026-11-16-2026-11-23",
       "origin": "EZE",
       "destination": "VLC",
@@ -255,6 +271,22 @@
       "season": "Fechas flexibles · Dos semanas",
       "foundAt": "2026-09-12T14:57:20.046Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTE4agcIARIDRVpFGhUSCjIwMjctMDMtMDRyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
+    },
+    {
+      "key": "EZE-BCN-2027-02-25-2027-03-04",
+      "origin": "EZE",
+      "destination": "BCN",
+      "destinationName": "Barcelona",
+      "country": "Spain",
+      "route": "EZE → BCN",
+      "departure": "2027-02-25",
+      "returnDate": "2027-03-04",
+      "price": 901,
+      "airlines": "LEVEL",
+      "stops": 0,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-09-16T16:05:16.411Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTI1agcIARIDRVpFGhUSCjIwMjctMDMtMDRyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
       "key": "EZE-MAD-2026-11-12-2026-11-26",
@@ -913,6 +945,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTIzagcIARIDRVpFGhUSCjIwMjYtMTItMDFyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
+      "key": "EZE-LIN-2026-11-13-2026-11-22",
+      "origin": "EZE",
+      "destination": "LIN",
+      "destinationName": "Milan",
+      "country": "Italy",
+      "route": "EZE → LIN",
+      "departure": "2026-11-13",
+      "returnDate": "2026-11-22",
+      "price": 948,
+      "airlines": "Air France",
+      "stops": 1,
+      "season": "Fechas flexibles · Una semana",
+      "foundAt": "2026-09-16T16:05:16.411Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEzagcIARIDRVpFGhUSCjIwMjYtMTEtMjJyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
+    },
+    {
       "key": "EZE-VLC-2026-08-08-2026-08-17",
       "origin": "EZE",
       "destination": "VLC",
@@ -1551,58 +1599,10 @@
       "season": "Fechas flexibles · Dos semanas",
       "foundAt": "2026-07-26T13:14:54.171Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEzagcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
-    },
-    {
-      "key": "EZE-LIN-2026-11-12-2026-11-28",
-      "origin": "EZE",
-      "destination": "LIN",
-      "destinationName": "Milan",
-      "country": "Italy",
-      "route": "EZE → LIN",
-      "departure": "2026-11-12",
-      "returnDate": "2026-11-28",
-      "price": 984,
-      "airlines": "ITA",
-      "stops": 1,
-      "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-08-05T14:23:29.039Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
-    },
-    {
-      "key": "EZE-LIN-2026-11-27-2026-12-05",
-      "origin": "EZE",
-      "destination": "LIN",
-      "destinationName": "Milan",
-      "country": "Italy",
-      "route": "EZE → LIN",
-      "departure": "2026-11-27",
-      "returnDate": "2026-12-05",
-      "price": 984,
-      "airlines": "ITA",
-      "stops": 1,
-      "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-07-30T13:52:31.555Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTI3agcIARIDRVpFGhUSCjIwMjYtMTItMDVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
-    },
-    {
-      "key": "EZE-LIS-2026-11-14-2026-11-23",
-      "origin": "EZE",
-      "destination": "LIS",
-      "destinationName": "Lisbon",
-      "country": "Portugal",
-      "route": "EZE → LIS",
-      "departure": "2026-11-14",
-      "returnDate": "2026-11-23",
-      "price": 984,
-      "airlines": "Gol, LEVEL, and Vueling",
-      "stops": 1,
-      "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-07-31T14:23:10.702Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE0agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
     }
   ],
   "alerted": {},
-  "durationCursor": 1,
-  "lastRun": "2026-09-15T16:43:55.068Z",
+  "durationCursor": 2,
+  "lastRun": "2026-09-16T16:05:16.411Z",
   "lastErrors": []
 }
