@@ -237,7 +237,7 @@
       "airlines": "LEVEL",
       "stops": 0,
       "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-09-15T16:12:13.620Z",
+      "foundAt": "2026-09-18T15:47:21.972Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTIyagcIARIDRVpFGhUSCjIwMjctMDMtMDlyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
@@ -877,7 +877,7 @@
       "airlines": "Air France",
       "stops": 1,
       "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-09-15T16:12:13.620Z",
+      "foundAt": "2026-09-18T15:47:21.973Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTIwagcIARIDRVpFGhUSCjIwMjYtMTItMDZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     },
     {
@@ -1521,6 +1521,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTExagcIARIDRVpFGhUSCjIwMjctMDItMTVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
+      "key": "EZE-LIS-2027-02-18-2027-03-05",
+      "origin": "EZE",
+      "destination": "LIS",
+      "destinationName": "Lisbon",
+      "country": "Portugal",
+      "route": "EZE → LIS",
+      "departure": "2027-02-18",
+      "returnDate": "2027-03-05",
+      "price": 982,
+      "airlines": "LEVEL and Vueling",
+      "stops": 1,
+      "season": "Fechas flexibles · Dos semanas",
+      "foundAt": "2026-09-18T15:47:21.973Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTE4agcIARIDRVpFGhUSCjIwMjctMDMtMDVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
+    },
+    {
       "key": "EZE-LIN-2026-11-19-2026-11-28",
       "origin": "EZE",
       "destination": "LIN",
@@ -1583,26 +1599,10 @@
       "season": "Fechas flexibles · Fin de semana",
       "foundAt": "2026-08-13T13:25:28.107Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjNyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
-    },
-    {
-      "key": "EZE-LIS-2027-02-21-2027-03-06",
-      "origin": "EZE",
-      "destination": "LIS",
-      "destinationName": "Lisbon",
-      "country": "Portugal",
-      "route": "EZE → LIS",
-      "departure": "2027-02-21",
-      "returnDate": "2027-03-06",
-      "price": 983,
-      "airlines": "LEVEL and Vueling",
-      "stops": 1,
-      "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-09-03T15:44:52.927Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTIxagcIARIDRVpFGhUSCjIwMjctMDMtMDZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
     }
   ],
   "alerted": {},
-  "durationCursor": 2,
-  "lastRun": "2026-09-17T16:43:02.163Z",
+  "durationCursor": 0,
+  "lastRun": "2026-09-18T15:47:21.973Z",
   "lastErrors": []
 }
