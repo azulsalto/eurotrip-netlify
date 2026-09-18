@@ -1373,7 +1373,7 @@
       "airlines": "LEVEL",
       "stops": 0,
       "season": "Fechas flexibles · Fin de semana",
-      "foundAt": "2026-09-17T16:12:15.927Z",
+      "foundAt": "2026-09-18T16:12:46.862Z",
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTE4agcIARIDRVpFGhUSCjIwMjctMDItMjJyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
@@ -1602,7 +1602,7 @@
     }
   ],
   "alerted": {},
-  "durationCursor": 0,
-  "lastRun": "2026-09-18T15:47:21.973Z",
+  "durationCursor": 1,
+  "lastRun": "2026-09-18T16:12:46.862Z",
   "lastErrors": []
 }
