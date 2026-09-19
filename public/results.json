@@ -993,6 +993,22 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDRVpFGhUSCjIwMjYtMTEtMjRyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
     },
     {
+      "key": "EZE-MAD-2026-11-13-2026-11-26",
+      "origin": "EZE",
+      "destination": "MAD",
+      "destinationName": "Madrid",
+      "country": "Spain",
+      "route": "EZE → MAD",
+      "departure": "2026-11-13",
+      "returnDate": "2026-11-26",
+      "price": 955,
+      "airlines": "ITA and Air Europa",
+      "stops": 1,
+      "season": "Fechas flexibles · Dos semanas",
+      "foundAt": "2026-09-19T15:44:12.762Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTEzagcIARIDRVpFGhUSCjIwMjYtMTEtMjZyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95"
+    },
+    {
       "key": "EZE-VLC-2026-08-08-2026-08-17",
       "origin": "EZE",
       "destination": "VLC",
@@ -1569,40 +1585,24 @@
       "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTExagcIARIDRVpFGhUSCjIwMjctMDItMTVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy"
     },
     {
-      "key": "EZE-LIS-2027-02-18-2027-03-05",
+      "key": "EZE-MXP-2027-02-18-2027-03-05",
       "origin": "EZE",
-      "destination": "LIS",
-      "destinationName": "Lisbon",
-      "country": "Portugal",
-      "route": "EZE → LIS",
+      "destination": "MXP",
+      "destinationName": "Milan",
+      "country": "Italy",
+      "route": "EZE → MXP",
       "departure": "2027-02-18",
       "returnDate": "2027-03-05",
-      "price": 982,
+      "price": 980,
       "airlines": "LEVEL and Vueling",
       "stops": 1,
       "season": "Fechas flexibles · Dos semanas",
-      "foundAt": "2026-09-18T15:47:21.973Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTE4agcIARIDRVpFGhUSCjIwMjctMDMtMDVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi"
-    },
-    {
-      "key": "EZE-LIN-2026-11-19-2026-11-28",
-      "origin": "EZE",
-      "destination": "LIN",
-      "destinationName": "Milan",
-      "country": "Italy",
-      "route": "EZE → LIN",
-      "departure": "2026-11-19",
-      "returnDate": "2026-11-28",
-      "price": 983,
-      "airlines": "ITA",
-      "stops": 1,
-      "season": "Fechas flexibles · Una semana",
-      "foundAt": "2026-07-24T13:38:35.404Z",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDRVpFGhUSCjIwMjYtMTEtMjhyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
+      "foundAt": "2026-09-19T15:44:12.762Z",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=ar&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAyLTE4agcIARIDRVpFGhUSCjIwMjctMDMtMDVyBwgBEgNFWkVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds"
     }
   ],
   "alerted": {},
-  "durationCursor": 2,
-  "lastRun": "2026-09-19T15:19:45.173Z",
+  "durationCursor": 0,
+  "lastRun": "2026-09-19T15:44:12.763Z",
   "lastErrors": []
 }
