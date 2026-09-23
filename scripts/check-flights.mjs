@@ -126,11 +126,7 @@ async function exploreEurope(origin, duration) {
     departure_id: origin.airport,
     arrival_area_id: "/m/02j9z",
     type: "1",
-
-    // Todos los meses disponibles dentro
-    // del horizonte flexible de Explore.
     month: "0",
-
     travel_duration: duration.value,
     travel_class: "1",
     adults: "1",
@@ -178,8 +174,6 @@ function futureSearchStart() {
     0
   );
 
-  // Empezamos un poco después del horizonte
-  // que ya cubre el radar flexible.
   const start = new Date(today);
 
   start.setUTCMonth(
@@ -233,10 +227,8 @@ async function exploreEuropeByDates(
       departure_id: origin.airport,
       arrival_area_id: "/m/02j9z",
       type: "1",
-
       outbound_date: outboundDate,
       return_date: returnDate,
-
       travel_class: "1",
       adults: "1",
       currency: "USD",
@@ -449,8 +441,6 @@ function createOffer(
     url:
       deal.link,
 
-    // Se conserva por compatibilidad
-    // con la web actual.
     verified: true,
 
     roundTripVerified: true,
@@ -811,8 +801,40 @@ try {
         `🔭 FUTURO ${origin.airport} · ${outboundDate} → ${returnDate}: ${destinations.length} destinos europeos`
       );
 
+      /*
+       * DIAGNÓSTICO FUTURO
+       *
+       * Esto nos permitirá saber por qué
+       * SerpApi devuelve destinos pero
+       * eventualmente no terminan guardados.
+       */
+
+      const futureDiagnostics = {
+        received:
+          destinations.length,
+
+        withDestination:
+          0,
+
+        withPrice:
+          0,
+
+        underMaxPrice:
+          0,
+
+        withLink:
+          0,
+
+        withDates:
+          0,
+
+        accepted:
+          0
+      };
+
       const futureDuration = {
         value: "future",
+
         label:
           `Largo plazo · ${outboundDate} → ${returnDate}`
       };
@@ -833,6 +855,54 @@ try {
             returnDate
         };
 
+        const diagnosticDestination =
+          getDestinationCode(
+            normalizedDeal
+          );
+
+        const diagnosticPrice =
+          getPrice(
+            normalizedDeal
+          );
+
+        if (
+          diagnosticDestination
+        ) {
+          futureDiagnostics
+            .withDestination++;
+        }
+
+        if (
+          diagnosticPrice !== null
+        ) {
+          futureDiagnostics
+            .withPrice++;
+        }
+
+        if (
+          diagnosticPrice !== null &&
+          diagnosticPrice <=
+            WEBSITE_MAX_PRICE
+        ) {
+          futureDiagnostics
+            .underMaxPrice++;
+        }
+
+        if (
+          normalizedDeal.link
+        ) {
+          futureDiagnostics
+            .withLink++;
+        }
+
+        if (
+          normalizedDeal.start_date &&
+          normalizedDeal.end_date
+        ) {
+          futureDiagnostics
+            .withDates++;
+        }
+
         const offer =
           createOffer(
             origin,
@@ -842,11 +912,19 @@ try {
           );
 
         if (offer) {
+
+          futureDiagnostics
+            .accepted++;
+
           allOffers.push(
             offer
           );
         }
       }
+
+      console.log(
+        `   📊 Recibidos: ${futureDiagnostics.received} · destino: ${futureDiagnostics.withDestination} · precio: ${futureDiagnostics.withPrice} · ≤ USD ${WEBSITE_MAX_PRICE}: ${futureDiagnostics.underMaxPrice} · link: ${futureDiagnostics.withLink} · fechas: ${futureDiagnostics.withDates} · aceptadas: ${futureDiagnostics.accepted}`
+      );
     }
   );
 
@@ -963,14 +1041,6 @@ try {
    *
    * Permitimos hasta 3 fechas
    * diferentes por cada ruta.
-   *
-   * Ejemplo:
-   *
-   * SCL → MAD
-   *
-   * puede aparecer hasta
-   * tres veces si son fechas
-   * distintas.
    */
 
   const routeCounts =
