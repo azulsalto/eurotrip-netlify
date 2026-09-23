@@ -29,7 +29,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "SCL-MAD-2026-11-19-2026-12-03",
@@ -60,7 +60,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-MAD-2026-10-23-2026-10-30",
@@ -91,7 +91,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-MAD-2026-10-25-2026-11-09",
@@ -122,10 +122,10 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
-      "key": "GRU-MAD-2026-10-30-2026-11-01",
+      "key": "GRU-MAD-2027-04-15-2027-04-29",
       "origin": "GRU",
       "originCity": "São Paulo · Guarulhos",
       "originCountry": "Brasil",
@@ -134,26 +134,26 @@
       "destinationName": "Madrid",
       "country": "Spain",
       "route": "GRU → MAD",
-      "departure": "2026-10-30",
-      "returnDate": "2026-11-01",
-      "tripDays": 2,
+      "departure": "2027-04-15",
+      "returnDate": "2027-04-29",
+      "tripDays": 14,
       "roundTrip": true,
       "tripType": "round_trip",
       "tripTypeLabel": "Ida y vuelta",
-      "price": 689,
+      "price": 639,
       "airlines": "Avianca",
       "airlineCode": "AV",
       "stops": 1,
       "direct": false,
-      "flightDuration": 1095,
+      "flightDuration": 1020,
       "source": "Google Travel Explore / SerpApi",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=br&curr=USD&tfs=CBwQAxoVEgoyMDI2LTEwLTMwagcIARIDR1JVGhUSCjIwMjYtMTEtMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=br&curr=USD&tfs=CBwQAxoVEgoyMDI3LTA0LTE1agcIARIDR1JVGhUSCjIwMjctMDQtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95",
       "verified": true,
       "roundTripVerified": true,
-      "durationSearch": "Fin de semana",
-      "radarType": "flexible",
+      "durationSearch": "Largo plazo · 2027-04-15 → 2027-04-29",
+      "radarType": "future",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:17.608Z"
     },
     {
       "key": "GRU-OPO-2027-02-12-2027-02-20",
@@ -184,7 +184,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-OPO-2026-11-13-2026-11-28",
@@ -215,7 +215,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-VLC-2026-11-16-2026-11-25",
@@ -246,7 +246,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-VLC-2026-11-08-2026-11-22",
@@ -277,7 +277,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "SCL-BCN-2026-11-23-2026-12-02",
@@ -308,7 +308,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "SCL-VLC-2026-11-26-2026-12-03",
@@ -339,7 +339,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-VLC-2026-11-19-2026-12-03",
@@ -370,7 +370,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-SVQ-2026-11-23-2026-12-02",
@@ -401,7 +401,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-SVQ-2026-11-08-2026-11-22",
@@ -432,7 +432,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-LIS-2026-11-19-2026-11-25",
@@ -463,7 +463,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-LGW-2026-11-14-2026-11-16",
@@ -494,7 +494,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-MAD-2026-11-09-2026-11-18",
@@ -525,7 +525,38 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
+    },
+    {
+      "key": "GRU-HEL-2027-04-15-2027-04-29",
+      "origin": "GRU",
+      "originCity": "São Paulo · Guarulhos",
+      "originCountry": "Brasil",
+      "originFlag": "🇧🇷",
+      "destination": "HEL",
+      "destinationName": "Helsinki",
+      "country": "Finland",
+      "route": "GRU → HEL",
+      "departure": "2027-04-15",
+      "returnDate": "2027-04-29",
+      "tripDays": 14,
+      "roundTrip": true,
+      "tripType": "round_trip",
+      "tripTypeLabel": "Ida y vuelta",
+      "price": 729,
+      "airlines": "Finnair and LATAM",
+      "airlineCode": "multi",
+      "stops": 1,
+      "direct": false,
+      "flightDuration": 1380,
+      "source": "Google Travel Explore / SerpApi",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=br&curr=USD&tfs=CBwQAxoVEgoyMDI3LTA0LTE1agcIARIDR1JVGhUSCjIwMjctMDQtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAza2hu",
+      "verified": true,
+      "roundTripVerified": true,
+      "durationSearch": "Largo plazo · 2027-04-15 → 2027-04-29",
+      "radarType": "future",
+      "foundToday": true,
+      "foundAt": "2026-09-23T17:14:17.608Z"
     },
     {
       "key": "GRU-LGW-2026-10-31-2026-11-09",
@@ -556,7 +587,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-LGW-2026-10-24-2026-11-09",
@@ -587,7 +618,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-BCN-2026-11-05-2026-11-12",
@@ -618,7 +649,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-ARN-2026-11-05-2026-11-14",
@@ -649,7 +680,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-ARN-2026-11-01-2026-11-14",
@@ -680,7 +711,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-BCN-2026-11-05-2026-11-09",
@@ -711,7 +742,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-MXP-2026-11-19-2026-11-23",
@@ -742,7 +773,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-MXP-2026-11-21-2026-11-27",
@@ -773,7 +804,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-MXP-2026-11-02-2026-11-17",
@@ -804,7 +835,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-MAN-2026-11-12-2026-11-20",
@@ -835,7 +866,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-MAD-2027-02-25-2027-02-28",
@@ -866,7 +897,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-LIS-2026-11-26-2026-11-30",
@@ -897,7 +928,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-LIS-2026-10-29-2026-11-11",
@@ -928,7 +959,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-CDG-2026-11-12-2026-11-16",
@@ -959,7 +990,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-CDG-2026-11-09-2026-11-17",
@@ -990,7 +1021,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-CDG-2026-11-09-2026-11-24",
@@ -1021,7 +1052,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-ARN-2026-11-05-2026-11-08",
@@ -1052,7 +1083,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-FCO-2026-11-12-2026-11-16",
@@ -1083,7 +1114,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-FCO-2026-11-15-2026-11-24",
@@ -1114,7 +1145,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-FCO-2026-11-02-2026-11-16",
@@ -1145,7 +1176,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-MAN-2026-11-23-2026-12-08",
@@ -1176,7 +1207,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-HEL-2027-02-28-2027-03-09",
@@ -1207,7 +1238,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-BCN-2026-11-16-2026-11-29",
@@ -1238,7 +1269,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-OPO-2026-11-05-2026-11-09",
@@ -1269,7 +1300,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-OPO-2026-11-01-2026-11-08",
@@ -1300,7 +1331,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-OPO-2026-10-26-2026-11-08",
@@ -1331,7 +1362,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-OPO-2026-11-06-2026-11-09",
@@ -1362,7 +1393,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-BER-2026-11-07-2026-11-09",
@@ -1393,7 +1424,38 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
+    },
+    {
+      "key": "GRU-VLC-2027-04-15-2027-04-29",
+      "origin": "GRU",
+      "originCity": "São Paulo · Guarulhos",
+      "originCountry": "Brasil",
+      "originFlag": "🇧🇷",
+      "destination": "VLC",
+      "destinationName": "València",
+      "country": "Spain",
+      "route": "GRU → VLC",
+      "departure": "2027-04-15",
+      "returnDate": "2027-04-29",
+      "tripDays": 14,
+      "roundTrip": true,
+      "tripType": "round_trip",
+      "tripTypeLabel": "Ida y vuelta",
+      "price": 783,
+      "airlines": "Iberia",
+      "airlineCode": "IB",
+      "stops": 1,
+      "direct": false,
+      "flightDuration": 840,
+      "source": "Google Travel Explore / SerpApi",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=br&curr=USD&tfs=CBwQAxoVEgoyMDI3LTA0LTE1agcIARIDR1JVGhUSCjIwMjctMDQtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2",
+      "verified": true,
+      "roundTripVerified": true,
+      "durationSearch": "Largo plazo · 2027-04-15 → 2027-04-29",
+      "radarType": "future",
+      "foundToday": true,
+      "foundAt": "2026-09-23T17:14:17.608Z"
     },
     {
       "key": "GRU-MUC-2026-11-21-2026-11-23",
@@ -1424,7 +1486,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-LIS-2026-11-13-2026-11-16",
@@ -1455,7 +1517,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-LIS-2026-11-06-2026-11-13",
@@ -1486,7 +1548,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "SCL-LIS-2026-11-01-2026-11-10",
@@ -1517,7 +1579,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "SCL-LIS-2026-10-25-2026-11-10",
@@ -1548,7 +1610,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-CDG-2026-11-07-2026-11-09",
@@ -1579,7 +1641,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-BCN-2027-02-19-2027-02-22",
@@ -1610,7 +1672,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "GRU-BCN-2026-11-05-2026-11-09",
@@ -1641,7 +1703,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-BCN-2026-10-30-2026-11-05",
@@ -1672,7 +1734,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-BCN-2026-11-08-2026-11-23",
@@ -1703,7 +1765,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-BCN-2027-02-18-2027-03-04",
@@ -1734,7 +1796,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "SCL-SVQ-2026-11-20-2026-11-29",
@@ -1765,7 +1827,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-MXP-2026-11-05-2026-11-08",
@@ -1796,7 +1858,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-MXP-2026-10-30-2026-11-05",
@@ -1827,7 +1889,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-MXP-2026-10-22-2026-11-05",
@@ -1858,7 +1920,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-FCO-2026-11-02-2026-11-09",
@@ -1889,7 +1951,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-FCO-2026-10-24-2026-11-09",
@@ -1920,7 +1982,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-FCO-2026-11-20-2026-11-22",
@@ -1951,7 +2013,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-AMS-2026-11-14-2026-11-16",
@@ -1982,7 +2044,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-AMS-2026-11-07-2026-11-16",
@@ -2013,7 +2075,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-VLC-2026-11-09-2026-11-18",
@@ -2044,7 +2106,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-AMS-2026-11-01-2026-11-16",
@@ -2075,7 +2137,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-VCE-2026-11-08-2026-11-17",
@@ -2106,7 +2168,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-VCE-2027-02-18-2027-03-06",
@@ -2137,7 +2199,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-NCE-2026-11-22-2026-12-01",
@@ -2168,7 +2230,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-NCE-2026-11-15-2026-12-01",
@@ -2199,7 +2261,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-HEL-2027-02-04-2027-02-07",
@@ -2230,38 +2292,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
-    },
-    {
-      "key": "GRU-HEL-2027-01-21-2027-02-04",
-      "origin": "GRU",
-      "originCity": "São Paulo · Guarulhos",
-      "originCountry": "Brasil",
-      "originFlag": "🇧🇷",
-      "destination": "HEL",
-      "destinationName": "Helsinki",
-      "country": "Finland",
-      "route": "GRU → HEL",
-      "departure": "2027-01-21",
-      "returnDate": "2027-02-04",
-      "tripDays": 14,
-      "roundTrip": true,
-      "tripType": "round_trip",
-      "tripTypeLabel": "Ida y vuelta",
-      "price": 806,
-      "airlines": "Finnair and LATAM",
-      "airlineCode": "multi",
-      "stops": 1,
-      "direct": false,
-      "flightDuration": 1415,
-      "source": "Google Travel Explore / SerpApi",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=br&curr=USD&tfs=CBwQAxoVEgoyMDI3LTAxLTIxagcIARIDR1JVGhUSCjIwMjctMDItMDRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAza2hu",
-      "verified": true,
-      "roundTripVerified": true,
-      "durationSearch": "Dos semanas",
-      "radarType": "flexible",
-      "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-LIS-2026-10-25-2026-11-09",
@@ -2292,7 +2323,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-SVQ-2026-11-09-2026-11-17",
@@ -2323,7 +2354,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-LGW-2026-12-03-2026-12-06",
@@ -2354,7 +2385,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "SCL-AMS-2026-11-14-2026-11-23",
@@ -2385,7 +2416,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "SCL-AMS-2026-11-08-2026-11-23",
@@ -2416,7 +2447,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-SVQ-2026-11-19-2026-11-23",
@@ -2447,38 +2478,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
-    },
-    {
-      "key": "GRU-VLC-2026-11-05-2026-11-08",
-      "origin": "GRU",
-      "originCity": "São Paulo · Guarulhos",
-      "originCountry": "Brasil",
-      "originFlag": "🇧🇷",
-      "destination": "VLC",
-      "destinationName": "València",
-      "country": "Spain",
-      "route": "GRU → VLC",
-      "departure": "2026-11-05",
-      "returnDate": "2026-11-08",
-      "tripDays": 3,
-      "roundTrip": true,
-      "tripType": "round_trip",
-      "tripTypeLabel": "Ida y vuelta",
-      "price": 819,
-      "airlines": "Tap Air Portugal",
-      "airlineCode": "TP",
-      "stops": 1,
-      "direct": false,
-      "flightDuration": 1235,
-      "source": "Google Travel Explore / SerpApi",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=br&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTA1agcIARIDR1JVGhUSCjIwMjYtMTEtMDhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoM3R2",
-      "verified": true,
-      "roundTripVerified": true,
-      "durationSearch": "Fin de semana",
-      "radarType": "flexible",
-      "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-PRG-2026-11-09-2026-11-24",
@@ -2509,7 +2509,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-BER-2026-11-20-2026-11-22",
@@ -2540,7 +2540,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "SCL-CDG-2026-11-27-2026-11-30",
@@ -2571,7 +2571,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "SCL-CDG-2026-11-27-2026-12-03",
@@ -2602,7 +2602,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "GRU-ZRH-2027-02-22-2027-03-01",
@@ -2633,7 +2633,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-ZRH-2027-02-18-2027-03-03",
@@ -2664,7 +2664,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-MUC-2026-11-20-2026-11-22",
@@ -2695,7 +2695,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-VIE-2026-11-09-2026-11-18",
@@ -2726,7 +2726,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-VIE-2026-11-09-2026-11-23",
@@ -2757,7 +2757,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-MAN-2026-11-16-2026-11-25",
@@ -2788,7 +2788,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-MAN-2026-11-08-2026-11-23",
@@ -2819,7 +2819,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-FLR-2026-11-12-2026-11-16",
@@ -2850,7 +2850,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-MAN-2026-11-05-2026-11-09",
@@ -2881,7 +2881,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-FLR-2026-10-31-2026-11-07",
@@ -2912,7 +2912,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-FLR-2026-10-22-2026-11-07",
@@ -2943,7 +2943,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "SCL-NCE-2026-11-26-2026-12-03",
@@ -2974,7 +2974,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-VCE-2026-11-19-2026-11-22",
@@ -3005,7 +3005,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-BER-2026-11-06-2026-11-15",
@@ -3036,7 +3036,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-BER-2026-10-25-2026-11-09",
@@ -3067,7 +3067,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-MUC-2026-10-30-2026-11-05",
@@ -3098,7 +3098,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-MUC-2026-10-22-2026-11-07",
@@ -3129,7 +3129,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-MAN-2026-11-05-2026-11-09",
@@ -3160,7 +3160,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-ATH-2026-11-16-2026-11-25",
@@ -3191,7 +3191,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-AMS-2026-11-15-2026-11-29",
@@ -3222,7 +3222,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-ATH-2026-11-08-2026-11-23",
@@ -3253,7 +3253,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-HAM-2026-11-12-2026-11-16",
@@ -3284,7 +3284,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-HAM-2026-11-07-2026-11-15",
@@ -3315,7 +3315,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-HAM-2026-11-08-2026-11-24",
@@ -3346,7 +3346,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "SCL-OPO-2026-11-20-2026-11-29",
@@ -3377,7 +3377,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-OPO-2026-11-15-2026-11-29",
@@ -3408,7 +3408,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-MAD-2026-11-05-2026-11-18",
@@ -3439,7 +3439,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "SCL-LIS-2027-02-19-2027-02-22",
@@ -3470,7 +3470,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "GRU-ORY-2026-11-23-2026-12-02",
@@ -3501,7 +3501,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-MXP-2026-11-09-2026-11-18",
@@ -3532,7 +3532,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-CDG-2027-02-14-2027-03-01",
@@ -3563,7 +3563,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-MXP-2026-11-06-2026-11-19",
@@ -3594,7 +3594,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-BOD-2026-11-26-2026-12-03",
@@ -3625,7 +3625,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-VCE-2026-11-05-2026-11-09",
@@ -3656,7 +3656,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-VCE-2026-11-06-2026-11-14",
@@ -3687,7 +3687,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-VCE-2026-10-26-2026-11-08",
@@ -3718,7 +3718,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-CPH-2026-11-12-2026-11-26",
@@ -3749,7 +3749,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-ORY-2026-11-07-2026-11-21",
@@ -3780,7 +3780,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-AMS-2026-11-05-2026-11-08",
@@ -3811,7 +3811,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-AMS-2026-11-01-2026-11-09",
@@ -3842,7 +3842,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-ZRH-2026-11-09-2026-11-17",
@@ -3873,7 +3873,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-ZRH-2026-10-30-2026-11-02",
@@ -3904,7 +3904,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-GRX-2026-11-05-2026-11-12",
@@ -3935,7 +3935,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-AMS-2026-11-05-2026-11-09",
@@ -3966,7 +3966,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "GIG-ZRH-2026-11-05-2026-11-08",
@@ -3997,7 +3997,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "SCL-NCE-2026-11-16-2026-12-02",
@@ -4028,7 +4028,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-FCO-2026-11-15-2026-11-23",
@@ -4059,7 +4059,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "SCL-FCO-2026-11-07-2026-11-23",
@@ -4090,7 +4090,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-VCE-2027-02-15-2027-03-03",
@@ -4121,7 +4121,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-FLR-2026-11-12-2026-11-16",
@@ -4152,7 +4152,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "SCL-VCE-2027-02-22-2027-03-03",
@@ -4183,7 +4183,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-BER-2026-11-02-2026-11-09",
@@ -4214,7 +4214,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-BER-2026-11-05-2026-11-21",
@@ -4245,7 +4245,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "SCL-MAD-2027-02-04-2027-02-08",
@@ -4276,7 +4276,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "SCL-DUB-2026-11-07-2026-11-09",
@@ -4307,7 +4307,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "SCL-DUB-2026-11-07-2026-11-16",
@@ -4338,7 +4338,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-NAP-2027-02-25-2027-03-04",
@@ -4369,7 +4369,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-NAP-2027-02-18-2027-03-03",
@@ -4400,7 +4400,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-MUC-2026-11-05-2026-11-11",
@@ -4431,7 +4431,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-MUC-2026-10-23-2026-11-08",
@@ -4462,7 +4462,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-DUB-2027-02-11-2027-02-20",
@@ -4493,7 +4493,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-DUB-2027-02-11-2027-02-25",
@@ -4524,7 +4524,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-LCY-2026-11-19-2026-11-27",
@@ -4555,7 +4555,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-LCY-2026-11-12-2026-11-27",
@@ -4586,7 +4586,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-HAM-2026-11-05-2026-11-09",
@@ -4617,7 +4617,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-HAM-2026-11-13-2026-11-21",
@@ -4648,7 +4648,38 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
+    },
+    {
+      "key": "GRU-NCE-2027-04-15-2027-04-29",
+      "origin": "GRU",
+      "originCity": "São Paulo · Guarulhos",
+      "originCountry": "Brasil",
+      "originFlag": "🇧🇷",
+      "destination": "NCE",
+      "destinationName": "Nice",
+      "country": "France",
+      "route": "GRU → NCE",
+      "departure": "2027-04-15",
+      "returnDate": "2027-04-29",
+      "tripDays": 14,
+      "roundTrip": true,
+      "tripType": "round_trip",
+      "tripTypeLabel": "Ida y vuelta",
+      "price": 878,
+      "airlines": "Iberia",
+      "airlineCode": "IB",
+      "stops": 1,
+      "direct": false,
+      "flightDuration": 1430,
+      "source": "Google Travel Explore / SerpApi",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=br&curr=USD&tfs=CBwQAxoVEgoyMDI3LTA0LTE1agcIARIDR1JVGhUSCjIwMjctMDQtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBjcDZ3",
+      "verified": true,
+      "roundTripVerified": true,
+      "durationSearch": "Largo plazo · 2027-04-15 → 2027-04-29",
+      "radarType": "future",
+      "foundToday": true,
+      "foundAt": "2026-09-23T17:14:17.608Z"
     },
     {
       "key": "GIG-SVQ-2026-11-05-2026-11-09",
@@ -4679,7 +4710,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-VLC-2026-11-05-2026-11-09",
@@ -4710,7 +4741,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-PRG-2026-11-19-2026-11-22",
@@ -4741,7 +4772,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-CPH-2026-11-08-2026-11-17",
@@ -4772,7 +4803,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-OSL-2026-11-05-2026-11-09",
@@ -4803,7 +4834,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-OSL-2026-11-02-2026-11-09",
@@ -4834,7 +4865,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-OSL-2026-10-25-2026-11-09",
@@ -4865,7 +4896,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "SCL-DUB-2027-02-25-2027-03-10",
@@ -4896,7 +4927,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-OSL-2026-11-16-2026-11-23",
@@ -4927,7 +4958,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-OSL-2026-10-22-2026-11-05",
@@ -4958,7 +4989,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "SCL-ZRH-2026-11-14-2026-11-29",
@@ -4989,7 +5020,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-FLR-2026-11-02-2026-11-10",
@@ -5020,7 +5051,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "SCL-MLA-2027-02-27-2027-03-08",
@@ -5051,7 +5082,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-LGW-2027-02-27-2027-03-08",
@@ -5082,7 +5113,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "SCL-ZRH-2027-02-04-2027-02-08",
@@ -5113,7 +5144,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "GIG-DUB-2026-11-05-2026-11-09",
@@ -5144,7 +5175,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-DUB-2026-11-02-2026-11-11",
@@ -5175,7 +5206,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-DUB-2026-11-02-2026-11-16",
@@ -5206,7 +5237,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-CPH-2026-11-05-2026-11-08",
@@ -5237,7 +5268,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-CPH-2026-10-24-2026-11-08",
@@ -5268,7 +5299,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-CPH-2026-11-06-2026-11-08",
@@ -5299,7 +5330,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-ATH-2027-02-27-2027-03-08",
@@ -5330,7 +5361,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-ATH-2027-02-20-2027-03-08",
@@ -5361,7 +5392,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-ATH-2026-11-06-2026-11-09",
@@ -5392,7 +5423,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-VIE-2026-11-20-2026-11-23",
@@ -5423,7 +5454,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-ARN-2026-11-05-2026-11-09",
@@ -5454,7 +5485,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-ATH-2026-11-06-2026-11-12",
@@ -5485,7 +5516,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-VIE-2026-11-06-2026-11-14",
@@ -5516,7 +5547,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-ARN-2026-11-02-2026-11-09",
@@ -5547,7 +5578,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-ATH-2026-11-06-2026-11-22",
@@ -5578,7 +5609,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-VIE-2026-10-24-2026-11-08",
@@ -5609,7 +5640,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-ARN-2026-11-02-2026-11-18",
@@ -5640,7 +5671,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-ATH-2026-11-05-2026-11-08",
@@ -5671,7 +5702,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-VIE-2026-11-12-2026-11-15",
@@ -5702,7 +5733,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-OPO-2027-02-04-2027-02-08",
@@ -5733,7 +5764,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "GIG-PRG-2026-11-06-2026-11-14",
@@ -5764,7 +5795,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GRU-DUB-2026-11-12-2026-11-15",
@@ -5795,7 +5826,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-PRG-2026-10-26-2026-11-03",
@@ -5826,7 +5857,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-CPH-2026-11-05-2026-11-13",
@@ -5857,7 +5888,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "SCL-BER-2027-02-22-2027-03-08",
@@ -5888,7 +5919,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-MAN-2026-11-12-2026-11-27",
@@ -5919,7 +5950,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-ATH-2027-02-04-2027-02-08",
@@ -5950,7 +5981,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "SCL-MUC-2026-10-31-2026-11-08",
@@ -5981,7 +6012,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-MUC-2026-10-31-2026-11-15",
@@ -6012,7 +6043,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-MUC-2026-11-05-2026-11-08",
@@ -6043,7 +6074,38 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
+    },
+    {
+      "key": "SCL-MXP-2027-04-15-2027-04-29",
+      "origin": "SCL",
+      "originCity": "Santiago",
+      "originCountry": "Chile",
+      "originFlag": "🇨🇱",
+      "destination": "MXP",
+      "destinationName": "Milan",
+      "country": "Italy",
+      "route": "SCL → MXP",
+      "departure": "2027-04-15",
+      "returnDate": "2027-04-29",
+      "tripDays": 14,
+      "roundTrip": true,
+      "tripType": "round_trip",
+      "tripTypeLabel": "Ida y vuelta",
+      "price": 921,
+      "airlines": "Iberia and Vueling",
+      "airlineCode": "multi",
+      "stops": 1,
+      "direct": false,
+      "flightDuration": 1340,
+      "source": "Google Travel Explore / SerpApi",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=cl&curr=USD&tfs=CBwQAxoVEgoyMDI3LTA0LTE1agcIARIDU0NMGhUSCjIwMjctMDQtMjlyBwgBEgNTQ0xAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NDds",
+      "verified": true,
+      "roundTripVerified": true,
+      "durationSearch": "Largo plazo · 2027-04-15 → 2027-04-29",
+      "radarType": "future",
+      "foundToday": true,
+      "foundAt": "2026-09-23T17:14:17.608Z"
     },
     {
       "key": "GIG-NCE-2026-12-03-2026-12-07",
@@ -6074,7 +6136,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-NCE-2026-11-05-2026-11-14",
@@ -6105,7 +6167,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-NCE-2026-11-02-2026-11-15",
@@ -6136,38 +6198,38 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
-      "key": "GRU-NCE-2026-11-26-2026-11-30",
-      "origin": "GRU",
-      "originCity": "São Paulo · Guarulhos",
-      "originCountry": "Brasil",
-      "originFlag": "🇧🇷",
-      "destination": "NCE",
-      "destinationName": "Nice",
-      "country": "France",
-      "route": "GRU → NCE",
-      "departure": "2026-11-26",
-      "returnDate": "2026-11-30",
-      "tripDays": 4,
+      "key": "SCL-FCO-2027-04-15-2027-04-29",
+      "origin": "SCL",
+      "originCity": "Santiago",
+      "originCountry": "Chile",
+      "originFlag": "🇨🇱",
+      "destination": "FCO",
+      "destinationName": "Rome",
+      "country": "Italy",
+      "route": "SCL → FCO",
+      "departure": "2027-04-15",
+      "returnDate": "2027-04-29",
+      "tripDays": 14,
       "roundTrip": true,
       "tripType": "round_trip",
       "tripTypeLabel": "Ida y vuelta",
-      "price": 925,
-      "airlines": "Tap Air Portugal",
-      "airlineCode": "TP",
+      "price": 933,
+      "airlines": "Iberia and Vueling",
+      "airlineCode": "multi",
       "stops": 1,
       "direct": false,
-      "flightDuration": 890,
+      "flightDuration": 1310,
       "source": "Google Travel Explore / SerpApi",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=br&curr=USD&tfs=CBwQAxoVEgoyMDI2LTExLTI2agcIARIDR1JVGhUSCjIwMjYtMTEtMzByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBjcDZ3",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=cl&curr=USD&tfs=CBwQAxoVEgoyMDI3LTA0LTE1agcIARIDU0NMGhUSCjIwMjctMDQtMjlyBwgBEgNTQ0xAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2YzYy",
       "verified": true,
       "roundTripVerified": true,
-      "durationSearch": "Fin de semana",
-      "radarType": "flexible",
+      "durationSearch": "Largo plazo · 2027-04-15 → 2027-04-29",
+      "radarType": "future",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:17.608Z"
     },
     {
       "key": "SCL-HAM-2026-12-24-2027-01-01",
@@ -6198,7 +6260,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-LGW-2027-02-04-2027-02-07",
@@ -6229,7 +6291,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "SCL-CPH-2027-02-22-2027-03-03",
@@ -6260,38 +6322,69 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
-      "key": "SCL-FCO-2026-12-04-2026-12-07",
+      "key": "GRU-ORY-2027-04-15-2027-04-29",
+      "origin": "GRU",
+      "originCity": "São Paulo · Guarulhos",
+      "originCountry": "Brasil",
+      "originFlag": "🇧🇷",
+      "destination": "ORY",
+      "destinationName": "Paris",
+      "country": "France",
+      "route": "GRU → ORY",
+      "departure": "2027-04-15",
+      "returnDate": "2027-04-29",
+      "tripDays": 14,
+      "roundTrip": true,
+      "tripType": "round_trip",
+      "tripTypeLabel": "Ida y vuelta",
+      "price": 944,
+      "airlines": "Air Europa",
+      "airlineCode": "UX",
+      "stops": 1,
+      "direct": false,
+      "flightDuration": 905,
+      "source": "Google Travel Explore / SerpApi",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=br&curr=USD&tfs=CBwQAxoVEgoyMDI3LTA0LTE1agcIARIDR1JVGhUSCjIwMjctMDQtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1cXRq",
+      "verified": true,
+      "roundTripVerified": true,
+      "durationSearch": "Largo plazo · 2027-04-15 → 2027-04-29",
+      "radarType": "future",
+      "foundToday": true,
+      "foundAt": "2026-09-23T17:14:17.608Z"
+    },
+    {
+      "key": "SCL-ORY-2027-04-15-2027-04-29",
       "origin": "SCL",
       "originCity": "Santiago",
       "originCountry": "Chile",
       "originFlag": "🇨🇱",
-      "destination": "FCO",
-      "destinationName": "Rome",
-      "country": "Italy",
-      "route": "SCL → FCO",
-      "departure": "2026-12-04",
-      "returnDate": "2026-12-07",
-      "tripDays": 3,
+      "destination": "ORY",
+      "destinationName": "Paris",
+      "country": "France",
+      "route": "SCL → ORY",
+      "departure": "2027-04-15",
+      "returnDate": "2027-04-29",
+      "tripDays": 14,
       "roundTrip": true,
       "tripType": "round_trip",
       "tripTypeLabel": "Ida y vuelta",
-      "price": 951,
-      "airlines": "Air Canada",
-      "airlineCode": "AC",
+      "price": 952,
+      "airlines": "Iberia and Vueling",
+      "airlineCode": "multi",
       "stops": 1,
       "direct": false,
-      "flightDuration": 1230,
+      "flightDuration": 1430,
       "source": "Google Travel Explore / SerpApi",
-      "url": "https://www.google.com/travel/explore?hl=en&gl=cl&curr=USD&tfs=CBwQAxoVEgoyMDI2LTEyLTA0agcIARIDU0NMGhUSCjIwMjYtMTItMDdyBwgBEgNTQ0xAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2YzYy",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=cl&curr=USD&tfs=CBwQAxoVEgoyMDI3LTA0LTE1agcIARIDU0NMGhUSCjIwMjctMDQtMjlyBwgBEgNTQ0xAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1cXRq",
       "verified": true,
       "roundTripVerified": true,
-      "durationSearch": "Fin de semana",
-      "radarType": "flexible",
+      "durationSearch": "Largo plazo · 2027-04-15 → 2027-04-29",
+      "radarType": "future",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:17.608Z"
     },
     {
       "key": "EZE-MAD-2026-11-15-2026-11-24",
@@ -6322,7 +6415,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "EZE-MAD-2026-11-13-2026-11-26",
@@ -6353,7 +6446,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "SCL-MAN-2026-11-21-2026-11-29",
@@ -6384,7 +6477,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-OSL-2026-11-05-2026-11-09",
@@ -6415,7 +6508,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "EZE-MXP-2027-02-25-2027-03-12",
@@ -6446,7 +6539,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "SCL-ZRH-2026-12-24-2026-12-31",
@@ -6477,7 +6570,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-ZRH-2026-10-29-2026-11-12",
@@ -6508,7 +6601,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "SCL-FLR-2026-11-16-2026-11-23",
@@ -6539,7 +6632,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GIG-NAP-2026-11-19-2026-11-27",
@@ -6570,7 +6663,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "GIG-NAP-2026-11-12-2026-11-27",
@@ -6601,7 +6694,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.059Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "EZE-LGW-2027-02-25-2027-03-06",
@@ -6632,7 +6725,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.056Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "SCL-BER-2027-02-25-2027-03-01",
@@ -6663,7 +6756,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "EZE-DUB-2027-02-25-2027-03-04",
@@ -6694,7 +6787,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "SCL-NAP-2026-11-30-2026-12-06",
@@ -6725,7 +6818,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-BER-2027-02-22-2027-03-03",
@@ -6756,7 +6849,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "GRU-MLA-2026-10-19-2026-11-04",
@@ -6787,7 +6880,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     },
     {
       "key": "EZE-DUB-2027-02-25-2027-03-10",
@@ -6818,7 +6911,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "EZE-LGW-2027-02-25-2027-03-10",
@@ -6849,7 +6942,38 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
+    },
+    {
+      "key": "GRU-NAP-2027-04-15-2027-04-29",
+      "origin": "GRU",
+      "originCity": "São Paulo · Guarulhos",
+      "originCountry": "Brasil",
+      "originFlag": "🇧🇷",
+      "destination": "NAP",
+      "destinationName": "Naples",
+      "country": "Italy",
+      "route": "GRU → NAP",
+      "departure": "2027-04-15",
+      "returnDate": "2027-04-29",
+      "tripDays": 14,
+      "roundTrip": true,
+      "tripType": "round_trip",
+      "tripTypeLabel": "Ida y vuelta",
+      "price": 992,
+      "airlines": "ITA",
+      "airlineCode": "AZ",
+      "stops": 2,
+      "direct": false,
+      "flightDuration": 1090,
+      "source": "Google Travel Explore / SerpApi",
+      "url": "https://www.google.com/travel/explore?hl=en&gl=br&curr=USD&tfs=CBwQAxoVEgoyMDI3LTA0LTE1agcIARIDR1JVGhUSCjIwMjctMDQtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBESoPCAMSCy9nLzEyMzNmMjJu",
+      "verified": true,
+      "roundTripVerified": true,
+      "durationSearch": "Largo plazo · 2027-04-15 → 2027-04-29",
+      "radarType": "future",
+      "foundToday": true,
+      "foundAt": "2026-09-23T17:14:17.608Z"
     },
     {
       "key": "SCL-VIE-2026-11-16-2026-11-22",
@@ -6880,7 +7004,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.486Z"
     },
     {
       "key": "SCL-MAN-2026-11-05-2026-11-09",
@@ -6911,7 +7035,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "SCL-VIE-2027-02-25-2027-03-01",
@@ -6942,7 +7066,7 @@
       "durationSearch": "Fin de semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "EZE-MXP-2027-02-25-2027-03-04",
@@ -6973,7 +7097,7 @@
       "durationSearch": "Una semana",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.057Z"
+      "foundAt": "2026-09-23T17:14:10.485Z"
     },
     {
       "key": "GRU-KEF-2026-10-22-2026-11-05",
@@ -7004,7 +7128,7 @@
       "durationSearch": "Dos semanas",
       "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T17:06:11.058Z"
+      "foundAt": "2026-09-23T17:14:10.487Z"
     }
   ],
   "alerted": {
@@ -7055,13 +7179,19 @@
       "sentAt": "2026-09-23T17:06:19.162Z",
       "origin": "GRU",
       "destination": "MAD"
+    },
+    "GRU-MAD-2026-10-25-2026-11-09": {
+      "price": 639,
+      "sentAt": "2026-09-23T17:14:18.669Z",
+      "origin": "GRU",
+      "destination": "MAD"
     }
   },
   "durationCursor": 0,
-  "lastRun": "2026-09-23T17:06:17.825Z",
+  "lastRun": "2026-09-23T17:14:17.609Z",
   "lastErrors": [],
   "futureRadar": {
     "cursor": "2027-04-15",
-    "originIndex": 2
+    "originIndex": 4
   }
 }
