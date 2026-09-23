@@ -586,7 +586,11 @@ try {
   const newest =
     alertCandidates[0];
 
-  if (newest) {
+ let emailSent = false;
+let emailError = null;
+
+if (newest) {
+  try {
 
     await sendEmail(
       newest
@@ -608,8 +612,25 @@ try {
       destination:
         newest.destination
     };
-  }
 
+    emailSent = true;
+
+  } catch (error) {
+
+    emailError =
+      error.message;
+
+    console.warn(
+      `⚠️ No se pudo enviar el correo: ${error.message}`
+    );
+
+    /*
+     * IMPORTANTE:
+     * El error de Gmail NO detiene
+     * la búsqueda ni la publicación.
+     */
+  }
+}
   // ==========================================================
   // CONTADORES
   // ==========================================================
@@ -670,9 +691,15 @@ try {
     `✈️ Directas confirmadas: ${directCount}`
   );
 
+console.log(
+  `📧 Correo enviado: ${emailSent ? "sí" : "no"}`
+);
+
+if (emailError) {
   console.log(
-    `📧 Correo enviado: ${newest ? "sí" : "no"}`
+    `⚠️ Error de correo: ${emailError}`
   );
+}
 
   console.log(
     `⚠️ Búsquedas con error: ${searchErrors.length}`
