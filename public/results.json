@@ -27,8 +27,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-MAD-2026-11-19-2026-12-03",
@@ -57,8 +58,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GRU-MAD-2026-10-23-2026-10-30",
@@ -87,8 +89,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-MAD-2026-10-25-2026-11-09",
@@ -117,8 +120,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-MAD-2026-10-30-2026-11-01",
@@ -147,8 +151,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-OPO-2027-02-12-2027-02-20",
@@ -177,8 +182,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-OPO-2026-11-13-2026-11-28",
@@ -207,8 +213,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-VLC-2026-11-16-2026-11-25",
@@ -237,8 +244,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-VLC-2026-11-08-2026-11-22",
@@ -267,8 +275,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "SCL-BCN-2026-11-23-2026-12-02",
@@ -297,8 +306,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-VLC-2026-11-26-2026-12-03",
@@ -327,8 +337,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-VLC-2026-11-19-2026-12-03",
@@ -357,8 +368,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-SVQ-2026-11-23-2026-12-02",
@@ -387,8 +399,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-SVQ-2026-11-08-2026-11-22",
@@ -417,8 +430,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-LIS-2026-11-19-2026-11-25",
@@ -447,8 +461,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-LGW-2026-11-14-2026-11-16",
@@ -477,8 +492,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-MAD-2026-11-09-2026-11-18",
@@ -507,8 +523,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-LGW-2026-10-31-2026-11-09",
@@ -537,8 +554,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-LGW-2026-10-24-2026-11-09",
@@ -567,8 +585,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-BCN-2026-11-05-2026-11-12",
@@ -597,8 +616,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-ARN-2026-11-05-2026-11-14",
@@ -627,8 +647,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-ARN-2026-11-01-2026-11-14",
@@ -657,8 +678,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-BCN-2026-11-05-2026-11-09",
@@ -687,8 +709,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-MXP-2026-11-19-2026-11-23",
@@ -717,8 +740,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-MXP-2026-11-21-2026-11-27",
@@ -747,8 +771,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-MXP-2026-11-02-2026-11-17",
@@ -777,8 +802,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-MAN-2026-11-12-2026-11-20",
@@ -807,8 +833,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-MAD-2027-02-25-2027-02-28",
@@ -837,8 +864,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-LIS-2026-11-26-2026-11-30",
@@ -867,8 +895,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-LIS-2026-10-29-2026-11-11",
@@ -897,8 +926,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-CDG-2026-11-12-2026-11-16",
@@ -927,8 +957,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-CDG-2026-11-09-2026-11-17",
@@ -957,8 +988,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-CDG-2026-11-09-2026-11-24",
@@ -987,8 +1019,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-ARN-2026-11-05-2026-11-08",
@@ -1017,8 +1050,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-FCO-2026-11-12-2026-11-16",
@@ -1047,8 +1081,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-FCO-2026-11-15-2026-11-24",
@@ -1077,8 +1112,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-FCO-2026-11-02-2026-11-16",
@@ -1107,8 +1143,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-MAN-2026-11-23-2026-12-08",
@@ -1137,8 +1174,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-HEL-2027-02-28-2027-03-09",
@@ -1167,8 +1205,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "SCL-BCN-2026-11-16-2026-11-29",
@@ -1197,8 +1236,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GIG-OPO-2026-11-05-2026-11-09",
@@ -1227,8 +1267,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-OPO-2026-11-01-2026-11-08",
@@ -1257,8 +1298,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-OPO-2026-10-26-2026-11-08",
@@ -1287,8 +1329,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-OPO-2026-11-06-2026-11-09",
@@ -1317,8 +1360,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-BER-2026-11-07-2026-11-09",
@@ -1347,8 +1391,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-MUC-2026-11-21-2026-11-23",
@@ -1377,8 +1422,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-LIS-2026-11-13-2026-11-16",
@@ -1407,8 +1453,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-LIS-2026-11-06-2026-11-13",
@@ -1437,8 +1484,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "SCL-LIS-2026-11-01-2026-11-10",
@@ -1467,8 +1515,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-LIS-2026-10-25-2026-11-10",
@@ -1497,8 +1546,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GRU-CDG-2026-11-07-2026-11-09",
@@ -1527,8 +1577,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "SCL-BCN-2027-02-19-2027-02-22",
@@ -1557,8 +1608,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GRU-BCN-2026-11-05-2026-11-09",
@@ -1587,8 +1639,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-BCN-2026-10-30-2026-11-05",
@@ -1617,8 +1670,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-BCN-2026-11-08-2026-11-23",
@@ -1647,8 +1701,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-BCN-2027-02-18-2027-03-04",
@@ -1677,8 +1732,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "SCL-SVQ-2026-11-20-2026-11-29",
@@ -1707,8 +1763,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GRU-MXP-2026-11-05-2026-11-08",
@@ -1737,8 +1794,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-MXP-2026-10-30-2026-11-05",
@@ -1767,8 +1825,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-MXP-2026-10-22-2026-11-05",
@@ -1797,8 +1856,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-FCO-2026-11-02-2026-11-09",
@@ -1827,8 +1887,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-FCO-2026-10-24-2026-11-09",
@@ -1857,8 +1918,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-FCO-2026-11-20-2026-11-22",
@@ -1887,8 +1949,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-AMS-2026-11-14-2026-11-16",
@@ -1917,8 +1980,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-AMS-2026-11-07-2026-11-16",
@@ -1947,8 +2011,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-VLC-2026-11-09-2026-11-18",
@@ -1977,8 +2042,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-AMS-2026-11-01-2026-11-16",
@@ -2007,8 +2073,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-VCE-2026-11-08-2026-11-17",
@@ -2037,8 +2104,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-VCE-2027-02-18-2027-03-06",
@@ -2067,8 +2135,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-NCE-2026-11-22-2026-12-01",
@@ -2097,8 +2166,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-NCE-2026-11-15-2026-12-01",
@@ -2127,8 +2197,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-HEL-2027-02-04-2027-02-07",
@@ -2157,8 +2228,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-HEL-2027-01-21-2027-02-04",
@@ -2187,8 +2259,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-LIS-2026-10-25-2026-11-09",
@@ -2217,8 +2290,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-SVQ-2026-11-09-2026-11-17",
@@ -2247,8 +2321,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-LGW-2026-12-03-2026-12-06",
@@ -2277,8 +2352,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "SCL-AMS-2026-11-14-2026-11-23",
@@ -2307,8 +2383,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-AMS-2026-11-08-2026-11-23",
@@ -2337,8 +2414,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-SVQ-2026-11-19-2026-11-23",
@@ -2367,8 +2445,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-VLC-2026-11-05-2026-11-08",
@@ -2397,8 +2476,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-PRG-2026-11-09-2026-11-24",
@@ -2427,8 +2507,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-BER-2026-11-20-2026-11-22",
@@ -2457,8 +2538,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "SCL-CDG-2026-11-27-2026-11-30",
@@ -2487,8 +2569,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-CDG-2026-11-27-2026-12-03",
@@ -2517,8 +2600,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GRU-ZRH-2027-02-22-2027-03-01",
@@ -2547,8 +2631,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-ZRH-2027-02-18-2027-03-03",
@@ -2577,8 +2662,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-MUC-2026-11-20-2026-11-22",
@@ -2607,8 +2693,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-VIE-2026-11-09-2026-11-18",
@@ -2637,8 +2724,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-VIE-2026-11-09-2026-11-23",
@@ -2667,8 +2755,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-MAN-2026-11-16-2026-11-25",
@@ -2697,8 +2786,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-MAN-2026-11-08-2026-11-23",
@@ -2727,8 +2817,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-FLR-2026-11-12-2026-11-16",
@@ -2757,8 +2848,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-MAN-2026-11-05-2026-11-09",
@@ -2787,8 +2879,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-FLR-2026-10-31-2026-11-07",
@@ -2817,8 +2910,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-FLR-2026-10-22-2026-11-07",
@@ -2847,8 +2941,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "SCL-NCE-2026-11-26-2026-12-03",
@@ -2877,8 +2972,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GRU-VCE-2026-11-19-2026-11-22",
@@ -2907,8 +3003,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-BER-2026-11-06-2026-11-15",
@@ -2937,8 +3034,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-BER-2026-10-25-2026-11-09",
@@ -2967,8 +3065,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-MUC-2026-10-30-2026-11-05",
@@ -2997,8 +3096,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-MUC-2026-10-22-2026-11-07",
@@ -3027,8 +3127,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-MAN-2026-11-05-2026-11-09",
@@ -3057,8 +3158,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-ATH-2026-11-16-2026-11-25",
@@ -3087,8 +3189,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-AMS-2026-11-15-2026-11-29",
@@ -3117,8 +3220,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-ATH-2026-11-08-2026-11-23",
@@ -3147,8 +3251,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-HAM-2026-11-12-2026-11-16",
@@ -3177,8 +3282,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-HAM-2026-11-07-2026-11-15",
@@ -3207,8 +3313,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-HAM-2026-11-08-2026-11-24",
@@ -3237,8 +3344,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "SCL-OPO-2026-11-20-2026-11-29",
@@ -3267,8 +3375,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-OPO-2026-11-15-2026-11-29",
@@ -3297,8 +3406,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-MAD-2026-11-05-2026-11-18",
@@ -3327,8 +3437,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "SCL-LIS-2027-02-19-2027-02-22",
@@ -3357,8 +3468,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GRU-ORY-2026-11-23-2026-12-02",
@@ -3387,8 +3499,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "SCL-MXP-2026-11-09-2026-11-18",
@@ -3417,8 +3530,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-CDG-2027-02-14-2027-03-01",
@@ -3447,8 +3561,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-MXP-2026-11-06-2026-11-19",
@@ -3477,8 +3592,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-BOD-2026-11-26-2026-12-03",
@@ -3507,8 +3623,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-VCE-2026-11-05-2026-11-09",
@@ -3537,8 +3654,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-VCE-2026-11-06-2026-11-14",
@@ -3567,8 +3685,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-VCE-2026-10-26-2026-11-08",
@@ -3597,8 +3716,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-CPH-2026-11-12-2026-11-26",
@@ -3627,8 +3747,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-ORY-2026-11-07-2026-11-21",
@@ -3657,8 +3778,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-AMS-2026-11-05-2026-11-08",
@@ -3687,8 +3809,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-AMS-2026-11-01-2026-11-09",
@@ -3717,8 +3840,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-ZRH-2026-11-09-2026-11-17",
@@ -3747,8 +3871,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-ZRH-2026-10-30-2026-11-02",
@@ -3777,8 +3902,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-GRX-2026-11-05-2026-11-12",
@@ -3807,8 +3933,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "SCL-AMS-2026-11-05-2026-11-09",
@@ -3837,8 +3964,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GIG-ZRH-2026-11-05-2026-11-08",
@@ -3867,8 +3995,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "SCL-NCE-2026-11-16-2026-12-02",
@@ -3897,8 +4026,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "SCL-FCO-2026-11-15-2026-11-23",
@@ -3927,8 +4057,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-FCO-2026-11-07-2026-11-23",
@@ -3957,8 +4088,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-VCE-2027-02-15-2027-03-03",
@@ -3987,8 +4119,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-FLR-2026-11-12-2026-11-16",
@@ -4017,8 +4150,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "SCL-VCE-2027-02-22-2027-03-03",
@@ -4047,8 +4181,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GIG-BER-2026-11-02-2026-11-09",
@@ -4077,8 +4212,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-BER-2026-11-05-2026-11-21",
@@ -4107,8 +4243,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "SCL-MAD-2027-02-04-2027-02-08",
@@ -4137,8 +4274,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-DUB-2026-11-07-2026-11-09",
@@ -4167,8 +4305,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-DUB-2026-11-07-2026-11-16",
@@ -4197,8 +4336,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GRU-NAP-2027-02-25-2027-03-04",
@@ -4227,8 +4367,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-NAP-2027-02-18-2027-03-03",
@@ -4257,8 +4398,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-MUC-2026-11-05-2026-11-11",
@@ -4287,8 +4429,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-MUC-2026-10-23-2026-11-08",
@@ -4317,8 +4460,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-DUB-2027-02-11-2027-02-20",
@@ -4347,8 +4491,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-DUB-2027-02-11-2027-02-25",
@@ -4377,8 +4522,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-LCY-2026-11-19-2026-11-27",
@@ -4407,8 +4553,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-LCY-2026-11-12-2026-11-27",
@@ -4437,8 +4584,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-HAM-2026-11-05-2026-11-09",
@@ -4467,8 +4615,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-HAM-2026-11-13-2026-11-21",
@@ -4497,8 +4646,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-SVQ-2026-11-05-2026-11-09",
@@ -4527,8 +4677,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-VLC-2026-11-05-2026-11-09",
@@ -4557,8 +4708,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-PRG-2026-11-19-2026-11-22",
@@ -4587,8 +4739,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-CPH-2026-11-08-2026-11-17",
@@ -4617,8 +4770,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-OSL-2026-11-05-2026-11-09",
@@ -4647,8 +4801,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-OSL-2026-11-02-2026-11-09",
@@ -4677,8 +4832,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-OSL-2026-10-25-2026-11-09",
@@ -4707,8 +4863,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "SCL-DUB-2027-02-25-2027-03-10",
@@ -4737,8 +4894,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-OSL-2026-11-16-2026-11-23",
@@ -4767,8 +4925,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-OSL-2026-10-22-2026-11-05",
@@ -4797,8 +4956,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "SCL-ZRH-2026-11-14-2026-11-29",
@@ -4827,8 +4987,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-FLR-2026-11-02-2026-11-10",
@@ -4857,8 +5018,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "SCL-MLA-2027-02-27-2027-03-08",
@@ -4887,8 +5049,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-LGW-2027-02-27-2027-03-08",
@@ -4917,8 +5080,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-ZRH-2027-02-04-2027-02-08",
@@ -4947,8 +5111,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GIG-DUB-2026-11-05-2026-11-09",
@@ -4977,8 +5142,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-DUB-2026-11-02-2026-11-11",
@@ -5007,8 +5173,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-DUB-2026-11-02-2026-11-16",
@@ -5037,8 +5204,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-CPH-2026-11-05-2026-11-08",
@@ -5067,8 +5235,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-CPH-2026-10-24-2026-11-08",
@@ -5097,8 +5266,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-CPH-2026-11-06-2026-11-08",
@@ -5127,8 +5297,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "SCL-ATH-2027-02-27-2027-03-08",
@@ -5157,8 +5328,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-ATH-2027-02-20-2027-03-08",
@@ -5187,8 +5359,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-ATH-2026-11-06-2026-11-09",
@@ -5217,8 +5390,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-VIE-2026-11-20-2026-11-23",
@@ -5247,8 +5421,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-ARN-2026-11-05-2026-11-09",
@@ -5277,8 +5452,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-ATH-2026-11-06-2026-11-12",
@@ -5307,8 +5483,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-VIE-2026-11-06-2026-11-14",
@@ -5337,8 +5514,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-ARN-2026-11-02-2026-11-09",
@@ -5367,8 +5545,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-ATH-2026-11-06-2026-11-22",
@@ -5397,8 +5576,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-VIE-2026-10-24-2026-11-08",
@@ -5427,8 +5607,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-ARN-2026-11-02-2026-11-18",
@@ -5457,8 +5638,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-ATH-2026-11-05-2026-11-08",
@@ -5487,8 +5669,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-VIE-2026-11-12-2026-11-15",
@@ -5517,8 +5700,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "SCL-OPO-2027-02-04-2027-02-08",
@@ -5547,8 +5731,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GIG-PRG-2026-11-06-2026-11-14",
@@ -5577,8 +5762,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-DUB-2026-11-12-2026-11-15",
@@ -5607,8 +5793,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GRU-PRG-2026-10-26-2026-11-03",
@@ -5637,8 +5824,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "GIG-CPH-2026-11-05-2026-11-13",
@@ -5667,8 +5855,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "SCL-BER-2027-02-22-2027-03-08",
@@ -5697,8 +5886,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "SCL-MAN-2026-11-12-2026-11-27",
@@ -5727,8 +5917,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "SCL-ATH-2027-02-04-2027-02-08",
@@ -5757,8 +5948,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-MUC-2026-10-31-2026-11-08",
@@ -5787,8 +5979,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-MUC-2026-10-31-2026-11-15",
@@ -5817,8 +6010,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "SCL-MUC-2026-11-05-2026-11-08",
@@ -5847,8 +6041,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GIG-NCE-2026-12-03-2026-12-07",
@@ -5877,8 +6072,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-NCE-2026-11-05-2026-11-14",
@@ -5907,8 +6103,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-NCE-2026-11-02-2026-11-15",
@@ -5937,8 +6134,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GRU-NCE-2026-11-26-2026-11-30",
@@ -5967,8 +6165,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "SCL-HAM-2026-12-24-2027-01-01",
@@ -5997,8 +6196,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-LGW-2027-02-04-2027-02-07",
@@ -6027,8 +6227,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-CPH-2027-02-22-2027-03-03",
@@ -6057,8 +6258,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-FCO-2026-12-04-2026-12-07",
@@ -6087,8 +6289,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "EZE-MAD-2026-11-15-2026-11-24",
@@ -6117,8 +6320,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "EZE-MAD-2026-11-13-2026-11-26",
@@ -6147,8 +6351,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-MAN-2026-11-21-2026-11-29",
@@ -6177,8 +6382,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GRU-OSL-2026-11-05-2026-11-09",
@@ -6207,8 +6413,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "EZE-MXP-2027-02-25-2027-03-12",
@@ -6237,8 +6444,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-ZRH-2026-12-24-2026-12-31",
@@ -6267,8 +6475,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GIG-ZRH-2026-10-29-2026-11-12",
@@ -6297,8 +6506,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "SCL-FLR-2026-11-16-2026-11-23",
@@ -6327,8 +6537,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GIG-NAP-2026-11-19-2026-11-27",
@@ -6357,8 +6568,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "GIG-NAP-2026-11-12-2026-11-27",
@@ -6387,8 +6599,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.724Z"
+      "foundAt": "2026-09-23T17:06:11.059Z"
     },
     {
       "key": "EZE-LGW-2027-02-25-2027-03-06",
@@ -6417,8 +6630,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.056Z"
     },
     {
       "key": "SCL-BER-2027-02-25-2027-03-01",
@@ -6447,8 +6661,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "EZE-DUB-2027-02-25-2027-03-04",
@@ -6477,8 +6692,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-NAP-2026-11-30-2026-12-06",
@@ -6507,8 +6723,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-BER-2027-02-22-2027-03-03",
@@ -6537,8 +6754,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GRU-MLA-2026-10-19-2026-11-04",
@@ -6567,8 +6785,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     },
     {
       "key": "EZE-DUB-2027-02-25-2027-03-10",
@@ -6597,8 +6816,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "EZE-LGW-2027-02-25-2027-03-10",
@@ -6627,8 +6847,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-VIE-2026-11-16-2026-11-22",
@@ -6657,8 +6878,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-MAN-2026-11-05-2026-11-09",
@@ -6687,8 +6909,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "SCL-VIE-2027-02-25-2027-03-01",
@@ -6717,8 +6940,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Fin de semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "EZE-MXP-2027-02-25-2027-03-04",
@@ -6747,8 +6971,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Una semana",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.722Z"
+      "foundAt": "2026-09-23T17:06:11.057Z"
     },
     {
       "key": "GRU-KEF-2026-10-22-2026-11-05",
@@ -6777,8 +7002,9 @@
       "verified": true,
       "roundTripVerified": true,
       "durationSearch": "Dos semanas",
+      "radarType": "flexible",
       "foundToday": true,
-      "foundAt": "2026-09-23T16:47:40.723Z"
+      "foundAt": "2026-09-23T17:06:11.058Z"
     }
   ],
   "alerted": {
@@ -6823,9 +7049,19 @@
       "sentAt": "2026-09-23T16:47:41.442Z",
       "origin": "SCL",
       "destination": "MAD"
+    },
+    "GRU-MAD-2026-10-23-2026-10-30": {
+      "price": 639,
+      "sentAt": "2026-09-23T17:06:19.162Z",
+      "origin": "GRU",
+      "destination": "MAD"
     }
   },
   "durationCursor": 0,
-  "lastRun": "2026-09-23T16:47:40.724Z",
-  "lastErrors": []
+  "lastRun": "2026-09-23T17:06:17.825Z",
+  "lastErrors": [],
+  "futureRadar": {
+    "cursor": "2027-04-15",
+    "originIndex": 2
+  }
 }
