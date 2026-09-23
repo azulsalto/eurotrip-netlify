@@ -7,14 +7,21 @@ const WEBSITE_MAX_PRICE = 1000;
 const EMAIL_MAX_PRICE = 800;
 const DIRECT_EMAIL_MAX_PRICE = 900;
 
+// Radar de largo plazo.
+// 15 búsquedas flexibles + solamente 2 búsquedas futuras por corrida.
+const FUTURE_PROBES_PER_RUN = 2;
+const FUTURE_TARGET_YEAR = 2028;
+const FUTURE_TRIP_DAYS = 14;
+const FUTURE_STEP_DAYS = 30;
+
 /*
  * EUROTRIP GIRLS
  *
  * Objetivo:
  * encontrar oportunidades económicas ida y vuelta a Europa.
  *
- * La duración del viaje NO es un filtro de calidad.
- * Buscamos varias duraciones y después priorizamos PRECIO.
+ * La duración NO es un filtro de calidad.
+ * El precio es nuestra prioridad.
  */
 
 const origins = [
@@ -60,9 +67,6 @@ const origins = [
  * 1 = fin de semana
  * 2 = una semana
  * 3 = dos semanas
- *
- * No descartamos una oferta por duración.
- * Estas opciones sirven para ampliar el radar.
  */
 
 const durations = [
@@ -112,46 +116,144 @@ async function serpApi(params) {
 
 /*
  * =========================
- * BUSCAR EUROPA
+ * RADAR FLEXIBLE
  * =========================
  */
 
 async function exploreEurope(origin, duration) {
   const params = new URLSearchParams({
     engine: "google_travel_explore",
-
     departure_id: origin.airport,
-
-    // Europa
     arrival_area_id: "/m/02j9z",
-
-    // Ida y vuelta
     type: "1",
 
-    // Fechas flexibles
+    // Todos los meses disponibles dentro
+    // del horizonte flexible de Explore.
     month: "0",
 
     travel_duration: duration.value,
-
     travel_class: "1",
-
     adults: "1",
-
     currency: "USD",
-
     max_price: String(WEBSITE_MAX_PRICE),
-
-    // Avión
     travel_mode: "1",
-
     hl: "en",
-
     gl: origin.gl
   });
 
   const data = await serpApi(params);
 
   return Array.isArray(data.destinations)
+    ? data.destinations
+    : [];
+}
+
+/*
+ * =========================
+ * RADAR FUTURO
+ * =========================
+ */
+
+function isoDate(date) {
+  return date.toISOString().slice(0, 10);
+}
+
+function addDays(date, days) {
+  const copy = new Date(date);
+
+  copy.setUTCDate(
+    copy.getUTCDate() + days
+  );
+
+  return copy;
+}
+
+function futureSearchStart() {
+  const today = new Date();
+
+  today.setUTCHours(
+    12,
+    0,
+    0,
+    0
+  );
+
+  // Empezamos un poco después del horizonte
+  // que ya cubre el radar flexible.
+  const start = new Date(today);
+
+  start.setUTCMonth(
+    start.getUTCMonth() + 7
+  );
+
+  start.setUTCDate(15);
+
+  return start;
+}
+
+function futureSearchLimit() {
+  return new Date(
+    `${FUTURE_TARGET_YEAR}-12-15T12:00:00Z`
+  );
+}
+
+function buildFutureProbe(state) {
+  const start =
+    futureSearchStart();
+
+  const limit =
+    futureSearchLimit();
+
+  let cursor =
+    state.futureRadar?.cursor
+      ? new Date(
+          `${state.futureRadar.cursor}T12:00:00Z`
+        )
+      : start;
+
+  if (
+    Number.isNaN(cursor.getTime()) ||
+    cursor < start ||
+    cursor > limit
+  ) {
+    cursor = start;
+  }
+
+  return cursor;
+}
+
+async function exploreEuropeByDates(
+  origin,
+  outboundDate,
+  returnDate
+) {
+  const params =
+    new URLSearchParams({
+      engine: "google_travel_explore",
+      departure_id: origin.airport,
+      arrival_area_id: "/m/02j9z",
+      type: "1",
+
+      outbound_date: outboundDate,
+      return_date: returnDate,
+
+      travel_class: "1",
+      adults: "1",
+      currency: "USD",
+      max_price: String(
+        WEBSITE_MAX_PRICE
+      ),
+      travel_mode: "1",
+      hl: "en",
+      gl: origin.gl
+    });
+
+  const data =
+    await serpApi(params);
+
+  return Array.isArray(
+    data.destinations
+  )
     ? data.destinations
     : [];
 }
@@ -185,18 +287,29 @@ function getPrice(deal) {
     : null;
 }
 
-function calculateTripDays(departure, returnDate) {
+function calculateTripDays(
+  departure,
+  returnDate
+) {
   if (!departure || !returnDate) {
     return null;
   }
 
-  const start = new Date(`${departure}T12:00:00Z`);
-  const end = new Date(`${returnDate}T12:00:00Z`);
+  const start =
+    new Date(
+      `${departure}T12:00:00Z`
+    );
 
-  const days = Math.round(
-    (end - start) /
-    (1000 * 60 * 60 * 24)
-  );
+  const end =
+    new Date(
+      `${returnDate}T12:00:00Z`
+    );
+
+  const days =
+    Math.round(
+      (end - start) /
+      (1000 * 60 * 60 * 24)
+    );
 
   return Number.isFinite(days)
     ? days
@@ -221,19 +334,21 @@ function normalizeStops(value) {
 
 /*
  * =========================
- * CONVERTIR RESULTADO
+ * CREAR OFERTA
  * =========================
- *
- * Usamos directamente los datos devueltos
- * por Google Travel Explore.
- *
- * Esto evita hacer una segunda consulta
- * por cada ruta.
  */
 
-function createOffer(origin, duration, deal) {
-  const destination = getDestinationCode(deal);
-  const price = getPrice(deal);
+function createOffer(
+  origin,
+  duration,
+  deal,
+  radarType = "flexible"
+) {
+  const destination =
+    getDestinationCode(deal);
+
+  const price =
+    getPrice(deal);
 
   if (
     !destination ||
@@ -246,15 +361,17 @@ function createOffer(origin, duration, deal) {
     return null;
   }
 
-  const stops = normalizeStops(
-    deal.number_of_stops ??
-    deal.stops
-  );
+  const stops =
+    normalizeStops(
+      deal.number_of_stops ??
+      deal.stops
+    );
 
-  const tripDays = calculateTripDays(
-    deal.start_date,
-    deal.end_date
-  );
+  const tripDays =
+    calculateTripDays(
+      deal.start_date,
+      deal.end_date
+    );
 
   return {
     key: [
@@ -264,13 +381,17 @@ function createOffer(origin, duration, deal) {
       deal.end_date
     ].join("-"),
 
-    origin: origin.airport,
+    origin:
+      origin.airport,
 
-    originCity: origin.city,
+    originCity:
+      origin.city,
 
-    originCountry: origin.country,
+    originCountry:
+      origin.country,
 
-    originFlag: origin.flag,
+    originFlag:
+      origin.flag,
 
     destination,
 
@@ -296,9 +417,11 @@ function createOffer(origin, duration, deal) {
 
     roundTrip: true,
 
-    tripType: "round_trip",
+    tripType:
+      "round_trip",
 
-    tripTypeLabel: "Ida y vuelta",
+    tripTypeLabel:
+      "Ida y vuelta",
 
     price,
 
@@ -326,17 +449,16 @@ function createOffer(origin, duration, deal) {
     url:
       deal.link,
 
-    /*
-     * Verificada significa que la oferta
-     * viene directamente del resultado
-     * actual de Google Travel Explore.
-     */
+    // Se conserva por compatibilidad
+    // con la web actual.
     verified: true,
 
     roundTripVerified: true,
 
     durationSearch:
       duration.label,
+
+    radarType,
 
     foundToday: true,
 
@@ -352,7 +474,8 @@ function createOffer(origin, duration, deal) {
  */
 
 async function sendEmail(result) {
-  const user = required("EMAIL_USER");
+  const user =
+    required("EMAIL_USER");
 
   const transporter =
     nodemailer.createTransport({
@@ -362,7 +485,10 @@ async function sendEmail(result) {
 
       auth: {
         user,
-        pass: required("EMAIL_APP_PASSWORD")
+        pass:
+          required(
+            "EMAIL_APP_PASSWORD"
+          )
       }
     });
 
@@ -401,16 +527,19 @@ async function sendEmail(result) {
   ];
 
   await transporter.sendMail({
-    from: `Eurotrip Girls <${user}>`,
+    from:
+      `Eurotrip Girls <${user}>`,
 
-    to: required("EMAIL_TO"),
+    to:
+      required("EMAIL_TO"),
 
     subject:
       result.direct
         ? `✈️ DIRECTO ${result.route} · USD ${result.price.toFixed(0)}`
         : `🔥 ${result.route} · USD ${result.price.toFixed(0)}`,
 
-    text: lines.join("\n")
+    text:
+      lines.join("\n")
   });
 }
 
@@ -423,12 +552,13 @@ async function sendEmail(result) {
 let state;
 
 try {
-  state = JSON.parse(
-    await fs.readFile(
-      STATE_FILE,
-      "utf8"
-    )
-  );
+  state =
+    JSON.parse(
+      await fs.readFile(
+        STATE_FILE,
+        "utf8"
+      )
+    );
 } catch {
   state = {
     offers: [],
@@ -442,19 +572,16 @@ try {
 
   /*
    * =========================
-   * RADAR
+   * RADAR PRINCIPAL
    * =========================
-   *
-   * 5 aeropuertos × 3 duraciones
-   * = 15 consultas.
-   *
-   * No hacemos verificaciones extra.
    */
 
   const radarJobs = [];
 
   for (const origin of origins) {
-    for (const duration of durations) {
+    for (
+      const duration of durations
+    ) {
       radarJobs.push({
         origin,
         duration
@@ -465,7 +592,10 @@ try {
   const radarResults =
     await Promise.allSettled(
       radarJobs.map(
-        async ({ origin, duration }) => {
+        async ({
+          origin,
+          duration
+        }) => {
 
           const destinations =
             await exploreEurope(
@@ -491,15 +621,19 @@ try {
       const job =
         radarJobs[index];
 
-      if (result.status === "rejected") {
-
+      if (
+        result.status ===
+        "rejected"
+      ) {
         const message =
           `${job.origin.airport} · ${job.duration.label}: ${
             result.reason?.message ||
             "Error desconocido"
           }`;
 
-        searchErrors.push(message);
+        searchErrors.push(
+          message
+        );
 
         console.warn(
           `⚠️ ${message}`
@@ -518,23 +652,247 @@ try {
         `✓ ${origin.airport} · ${duration.label}: ${destinations.length} destinos europeos`
       );
 
-      for (const deal of destinations) {
-
+      for (
+        const deal of destinations
+      ) {
         const offer =
           createOffer(
             origin,
             duration,
-            deal
+            deal,
+            "flexible"
           );
 
         if (offer) {
-          allOffers.push(offer);
+          allOffers.push(
+            offer
+          );
         }
       }
     }
   );
 
   /*
+   * =========================
+   * RADAR FUTURO
+   * =========================
+   */
+
+  state.futureRadar ||= {
+    cursor: null,
+    originIndex: 0
+  };
+
+  let futureCursor =
+    buildFutureProbe(state);
+
+  let futureOriginIndex =
+    Number(
+      state.futureRadar.originIndex
+    ) || 0;
+
+  const futureLimit =
+    futureSearchLimit();
+
+  const futureJobs = [];
+
+  for (
+    let i = 0;
+    i < FUTURE_PROBES_PER_RUN;
+    i++
+  ) {
+
+    if (
+      futureCursor > futureLimit
+    ) {
+      futureCursor =
+        futureSearchStart();
+    }
+
+    const origin =
+      origins[
+        futureOriginIndex %
+        origins.length
+      ];
+
+    const outboundDate =
+      isoDate(futureCursor);
+
+    const returnDate =
+      isoDate(
+        addDays(
+          futureCursor,
+          FUTURE_TRIP_DAYS
+        )
+      );
+
+    futureJobs.push({
+      origin,
+      outboundDate,
+      returnDate
+    });
+
+    futureOriginIndex++;
+
+    if (
+      futureOriginIndex %
+      origins.length === 0
+    ) {
+      futureCursor =
+        addDays(
+          futureCursor,
+          FUTURE_STEP_DAYS
+        );
+    }
+  }
+
+  const futureResults =
+    await Promise.allSettled(
+      futureJobs.map(
+        async ({
+          origin,
+          outboundDate,
+          returnDate
+        }) => {
+
+          const destinations =
+            await exploreEuropeByDates(
+              origin,
+              outboundDate,
+              returnDate
+            );
+
+          return {
+            origin,
+            outboundDate,
+            returnDate,
+            destinations
+          };
+        }
+      )
+    );
+
+  futureResults.forEach(
+    (result, index) => {
+
+      const job =
+        futureJobs[index];
+
+      if (
+        result.status ===
+        "rejected"
+      ) {
+
+        const message =
+          `FUTURO ${job.origin.airport} · ${job.outboundDate}: ${
+            result.reason?.message ||
+            "Error desconocido"
+          }`;
+
+        searchErrors.push(
+          message
+        );
+
+        console.warn(
+          `⚠️ ${message}`
+        );
+
+        return;
+      }
+
+      const {
+        origin,
+        outboundDate,
+        returnDate,
+        destinations
+      } = result.value;
+
+      console.log(
+        `🔭 FUTURO ${origin.airport} · ${outboundDate} → ${returnDate}: ${destinations.length} destinos europeos`
+      );
+
+      const futureDuration = {
+        value: "future",
+        label:
+          `Largo plazo · ${outboundDate} → ${returnDate}`
+      };
+
+      for (
+        const deal of destinations
+      ) {
+
+        const normalizedDeal = {
+          ...deal,
+
+          start_date:
+            deal.start_date ||
+            outboundDate,
+
+          end_date:
+            deal.end_date ||
+            returnDate
+        };
+
+        const offer =
+          createOffer(
+            origin,
+            futureDuration,
+            normalizedDeal,
+            "future"
+          );
+
+        if (offer) {
+          allOffers.push(
+            offer
+          );
+        }
+      }
+    }
+  );
+
+  state.futureRadar = {
+    cursor:
+      isoDate(futureCursor),
+
+    originIndex:
+      futureOriginIndex
+  };
+
+  /*
+   * Conservamos oportunidades futuras
+   * encontradas en corridas anteriores.
+   */
+
+  const todayIso =
+    new Date()
+      .toISOString()
+      .slice(0, 10);
+
+  const savedFutureOffers =
+    Array.isArray(state.offers)
+      ? state.offers.filter(
+          offer =>
+            offer.radarType ===
+              "future" &&
+
+            offer.departure >=
+              todayIso &&
+
+            Number(
+              offer.price
+            ) <=
+              WEBSITE_MAX_PRICE &&
+
+            Boolean(
+              offer.url
+            )
+        )
+      : [];
+
+  allOffers.push(
+    ...savedFutureOffers
+  );
+    /*
    * =========================
    * ORDENAR POR PRECIO
    * =========================
@@ -552,14 +910,20 @@ try {
    *
    * Conservamos distintas fechas.
    *
-   * Solo eliminamos resultados exactamente
-   * repetidos de origen + destino + fechas.
+   * Eliminamos únicamente resultados
+   * exactamente repetidos:
+   * origen + destino + ida + vuelta.
+   *
+   * Si tenemos dos iguales,
+   * conservamos el más barato.
    */
 
   const exactMap =
     new Map();
 
-  for (const offer of allOffers) {
+  for (
+    const offer of allOffers
+  ) {
 
     const exactKey = [
       offer.origin,
@@ -569,11 +933,14 @@ try {
     ].join("-");
 
     const existing =
-      exactMap.get(exactKey);
+      exactMap.get(
+        exactKey
+      );
 
     if (
       !existing ||
-      offer.price < existing.price
+      offer.price <
+        existing.price
     ) {
       exactMap.set(
         exactKey,
@@ -594,11 +961,16 @@ try {
    * VARIEDAD
    * =========================
    *
-   * Evitamos que la web quede llena
-   * de 20 ofertas de una misma ruta.
+   * Permitimos hasta 3 fechas
+   * diferentes por cada ruta.
    *
-   * Permitimos hasta 3 combinaciones
-   * de fechas por origen → destino.
+   * Ejemplo:
+   *
+   * SCL → MAD
+   *
+   * puede aparecer hasta
+   * tres veces si son fechas
+   * distintas.
    */
 
   const routeCounts =
@@ -606,19 +978,28 @@ try {
 
   const currentOffers = [];
 
-  for (const offer of deduplicatedOffers) {
+  for (
+    const offer of
+      deduplicatedOffers
+  ) {
 
     const routeKey =
       `${offer.origin}-${offer.destination}`;
 
     const count =
-      routeCounts.get(routeKey) || 0;
+      routeCounts.get(
+        routeKey
+      ) || 0;
 
-    if (count >= 3) {
+    if (
+      count >= 3
+    ) {
       continue;
     }
 
-    currentOffers.push(offer);
+    currentOffers.push(
+      offer
+    );
 
     routeCounts.set(
       routeKey,
@@ -627,7 +1008,9 @@ try {
   }
 
   /*
-   * Reemplazamos resultados anteriores.
+   * =========================
+   * GUARDAR RESULTADOS
+   * =========================
    */
 
   state.offers =
@@ -643,16 +1026,27 @@ try {
    * =========================
    * ALERTAS EMAIL
    * =========================
+   *
+   * Mandamos alerta cuando:
+   *
+   * - precio <= USD 800
+   *
+   * O
+   *
+   * - vuelo directo
+   *   precio <= USD 900
    */
 
   const alertCandidates =
     currentOffers
       .filter(
         offer =>
-          offer.price <= EMAIL_MAX_PRICE ||
+          offer.price <=
+            EMAIL_MAX_PRICE ||
           (
             offer.direct &&
-            offer.price <= DIRECT_EMAIL_MAX_PRICE
+            offer.price <=
+              DIRECT_EMAIL_MAX_PRICE
           )
       )
       .filter(
@@ -678,23 +1072,30 @@ try {
   const newest =
     alertCandidates[0];
 
-  let emailSent = false;
-  let emailError = null;
+  let emailSent =
+    false;
+
+  let emailError =
+    null;
 
   if (newest) {
 
     try {
 
-      await sendEmail(newest);
+      await sendEmail(
+        newest
+      );
 
       state.alerted[
         newest.key
       ] = {
+
         price:
           newest.price,
 
         sentAt:
-          new Date().toISOString(),
+          new Date()
+            .toISOString(),
 
         origin:
           newest.origin,
@@ -703,7 +1104,8 @@ try {
           newest.destination
       };
 
-      emailSent = true;
+      emailSent =
+        true;
 
     } catch (error) {
 
@@ -726,15 +1128,32 @@ try {
     airport =>
       currentOffers.filter(
         offer =>
-          offer.origin === airport
+          offer.origin ===
+            airport
       ).length;
 
   const directCount =
     currentOffers.filter(
-      offer => offer.direct
+      offer =>
+        offer.direct
+    ).length;
+
+  const futureCount =
+    currentOffers.filter(
+      offer =>
+        offer.radarType ===
+          "future"
+    ).length;
+
+  const flexibleCount =
+    currentOffers.filter(
+      offer =>
+        offer.radarType !==
+          "future"
     ).length;
 
   console.log("");
+
   console.log(
     "=========================================="
   );
@@ -749,6 +1168,14 @@ try {
 
   console.log(
     `🔎 Resultados económicos: ${currentOffers.length}`
+  );
+
+  console.log(
+    `🗓️ Radar flexible: ${flexibleCount}`
+  );
+
+  console.log(
+    `🔭 Largo plazo guardadas: ${futureCount}`
   );
 
   console.log(
@@ -778,7 +1205,10 @@ try {
   console.log(
     `🔗 Con link: ${
       currentOffers.filter(
-        offer => Boolean(offer.url)
+        offer =>
+          Boolean(
+            offer.url
+          )
       ).length
     }`
   );
@@ -792,23 +1222,76 @@ try {
   );
 
   console.log(
+    `🔭 Sondas futuras ejecutadas: ${futureJobs.length}`
+  );
+
+  console.log(
+    `🗓️ Próximo cursor futuro: ${state.futureRadar.cursor}`
+  );
+
+  console.log(
     `⚠️ Búsquedas con error: ${searchErrors.length}`
   );
 
   if (emailError) {
+
     console.log(
       `⚠️ Error correo: ${emailError}`
     );
   }
 
-  if (currentOffers.length) {
+  if (
+    searchErrors.length
+  ) {
+
+    console.log("");
+
+    console.log(
+      "Detalle de errores:"
+    );
+
+    for (
+      const error of
+        searchErrors
+    ) {
+      console.log(
+        `- ${error}`
+      );
+    }
+  }
+
+  if (
+    currentOffers.length
+  ) {
 
     const cheapest =
       currentOffers[0];
 
+    console.log("");
+
     console.log(
       `💰 Más barata: ${cheapest.route} · USD ${cheapest.price} · ${cheapest.tripDays ?? "?"} días`
     );
+
+    const furthest =
+      [...currentOffers]
+        .sort(
+          (a, b) =>
+            String(
+              b.departure
+            ).localeCompare(
+              String(
+                a.departure
+              )
+            )
+        )[0];
+
+    if (furthest) {
+
+      console.log(
+        `🔭 Fecha más lejana encontrada: ${furthest.departure} · ${furthest.route} · USD ${furthest.price}`
+      );
+    }
   }
 
   console.log(
@@ -818,7 +1301,8 @@ try {
 } catch (error) {
 
   state.lastRun =
-    new Date().toISOString();
+    new Date()
+      .toISOString();
 
   state.lastErrors = [
     error.message
@@ -832,6 +1316,13 @@ try {
   throw error;
 
 } finally {
+
+  /*
+   * Guardamos results.json
+   * aunque falle alguna parte,
+   * para conservar el estado
+   * del radar futuro.
+   */
 
   await fs.writeFile(
     STATE_FILE,
