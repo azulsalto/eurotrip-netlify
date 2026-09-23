@@ -3,19 +3,20 @@ import nodemailer from "nodemailer";
 
 const STATE_FILE = new URL("../public/results.json", import.meta.url);
 
+// ============================================================
 // CONFIGURACIÓN
+// ============================================================
+
+// Alerta para cualquier vuelo hasta USD 800
 const EMAIL_MAX_PRICE = 800;
 
-// Si es DIRECTO, también nos interesa hasta USD 900
+// Si el vuelo es directo, alertar también hasta USD 900
 const DIRECT_EMAIL_MAX_PRICE = 900;
 
 // La web muestra vuelos de hasta USD 1000
 const WEBSITE_MAX_PRICE = 1000;
 
-// No conservar resultados encontrados hace más de 14 días
-const RECENT_DAYS = 14;
-
-// Buscar SIEMPRE 1 y 2 semanas
+// Buscar SIEMPRE viajes de 1 y 2 semanas
 const durations = [
   { value: "2", label: "Una semana" },
   { value: "3", label: "Dos semanas" }
@@ -31,10 +32,14 @@ function required(name) {
   return value;
 }
 
-async function searchEurope(duration) {
+// ============================================================
+// BUSCAR VUELOS
+// ============================================================
 
+async function searchEurope(duration) {
   const query = new URLSearchParams({
     engine: "google_travel_explore",
+
     departure_id: "EZE",
     arrival_area_id: "/m/02j9z",
 
@@ -78,16 +83,21 @@ async function searchEurope(duration) {
   return data.destinations || [];
 }
 
-function summarize(item, duration) {
+// ============================================================
+// NORMALIZAR RESULTADOS
+// ============================================================
 
+function summarize(item, duration) {
   const airport =
     item.destination_airport || {};
 
   const destination =
     airport.code || item.name;
 
-  return {
+  const stopsNumber =
+    Number(item.number_of_stops);
 
+  return {
     key:
       `EZE-${destination}-${item.start_date}-${item.end_date}`,
 
@@ -117,11 +127,9 @@ function summarize(item, duration) {
       item.airline || "consultar",
 
     stops:
-      Number.isFinite(
-        Number(item.number_of_stops)
-      )
-        ? Number(item.number_of_stops)
-        : 0,
+      Number.isFinite(stopsNumber)
+        ? stopsNumber
+        : null,
 
     season:
       `Fechas flexibles · ${duration.label}`,
@@ -129,215 +137,54 @@ function summarize(item, duration) {
     foundAt:
       new Date().toISOString(),
 
+    foundToday:
+      true,
+
+    previousPrice:
+      null,
+
+    priceDrop:
+      0,
+
     url:
       item.link ||
       "https://www.google.com/travel/explore?hl=es&curr=USD"
   };
 }
 
-
-/*
-------------------------------------------------
-GUARDAR Y LIMPIAR OFERTAS
-------------------------------------------------
-
-Ahora:
-
-✓ elimina viajes vencidos
-✓ elimina resultados encontrados hace más de 14 días
-✓ elimina antiguos "Fin de semana"
-✓ detecta bajas de precio
-✓ marca resultados encontrados hoy
-*/
-
-function mergeOffers(previous, incoming) {
-
-  const now = Date.now();
-
-  const cutoff =
-    now -
-    RECENT_DAYS *
-    24 *
-    60 *
-    60 *
-    1000;
-
-  const today =
-    new Date()
-      .toISOString()
-      .slice(0, 10);
-
-  const byKey =
-    new Map();
-
-
-  /*
-  -------------------------
-  CONSERVAR OFERTAS RECIENTES
-  -------------------------
-  */
-
-  for (const item of previous || []) {
-
-    const found =
-      Date.parse(
-        item.foundAt || 0
-      );
-
-    const validDuration =
-      item.season?.includes("Una semana") ||
-      item.season?.includes("Dos semanas");
-
-    const futureFlight =
-      item.returnDate >= today;
-
-    const recent =
-      found >= cutoff;
-
-    const validPrice =
-      Number(item.price) <=
-      WEBSITE_MAX_PRICE;
-
-
-    if (
-      validDuration &&
-      futureFlight &&
-      recent &&
-      validPrice
-    ) {
-
-      byKey.set(
-        item.key,
-        {
-          ...item,
-          foundToday: false
-        }
-      );
-
-    }
-
-  }
-
-
-  /*
-  -------------------------
-  AGREGAR RESULTADOS DE HOY
-  -------------------------
-  */
-
-  for (const item of incoming) {
-
-    const old =
-      byKey.get(item.key);
-
-    const previousPrice =
-      old
-        ? Number(old.price)
-        : null;
-
-
-    const priceDrop =
-      Number.isFinite(previousPrice) &&
-      item.price < previousPrice
-
-        ? previousPrice -
-          item.price
-
-        : 0;
-
-
-    byKey.set(
-      item.key,
-      {
-
-        ...item,
-
-        previousPrice,
-
-        priceDrop,
-
-        foundToday: true
-
-      }
-    );
-
-  }
-
-
-  return [
-    ...byKey.values()
-  ]
-
-    .filter(
-      x =>
-        Number(x.price) <=
-        WEBSITE_MAX_PRICE
-    )
-
-    .sort(
-      (a, b) =>
-        a.price - b.price
-    )
-
-    .slice(
-      0,
-      100
-    );
-}
-
-
-/*
-------------------------------------------------
-EMAIL
-------------------------------------------------
-*/
+// ============================================================
+// EMAIL
+// ============================================================
 
 async function sendEmail(result) {
-
   const user =
     required("EMAIL_USER");
 
   const transporter =
     nodemailer.createTransport({
-
-      host:
-        "smtp.gmail.com",
-
-      port:
-        465,
-
-      secure:
-        true,
+      host: "smtp.gmail.com",
+      port: 465,
+      secure: true,
 
       auth: {
-
         user,
-
         pass:
           required(
             "EMAIL_APP_PASSWORD"
           )
       }
-
     });
-
 
   const direct =
     result.stops === 0;
 
-
   const reason =
     direct &&
-    result.price >
-    EMAIL_MAX_PRICE
-
+    result.price > EMAIL_MAX_PRICE
       ? "✈️ VUELO DIRECTO ENCONTRADO"
-
       : "🔥 OFERTA DENTRO DE TU PRESUPUESTO";
 
-
   await transporter.sendMail({
-
     from:
       `Eurotrip <${user}>`,
 
@@ -345,16 +192,11 @@ async function sendEmail(result) {
       required("EMAIL_TO"),
 
     subject:
-
       direct
-
         ? `✈️ DIRECTO a ${result.destinationName} por USD ${result.price.toFixed(0)}`
-
         : `🔥 Oferta a ${result.destinationName} por USD ${result.price.toFixed(0)}`,
 
-
     text: [
-
       reason,
 
       "",
@@ -371,58 +213,45 @@ async function sendEmail(result) {
 
       `Aerolínea: ${result.airlines}`,
 
-      `Escalas: ${result.stops}`,
+      `Escalas: ${
+        result.stops === null
+          ? "consultar"
+          : result.stops
+      }`,
 
       `Duración: ${result.season}`,
 
       "",
 
-      result.priceDrop > 0
-        ? `📉 Bajó USD ${result.priceDrop.toFixed(0)} desde la última búsqueda`
-        : "",
-
-      "",
-
       `Verificar vuelo: ${result.url}`
-
     ].join("\n")
-
   });
-
 }
 
-
-/*
-------------------------------------------------
-LEER RESULTADOS ANTERIORES
-------------------------------------------------
-*/
+// ============================================================
+// LEER ESTADO ANTERIOR
+// ============================================================
 
 const state =
   JSON.parse(
-
     await fs.readFile(
       STATE_FILE,
       "utf8"
     )
-
   );
 
+// Mantener historial de alertas para no mandar el mismo mail
+state.alerted ||= {};
 
 try {
 
-
-  /*
-  ------------------------------------------------
-  BUSCAR 1 Y 2 SEMANAS TODOS LOS DÍAS
-  ------------------------------------------------
-  */
+  // ==========================================================
+  // BUSCAR 1 Y 2 SEMANAS TODOS LOS DÍAS
+  // ==========================================================
 
   const searches =
     await Promise.all(
-
       durations.map(
-
         async duration => {
 
           const destinations =
@@ -430,226 +259,199 @@ try {
               duration
             );
 
-
           return destinations
 
             .filter(
-
               x =>
-
                 Number.isFinite(
                   Number(
                     x.flight_price
                   )
                 ) &&
-
                 x.start_date &&
-
                 x.end_date
-
             )
 
             .map(
-
               x =>
                 summarize(
                   x,
                   duration
                 )
-
             );
-
         }
-
       )
-
     );
 
-
-  /*
-  Juntar las dos búsquedas
-  */
-
+  // Juntar resultados de ambas búsquedas
   const found =
     searches.flat();
 
+  // ==========================================================
+  // LIMPIAR Y GUARDAR SOLO LA BÚSQUEDA ACTUAL
+  // ==========================================================
+
+  const today =
+    new Date()
+      .toISOString()
+      .slice(0, 10);
+
+  const currentOffers =
+    found
+
+      // Solo vuelos futuros
+      .filter(
+        x =>
+          x.returnDate >= today
+      )
+
+      // Solo vuelos hasta USD 1000
+      .filter(
+        x =>
+          Number.isFinite(
+            Number(x.price)
+          ) &&
+          Number(x.price) <=
+            WEBSITE_MAX_PRICE
+      )
+
+      // Ordenar de más barato a más caro
+      .sort(
+        (a, b) =>
+          a.price - b.price
+      )
+
+      // Máximo 100 resultados
+      .slice(0, 100);
 
   /*
-  Guardar resultados limpios
-  */
+   * IMPORTANTE:
+   *
+   * La web ahora muestra SOLO lo encontrado
+   * en esta ejecución.
+   *
+   * Ya no mezcla resultados viejos.
+   */
 
   state.offers =
-    mergeOffers(
-      state.offers,
-      found
-    );
-
+    currentOffers;
 
   state.lastRun =
     new Date()
       .toISOString();
 
-
   state.lastErrors =
     [];
 
+  // ==========================================================
+  // ALERTAS
+  // ==========================================================
+  //
+  // Mandar mail si:
+  //
+  // 1. cualquier vuelo cuesta <= USD 800
+  //
+  // O
+  //
+  // 2. es DIRECTO y cuesta <= USD 900
+  //
+  // Además:
+  //
+  // - nunca se avisó esa combinación
+  // - o ahora está más barata
+  //
+  // ==========================================================
 
-  /*
-  ------------------------------------------------
-  ALERTAS INTELIGENTES
-  ------------------------------------------------
-
-  Mandar mail si:
-
-  1) precio <= USD 800
-
-  O
-
-  2) vuelo DIRECTO <= USD 900
-
-  Y además:
-
-  - nunca fue avisado
-  - o bajó de precio
-  ------------------------------------------------
-  */
-
-
-  const newest =
-    found
+  const alertCandidates =
+    currentOffers
 
       .filter(
-
         x =>
-
           (
-
             x.price <=
-            EMAIL_MAX_PRICE
+              EMAIL_MAX_PRICE
 
             ||
 
             (
               x.stops === 0 &&
               x.price <=
-              DIRECT_EMAIL_MAX_PRICE
+                DIRECT_EMAIL_MAX_PRICE
             )
-
           )
+      )
 
-          &&
+      .filter(
+        x =>
+          !state.alerted?.[x.key]
 
-          (
+          ||
 
-            !state.alerted?.[
-              x.key
-            ]
-
-            ||
-
-            x.price <
-            state.alerted[
-              x.key
-            ].price
-
-          )
-
+          x.price <
+            state.alerted[x.key].price
       )
 
       .sort(
-
         (a, b) =>
-          a.price -
-          b.price
+          a.price - b.price
+      );
 
-      )[0];
-
-
-  /*
-  Enviar mail
-  */
+  // Por ahora mandamos solamente
+  // la mejor alerta de cada ejecución
+  const newest =
+    alertCandidates[0];
 
   if (newest) {
 
-    const savedOffer =
-      state.offers.find(
-        x =>
-          x.key ===
-          newest.key
-      );
-
     await sendEmail(
-      savedOffer ||
       newest
     );
-
-
-    state.alerted ||=
-      {};
-
 
     state.alerted[
       newest.key
     ] = {
-
       price:
         newest.price,
 
       sentAt:
         new Date()
           .toISOString()
-
     };
-
   }
 
-
-  /*
-  LOG PARA GITHUB ACTIONS
-  */
+  // ==========================================================
+  // LOG DE GITHUB ACTIONS
+  // ==========================================================
 
   const directCount =
-    found.filter(
+    currentOffers.filter(
       x =>
         x.stops === 0
     ).length;
 
-
   console.log(
-
-    `Europa: ${found.length} ofertas encontradas ` +
-
+    `Europa: ${currentOffers.length} ofertas actuales ` +
     `(1 y 2 semanas); ` +
-
     `${directCount} directas; ` +
-
     `correo: ${newest ? "sí" : "no"}.`
-
   );
 
-
 } catch (error) {
-
 
   state.lastRun =
     new Date()
       .toISOString();
-
 
   state.lastErrors =
     [
       error.message
     ];
 
-
   throw error;
-
 
 } finally {
 
-
   await fs.writeFile(
-
     STATE_FILE,
 
     JSON.stringify(
@@ -657,7 +459,5 @@ try {
       null,
       2
     ) + "\n"
-
   );
-
 }
