@@ -2,10 +2,13 @@ import fs from "node:fs/promises";
 import nodemailer from "nodemailer";
 
 const STATE_FILE = new URL("../public/results.json", import.meta.url);
+
+// Configuración
 const EMAIL_MAX_PRICE = 800;
 const WEBSITE_MAX_PRICE = 1000;
+
+// Revisamos las dos duraciones TODOS los días.
 const durations = [
-  { value: "1", label: "Fin de semana" },
   { value: "2", label: "Una semana" },
   { value: "3", label: "Dos semanas" }
 ];
@@ -34,83 +37,225 @@ async function searchEurope(duration) {
     gl: "ar",
     api_key: required("SERPAPI_KEY")
   });
-  const response = await fetch(`https://serpapi.com/search.json?${query}`);
-  if (!response.ok) throw new Error(`SerpApi respondió ${response.status}`);
+
+  const response = await fetch(
+    `https://serpapi.com/search.json?${query}`
+  );
+
+  if (!response.ok) {
+    throw new Error(`SerpApi respondió ${response.status}`);
+  }
+
   const data = await response.json();
-  if (data.error) throw new Error(data.error);
+
+  if (data.error) {
+    throw new Error(data.error);
+  }
+
   return data.destinations || [];
 }
 
 function summarize(item, duration) {
   const airport = item.destination_airport || {};
   const destination = airport.code || item.name;
+
   return {
     key: `EZE-${destination}-${item.start_date}-${item.end_date}`,
+
     origin: "EZE",
     destination,
     destinationName: item.name || destination,
     country: item.country || "Europa",
+
     route: `EZE → ${destination}`,
+
     departure: item.start_date,
     returnDate: item.end_date,
+
     price: Number(item.flight_price),
+
     airlines: item.airline || "consultar",
-    stops: Number.isFinite(Number(item.number_of_stops)) ? Number(item.number_of_stops) : 0,
+
+    stops: Number.isFinite(Number(item.number_of_stops))
+      ? Number(item.number_of_stops)
+      : 0,
+
     season: `Fechas flexibles · ${duration.label}`,
+
     foundAt: new Date().toISOString(),
-    url: item.link || "https://www.google.com/travel/explore?hl=es&curr=USD"
+
+    url:
+      item.link ||
+      "https://www.google.com/travel/explore?hl=es&curr=USD"
   };
 }
 
 function mergeOffers(previous, incoming) {
-  const byKey = new Map((previous || []).map(item => [item.key, item]));
+  const byKey = new Map(
+    (previous || []).map(item => [item.key, item])
+  );
+
   for (const item of incoming) {
     const old = byKey.get(item.key);
-    if (!old || item.price <= old.price) byKey.set(item.key, item);
+
+    // Guardamos la oferta si es nueva
+    // o si apareció a un precio menor.
+    if (!old || item.price <= old.price) {
+      byKey.set(item.key, item);
+    }
   }
-  return [...byKey.values()].filter(x => x.price <= WEBSITE_MAX_PRICE)
-    .sort((a, b) => a.price - b.price).slice(0, 100);
+
+  return [...byKey.values()]
+    .filter(x => x.price <= WEBSITE_MAX_PRICE)
+    .sort((a, b) => a.price - b.price)
+    .slice(0, 100);
 }
 
 async function sendEmail(result) {
   const user = required("EMAIL_USER");
+
   const transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com", port: 465, secure: true,
-    auth: { user, pass: required("EMAIL_APP_PASSWORD") }
+    host: "smtp.gmail.com",
+    port: 465,
+    secure: true,
+
+    auth: {
+      user,
+      pass: required("EMAIL_APP_PASSWORD")
+    }
   });
+
   await transporter.sendMail({
-    from: `Eurotrip <${user}>`, to: required("EMAIL_TO"),
-    subject: `Oferta a ${result.destinationName} por USD ${result.price.toFixed(0)}`,
-    text: [`✈️ ¡Apareció un vuelo dentro de tu presupuesto!`, result.route,
+    from: `Eurotrip <${user}>`,
+    to: required("EMAIL_TO"),
+
+    subject:
+      `✈️ Oferta a ${result.destinationName} por USD ${result.price.toFixed(0)}`,
+
+    text: [
+      "🔥 ¡Apareció un vuelo dentro de tu presupuesto!",
+      "",
+      result.route,
+      "",
       `Destino: ${result.destinationName}, ${result.country}`,
       `Fechas: ${result.departure} al ${result.returnDate}`,
       `Precio ida y vuelta: USD ${result.price.toFixed(2)}`,
-      `Aerolínea: ${result.airlines}`, `Verificar: ${result.url}`].join("\n")
+      `Aerolínea: ${result.airlines}`,
+      `Duración: ${result.season}`,
+      "",
+      `Verificar vuelo: ${result.url}`
+    ].join("\n")
   });
 }
 
-const state = JSON.parse(await fs.readFile(STATE_FILE, "utf8"));
-const duration = durations[(state.durationCursor || 0) % durations.length];
+// Leer resultados anteriores
+const state = JSON.parse(
+  await fs.readFile(STATE_FILE, "utf8")
+);
+
 try {
-  const destinations = await searchEurope(duration);
-  const found = destinations.filter(x => Number.isFinite(Number(x.flight_price)) && x.start_date && x.end_date)
-    .map(x => summarize(x, duration));
-  state.offers = mergeOffers(state.offers, found);
-  state.durationCursor = ((state.durationCursor || 0) + 1) % durations.length;
-  state.lastRun = new Date().toISOString();
+
+  /*
+   * NUEVA LÓGICA
+   *
+   * Antes se buscaba solamente UNA duración por día.
+   *
+   * Ahora buscamos:
+   * - 1 semana
+   * - 2 semanas
+   *
+   * TODOS LOS DÍAS.
+   */
+
+  const searches = await Promise.all(
+    durations.map(async duration => {
+
+      const destinations =
+        await searchEurope(duration);
+
+      return destinations
+        .filter(
+          x =>
+            Number.isFinite(Number(x.flight_price)) &&
+            x.start_date &&
+            x.end_date
+        )
+        .map(
+          x => summarize(x, duration)
+        );
+    })
+  );
+
+  // Juntar resultados de ambas búsquedas
+  const found = searches.flat();
+
+  // Actualizar las mejores ofertas
+  state.offers = mergeOffers(
+    state.offers,
+    found
+  );
+
+  state.lastRun =
+    new Date().toISOString();
+
   state.lastErrors = [];
-  const newest = found.filter(x => x.price <= EMAIL_MAX_PRICE && (!state.alerted?.[x.key] || x.price < state.alerted[x.key].price))
-    .sort((a, b) => a.price - b.price)[0];
+
+  /*
+   * Buscar la mejor oferta para alertar.
+   *
+   * Mandamos mail solamente si:
+   *
+   * 1. cuesta <= USD 800
+   * 2. nunca avisamos esa combinación
+   *    O
+   * 3. ahora está más barata
+   */
+
+  const newest = found
+    .filter(
+      x =>
+        x.price <= EMAIL_MAX_PRICE &&
+        (
+          !state.alerted?.[x.key] ||
+          x.price < state.alerted[x.key].price
+        )
+    )
+    .sort(
+      (a, b) => a.price - b.price
+    )[0];
+
   if (newest) {
+
     await sendEmail(newest);
+
     state.alerted ||= {};
-    state.alerted[newest.key] = { price: newest.price, sentAt: new Date().toISOString() };
+
+    state.alerted[newest.key] = {
+      price: newest.price,
+      sentAt: new Date().toISOString()
+    };
   }
-  console.log(`Europa, ${duration.label}: ${found.length} ofertas; correo: ${newest ? "sí" : "no"}.`);
+
+  console.log(
+    `Europa: ${found.length} ofertas encontradas ` +
+    `(1 y 2 semanas); correo: ${newest ? "sí" : "no"}.`
+  );
+
 } catch (error) {
-  state.lastRun = new Date().toISOString();
-  state.lastErrors = [error.message];
+
+  state.lastRun =
+    new Date().toISOString();
+
+  state.lastErrors = [
+    error.message
+  ];
+
   throw error;
+
 } finally {
-  await fs.writeFile(STATE_FILE, JSON.stringify(state, null, 2) + "\n");
+
+  await fs.writeFile(
+    STATE_FILE,
+    JSON.stringify(state, null, 2) + "\n"
+  );
 }
