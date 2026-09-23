@@ -33,13 +33,34 @@ jobs:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
-      - name: Guardar resultados
+            - name: Guardar resultados
         run: |
           git config user.name "eurotrip-bot"
           git config user.email "actions@users.noreply.github.com"
           git add public/results.json
-          git diff --cached --quiet || git commit -m "Actualizar ofertas de vuelos"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No hay cambios nuevos para guardar."
+          else
+            git commit -m "Actualizar ofertas de vuelos"
+
+            for intento in 1 2 3; do
+              echo "Intento de push $intento de 3..."
+
+              if git push origin HEAD:main; then
+                echo "Resultados guardados correctamente."
+                break
+              fi
+
+              if [ "$intento" -eq 3 ]; then
+                echo "No se pudieron guardar los resultados después de 3 intentos."
+                exit 1
+              fi
+
+              echo "GitHub rechazó temporalmente el push. Reintentando en 10 segundos..."
+              sleep 10
+            done
+          fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
