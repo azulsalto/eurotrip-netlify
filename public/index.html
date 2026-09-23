@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Radar de vuelos ida y vuelta desde Argentina, Chile y Brasil hacia Europa">
+  <meta
+    name="description"
+    content="Radar de vuelos ida y vuelta desde Argentina, Chile y Brasil hacia Europa"
+  >
+
   <title>Eurotrip Girls</title>
 
   <style>
@@ -17,38 +21,55 @@
       --card:#fff;
       --line:#eadde5;
       --hot:#9d3f67;
-      --shadow:0 18px 50px rgba(107,63,85,.12)
+      --shadow:0 18px 50px rgba(107,63,85,.12);
     }
 
-    *{box-sizing:border-box}
+    *{
+      box-sizing:border-box;
+    }
 
     body{
       margin:0;
       background:var(--paper);
       color:var(--ink);
-      font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif
+      font-family:
+        Inter,
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        "Segoe UI",
+        sans-serif;
     }
 
-    button,select{font:inherit}
-    button{cursor:pointer}
+    button,
+    select{
+      font:inherit;
+    }
+
+    button{
+      cursor:pointer;
+    }
 
     .wrap{
       width:min(1120px,calc(100% - 32px));
-      margin:auto
+      margin:auto;
     }
+
+    /* HEADER */
 
     .top{
       display:flex;
       justify-content:space-between;
       align-items:center;
-      padding:22px 0
+      gap:18px;
+      padding:22px 0;
     }
 
     .brand{
       display:flex;
       align-items:center;
       gap:10px;
-      font-weight:800
+      font-weight:800;
     }
 
     .logo{
@@ -58,20 +79,28 @@
       display:grid;
       place-items:center;
       background:var(--rose2);
-      font-size:20px
+      font-size:20px;
     }
 
     .updated{
       color:var(--muted);
-      font-size:13px
+      font-size:13px;
+      text-align:right;
     }
+
+    /* HERO */
 
     .hero{
       position:relative;
       overflow:hidden;
       padding:58px 54px 78px;
       border-radius:32px;
-      background:linear-gradient(135deg,var(--rose2),var(--lilac))
+      background:
+        linear-gradient(
+          135deg,
+          var(--rose2),
+          var(--lilac)
+        );
     }
 
     .hero:after{
@@ -81,17 +110,19 @@
       top:8%;
       font:110px Georgia;
       color:rgba(157,63,103,.14);
-      transform:rotate(12deg)
+      transform:rotate(12deg);
     }
 
     .pill{
       display:inline-flex;
+      align-items:center;
+      gap:7px;
       padding:7px 11px;
       border-radius:999px;
       background:#fff9;
       border:1px solid #fff;
       font-size:13px;
-      font-weight:700
+      font-weight:700;
     }
 
     .hero h1{
@@ -99,19 +130,25 @@
       z-index:1;
       max-width:700px;
       margin:14px 0 10px;
-      font:italic 700 clamp(36px,6vw,68px)/1.02 Georgia,serif;
-      letter-spacing:-2px
+      font:
+        italic 700
+        clamp(36px,6vw,68px)/1.02
+        Georgia,
+        serif;
+      letter-spacing:-2px;
     }
 
     .hero p{
       position:relative;
       z-index:1;
-      max-width:680px;
+      max-width:690px;
       margin:0;
       color:#5f5260;
       font-size:18px;
-      line-height:1.55
+      line-height:1.55;
     }
+
+    /* FILTROS */
 
     .search{
       position:relative;
@@ -120,21 +157,22 @@
       background:var(--card);
       border:1px solid var(--line);
       border-radius:22px;
-      box-shadow:var(--shadow)
+      box-shadow:var(--shadow);
     }
 
     .grid{
       display:grid;
-      grid-template-columns:1fr 1fr 1fr auto;
+      grid-template-columns:
+        1fr 1fr 1fr auto;
       gap:12px;
-      align-items:end
+      align-items:end;
     }
 
     .field label{
       display:block;
-      margin-bottom:7px;
+      margin:0 0 7px;
       font-size:13px;
-      font-weight:750
+      font-weight:750;
     }
 
     .field select{
@@ -144,7 +182,7 @@
       border:1px solid var(--line);
       border-radius:13px;
       background:white;
-      color:var(--ink)
+      color:var(--ink);
     }
 
     .primary{
@@ -154,29 +192,39 @@
       border-radius:13px;
       background:var(--ink);
       color:white;
-      font-weight:750
+      font-weight:750;
     }
 
-    .primary:hover{background:var(--hot)}
+    .primary:hover{
+      background:var(--hot);
+    }
+
+    /* TITULO RESULTADOS */
 
     .heading{
       display:flex;
       justify-content:space-between;
       align-items:end;
       gap:14px;
-      margin-bottom:16px
+      margin:0 0 16px;
     }
 
     .heading h2{
       margin:0 0 4px;
-      font:italic 700 30px Georgia,serif
+      font:
+        italic 700
+        30px
+        Georgia,
+        serif;
     }
 
     .heading p{
       margin:0;
       color:var(--muted);
-      font-size:14px
+      font-size:14px;
     }
+
+    /* BADGES */
 
     .badge{
       display:inline-block;
@@ -185,14 +233,22 @@
       background:var(--rose2);
       color:var(--hot);
       font-size:12px;
-      font-weight:750
+      font-weight:750;
     }
+
+    .verified{
+      background:#eef8f1;
+      color:#39734d;
+    }
+
+    /* RESULTADOS */
 
     .results{
       display:grid;
-      grid-template-columns:repeat(3,1fr);
+      grid-template-columns:
+        repeat(3,1fr);
       gap:16px;
-      padding-bottom:50px
+      padding-bottom:50px;
     }
 
     .flight{
@@ -200,12 +256,19 @@
       background:var(--card);
       border:1px solid var(--line);
       border-radius:20px;
-      box-shadow:0 8px 24px rgba(107,63,85,.06)
+      box-shadow:
+        0 8px 24px
+        rgba(107,63,85,.06);
     }
 
     .flight-top{
       padding:18px;
-      background:linear-gradient(135deg,#fff6f9,#faf7ff)
+      background:
+        linear-gradient(
+          135deg,
+          #fff6f9,
+          #faf7ff
+        );
     }
 
     .route{
@@ -213,28 +276,31 @@
       justify-content:space-between;
       align-items:center;
       font-size:20px;
-      font-weight:850
+      font-weight:850;
     }
 
     .airline{
       margin-top:7px;
       color:var(--muted);
-      font-size:13px
+      font-size:13px;
+      line-height:1.4;
     }
 
-    .flight-main{padding:18px}
+    .flight-main{
+      padding:18px;
+    }
 
     .tags{
       display:flex;
       gap:6px;
       flex-wrap:wrap;
-      margin-bottom:12px
+      margin-bottom:12px;
     }
 
     .detail{
       margin:10px 0;
       color:#5f5260;
-      font-size:14px
+      font-size:14px;
     }
 
     .bottom{
@@ -242,18 +308,18 @@
       justify-content:space-between;
       align-items:end;
       gap:12px;
-      margin-top:20px
+      margin-top:20px;
     }
 
     .price small{
       display:block;
       color:var(--muted);
-      font-size:12px
+      font-size:12px;
     }
 
     .price strong{
       display:block;
-      font-size:24px
+      font-size:24px;
     }
 
     .link{
@@ -264,10 +330,15 @@
       color:var(--ink);
       text-decoration:none;
       font-size:13px;
-      font-weight:750
+      font-weight:750;
+      text-align:center;
     }
 
-    .link:hover{background:var(--rose2)}
+    .link:hover{
+      background:var(--rose2);
+    }
+
+    /* VACIO / ERROR */
 
     .empty{
       grid-column:1/-1;
@@ -275,28 +346,71 @@
       border:1px dashed var(--line);
       border-radius:20px;
       text-align:center;
-      color:var(--muted)
+      color:var(--muted);
+      line-height:1.6;
     }
+
+    /* FOOTER */
 
     footer{
       padding:28px 0 42px;
       color:var(--muted);
       font-size:13px;
-      text-align:center
+      text-align:center;
     }
 
+    /* RESPONSIVE */
+
     @media(max-width:800px){
-      .grid{grid-template-columns:1fr 1fr}
-      .results{grid-template-columns:1fr 1fr}
+
+      .grid{
+        grid-template-columns:
+          1fr 1fr;
+      }
+
+      .results{
+        grid-template-columns:
+          1fr 1fr;
+      }
     }
 
     @media(max-width:560px){
-      .wrap{width:min(100% - 20px,1120px)}
-      .hero{padding:38px 24px 62px;border-radius:24px}
-      .search{margin:-28px 10px 32px}
-      .grid,.results{grid-template-columns:1fr}
-      .heading{align-items:flex-start;flex-direction:column}
-      .updated{display:none}
+
+      .wrap{
+        width:min(
+          100% - 20px,
+          1120px
+        );
+      }
+
+      .hero{
+        padding:
+          38px 24px 62px;
+        border-radius:24px;
+      }
+
+      .hero h1{
+        letter-spacing:-1px;
+      }
+
+      .search{
+        margin:
+          -28px 10px 32px;
+      }
+
+      .grid,
+      .results{
+        grid-template-columns:1fr;
+      }
+
+      .heading{
+        align-items:flex-start;
+        flex-direction:column;
+      }
+
+      .updated{
+        display:none;
+      }
     }
   </style>
 </head>
@@ -304,347 +418,902 @@
 <body>
 
 <header class="wrap top">
+
   <div class="brand">
     <span class="logo">✈</span>
     Eurotrip Girls
   </div>
 
-  <div class="updated" id="topUpdated">
+  <div
+    class="updated"
+    id="topUpdated"
+  >
     Radar de vuelos a Europa
   </div>
+
 </header>
+
 
 <main class="wrap">
 
-  <section class="hero">
-    <span class="pill">✨ Radar automático de oportunidades</span>
+  <!-- HERO -->
 
-    <h1>Europa te está esperando, girl.</h1>
+  <section class="hero">
+
+    <span class="pill">
+      ✨ Radar automático de vuelos a Europa
+    </span>
+
+    <h1>
+      Europa te está esperando, girl.
+    </h1>
 
     <p>
-      Buscamos todos los días vuelos ida y vuelta hacia Europa
-      desde Argentina, Chile y Brasil. Filtrá por origen, destino
-      y presupuesto para encontrar tu próxima oportunidad.
+      Buscamos oportunidades de vuelos ida y vuelta
+      hacia Europa desde Argentina, Chile y Brasil.
+      Mostramos únicamente ofertas verificadas con
+      origen, destino, fechas y acceso a Google Flights.
     </p>
+
   </section>
 
-  <section class="search">
+
+  <!-- FILTROS -->
+
+  <section
+    class="search"
+    aria-label="Filtros de vuelos"
+  >
+
     <div class="grid">
 
       <div class="field">
-        <label for="origin">Desde</label>
+
+        <label for="origin">
+          Desde
+        </label>
+
         <select id="origin">
-          <option value="all">Todos los aeropuertos</option>
+          <option value="all">
+            Todos los aeropuertos
+          </option>
         </select>
+
       </div>
 
+
       <div class="field">
-        <label for="destination">Hacia</label>
+
+        <label for="destination">
+          Hacia
+        </label>
+
         <select id="destination">
-          <option value="all">Toda Europa</option>
+          <option value="all">
+            Toda Europa
+          </option>
         </select>
+
       </div>
+
 
       <div class="field">
-        <label for="budget">Presupuesto máximo</label>
+
+        <label for="budget">
+          Presupuesto máximo
+        </label>
+
         <select id="budget">
-          <option value="500">Hasta USD 500</option>
-          <option value="600">Hasta USD 600</option>
-          <option value="700">Hasta USD 700</option>
-          <option value="800" selected>Hasta USD 800</option>
-          <option value="900">Hasta USD 900</option>
-          <option value="1000">Hasta USD 1.000</option>
+
+          <option value="500">
+            Hasta USD 500
+          </option>
+
+          <option value="600">
+            Hasta USD 600
+          </option>
+
+          <option value="700">
+            Hasta USD 700
+          </option>
+
+          <option
+            value="800"
+            selected
+          >
+            Hasta USD 800
+          </option>
+
+          <option value="900">
+            Hasta USD 900
+          </option>
+
+          <option value="1000">
+            Hasta USD 1.000
+          </option>
+
         </select>
+
       </div>
 
-      <button class="primary" id="search">
+
+      <button
+        class="primary"
+        id="search"
+      >
         Buscar ofertas
       </button>
 
     </div>
+
   </section>
 
+
+  <!-- RESULTADOS -->
+
   <div class="heading">
+
     <div>
-      <h2>Encontramos estas joyitas</h2>
-      <p id="status">Cargando las últimas oportunidades…</p>
+
+      <h2>
+        Encontramos estas joyitas
+      </h2>
+
+      <p id="status">
+        Cargando las últimas oportunidades…
+      </p>
+
     </div>
 
-    <span class="badge">🔔 Radar diario activo</span>
+    <span class="badge">
+      🔔 Radar diario activo
+    </span>
+
   </div>
 
-  <section class="results" id="results">
-    <div class="empty">Buscando ofertas…</div>
+
+  <section
+    class="results"
+    id="results"
+    aria-live="polite"
+  >
+
+    <div class="empty">
+      Buscando ofertas verificadas…
+    </div>
+
   </section>
 
 </main>
 
+
 <footer class="wrap">
-  Los precios pueden cambiar. Verificá siempre los datos y la tarifa
-  final en Google Flights antes de comprar.
+
+  Los precios pueden cambiar.
+  Verificá siempre origen, destino,
+  fechas y tarifa final en Google Flights
+  antes de comprar.
+
 </footer>
 
+
 <script>
-  const airportNames={
-    EZE:"Buenos Aires · Ezeiza",
-    AEP:"Buenos Aires · Aeroparque",
-    COR:"Córdoba",
-    MDZ:"Mendoza",
-    ROS:"Rosario",
-    SLA:"Salta",
-    TUC:"Tucumán",
-    NQN:"Neuquén",
-    BRC:"Bariloche",
-    IGR:"Puerto Iguazú",
-    USH:"Ushuaia",
-    SCL:"Santiago",
-    GRU:"São Paulo · Guarulhos",
-    GIG:"Río de Janeiro · Galeão"
+
+  /*
+   * NOMBRES DE AEROPUERTOS
+   */
+
+  const airportNames = {
+
+    EZE:
+      "Buenos Aires · Ezeiza",
+
+    AEP:
+      "Buenos Aires · Aeroparque",
+
+    COR:
+      "Córdoba",
+
+    MDZ:
+      "Mendoza",
+
+    ROS:
+      "Rosario",
+
+    SLA:
+      "Salta",
+
+    TUC:
+      "Tucumán",
+
+    NQN:
+      "Neuquén",
+
+    BRC:
+      "Bariloche",
+
+    IGR:
+      "Puerto Iguazú",
+
+    USH:
+      "Ushuaia",
+
+    SCL:
+      "Santiago",
+
+    GRU:
+      "São Paulo · Guarulhos",
+
+    GIG:
+      "Río de Janeiro · Galeão"
   };
 
-  const origin=document.querySelector("#origin");
-  const destination=document.querySelector("#destination");
-  const budget=document.querySelector("#budget");
-  const button=document.querySelector("#search");
-  const results=document.querySelector("#results");
-  const status=document.querySelector("#status");
-  const topUpdated=document.querySelector("#topUpdated");
 
-  let offers=[];
+  /*
+   * ELEMENTOS
+   */
 
-  const esc=value=>String(value??"").replace(
-    /[&<>"']/g,
-    ch=>({
-      "&":"&amp;",
-      "<":"&lt;",
-      ">":"&gt;",
-      '"':"&quot;",
-      "'":"&#39;"
-    }[ch])
-  );
+  const origin =
+    document.querySelector(
+      "#origin"
+    );
 
-  const date=value=>new Intl.DateTimeFormat(
-    "es-AR",
-    {
-      day:"numeric",
-      month:"short",
-      year:"numeric",
-      timeZone:"UTC"
-    }
-  ).format(new Date(value+"T12:00:00Z"));
+  const destination =
+    document.querySelector(
+      "#destination"
+    );
+
+  const budget =
+    document.querySelector(
+      "#budget"
+    );
+
+  const button =
+    document.querySelector(
+      "#search"
+    );
+
+  const results =
+    document.querySelector(
+      "#results"
+    );
+
+  const status =
+    document.querySelector(
+      "#status"
+    );
+
+  const topUpdated =
+    document.querySelector(
+      "#topUpdated"
+    );
+
+  let offers = [];
+
+
+  /*
+   * SEGURIDAD HTML
+   */
+
+  const esc = value =>
+    String(value ?? "")
+      .replace(
+        /[&<>"']/g,
+        ch => ({
+          "&":"&amp;",
+          "<":"&lt;",
+          ">":"&gt;",
+          '"':"&quot;",
+          "'":"&#39;"
+        }[ch])
+      );
+
+
+  /*
+   * FECHA
+   */
+
+  const date = value =>
+    new Intl.DateTimeFormat(
+      "es-AR",
+      {
+        day:"numeric",
+        month:"short",
+        year:"numeric",
+        timeZone:"UTC"
+      }
+    ).format(
+      new Date(
+        value +
+        "T12:00:00Z"
+      )
+    );
+
+
+  /*
+   * DURACION REAL DEL VIAJE
+   */
+
+  function tripDays(
+    departure,
+    returnDate
+  ){
+
+    const start =
+      new Date(
+        departure +
+        "T12:00:00Z"
+      );
+
+    const end =
+      new Date(
+        returnDate +
+        "T12:00:00Z"
+      );
+
+    return Math.round(
+      (end - start) /
+      (
+        1000 *
+        60 *
+        60 *
+        24
+      )
+    );
+  }
+
+
+  /*
+   * FILTROS DINAMICOS
+   */
 
   function populateFilters(){
 
-    const origins=[...new Set(
-      offers.map(x=>x.origin).filter(Boolean)
-    )].sort();
+    const origins =
+      [...new Set(
+        offers
+          .map(x => x.origin)
+          .filter(Boolean)
+      )]
+      .sort();
 
-    origin.innerHTML=
-      `<option value="all">Todos los aeropuertos</option>`+
-      origins.map(code=>`
-        <option value="${esc(code)}">
-          ${esc(airportNames[code]||code)} (${esc(code)})
+
+    origin.innerHTML =
+      `
+        <option value="all">
+          Todos los aeropuertos
         </option>
-      `).join("");
+      `
+      +
+      origins
+        .map(code => `
+          <option
+            value="${esc(code)}"
+          >
+            ${
+              esc(
+                airportNames[code]
+                || code
+              )
+            }
+            (${esc(code)})
+          </option>
+        `)
+        .join("");
 
-    const destinations=[...new Map(
-      offers
-        .filter(x=>x.destination)
-        .map(x=>[
-          x.destination,
-          x.destinationName||x.destination
-        ])
-    ).entries()]
-      .sort((a,b)=>String(a[1]).localeCompare(String(b[1])));
 
-    destination.innerHTML=
-      `<option value="all">Toda Europa</option>`+
-      destinations.map(([code,name])=>`
-        <option value="${esc(code)}">
-          ${esc(name)} (${esc(code)})
+    const destinations =
+      [...new Map(
+        offers
+          .filter(
+            x => x.destination
+          )
+          .map(
+            x => [
+              x.destination,
+              x.destinationName
+                || x.destination
+            ]
+          )
+      ).entries()]
+      .sort(
+        (a,b) =>
+          String(a[1])
+            .localeCompare(
+              String(b[1])
+            )
+      );
+
+
+    destination.innerHTML =
+      `
+        <option value="all">
+          Toda Europa
         </option>
-      `).join("");
+      `
+      +
+      destinations
+        .map(
+          ([code,name]) => `
+            <option
+              value="${esc(code)}"
+            >
+              ${esc(name)}
+              (${esc(code)})
+            </option>
+          `
+        )
+        .join("");
   }
+
+
+  /*
+   * ESCALAS
+   */
 
   function stopsText(x){
 
-    if(x.stops===null || x.stops===undefined){
+    if(
+      x.stops === null ||
+      x.stops === undefined
+    ){
       return "Escalas por confirmar";
     }
 
-    const n=Number(x.stops);
+    const n =
+      Number(x.stops);
 
-    if(n===0) return "Directo";
+    if(n === 0){
+      return "Directo";
+    }
 
-    return `${n} ${n===1?"escala":"escalas"}`;
+    return (
+      `${n} ${
+        n === 1
+          ? "escala"
+          : "escalas"
+      }`
+    );
   }
+
+
+  /*
+   * RENDER
+   */
 
   function render(){
 
-    const max=Number(budget.value);
-    const from=origin.value;
-    const dest=destination.value;
+    const max =
+      Number(
+        budget.value
+      );
 
-    const filtered=offers
-      .filter(x=>
-        Number(x.price)<=max &&
-        (from==="all" || x.origin===from) &&
-        (dest==="all" || x.destination===dest)
-      )
-      .sort((a,b)=>Number(a.price)-Number(b.price));
+    const from =
+      origin.value;
 
-    status.textContent=filtered.length
-      ? `${filtered.length} ${filtered.length===1?"oportunidad":"oportunidades"} hasta USD ${max}`
-      : `Sin oportunidades hasta USD ${max}`;
+    const dest =
+      destination.value;
 
-    if(!filtered.length){
-      results.innerHTML=`
+
+    const filtered =
+      offers
+        .filter(
+          x =>
+
+            x.verified === true &&
+
+            x.roundTrip === true &&
+
+            Boolean(x.url) &&
+
+            Number(x.price)
+              <= max &&
+
+            (
+              from === "all" ||
+              x.origin === from
+            ) &&
+
+            (
+              dest === "all" ||
+              x.destination === dest
+            )
+        )
+        .sort(
+          (a,b) =>
+            Number(a.price) -
+            Number(b.price)
+        );
+
+
+    status.textContent =
+      filtered.length
+
+        ? `${filtered.length} ${
+            filtered.length === 1
+              ? "oferta verificada"
+              : "ofertas verificadas"
+          } hasta USD ${max}`
+
+        : `Sin ofertas verificadas hasta USD ${max}`;
+
+
+    if(
+      !filtered.length
+    ){
+
+      results.innerHTML = `
         <div class="empty">
-          No encontramos vuelos con estos filtros por ahora.
-          El radar volverá a buscar automáticamente 💗
+
+          No encontramos vuelos verificados
+          con estos filtros por ahora.
+
+          <br><br>
+
+          El radar volverá a buscar
+          oportunidades hacia Europa
+          automáticamente 💗
+
         </div>
       `;
+
       return;
     }
 
-    results.innerHTML=filtered.map(x=>`
 
-      <article class="flight">
+    results.innerHTML =
+      filtered
+        .map(x => {
 
-        <div class="flight-top">
+          const originName =
+            airportNames[x.origin]
+            ||
+            x.originCity
+            ||
+            x.origin;
 
-          <div class="route">
-            <span>${esc(x.origin)}</span>
-            <span>✈</span>
-            <span>${esc(x.destination)}</span>
-          </div>
 
-          <div class="airline">
-            ${esc(airportNames[x.origin]||x.origin)}
-            →
-            ${esc(x.destinationName||x.destination)}
-            ·
-            ${esc(x.airlines||"Aerolínea por confirmar")}
-          </div>
+          const destinationName =
+            x.destinationName
+            ||
+            x.destination;
 
-        </div>
 
-        <div class="flight-main">
+          const days =
+            tripDays(
+              x.departure,
+              x.returnDate
+            );
 
-          <div class="tags">
-            <span class="badge">🔥 Encontrado hoy</span>
-            <span class="badge">↔️ Ida y vuelta</span>
-            <span class="badge">✈️ ${esc(stopsText(x))}</span>
-          </div>
 
-          <div class="detail">
-            📅 ${date(x.departure)} – ${date(x.returnDate)}
-          </div>
+          return `
 
-          <div class="detail">
-            🧳 ${Number(x.tripDays)} días en Europa
-          </div>
+            <article class="flight">
 
-          <div class="detail">
-            📍 Sale desde ${esc(airportNames[x.origin]||x.origin)}
-          </div>
 
-          <div class="bottom">
+              <div class="flight-top">
 
-            <div class="price">
-              <small>Precio ida y vuelta</small>
-              <strong>USD ${Number(x.price).toFixed(0)}</strong>
-            </div>
+                <div class="route">
 
-            <a
-              class="link"
-              href="${esc(x.url)}"
-              target="_blank"
-              rel="noopener"
-            >
-              Ver en Google Flights
-            </a>
+                  <span>
+                    ${esc(x.origin)}
+                  </span>
 
-          </div>
+                  <span>
+                    ✈
+                  </span>
 
-        </div>
+                  <span>
+                    ${esc(x.destination)}
+                  </span>
 
-      </article>
+                </div>
 
-    `).join("");
+
+                <div class="airline">
+
+                  ${esc(originName)}
+
+                  →
+
+                  ${esc(destinationName)}
+
+                  ·
+
+                  ${
+                    esc(
+                      x.airlines
+                      ||
+                      "Aerolínea por confirmar"
+                    )
+                  }
+
+                </div>
+
+              </div>
+
+
+              <div class="flight-main">
+
+
+                <div class="tags">
+
+                  <span
+                    class="badge verified"
+                  >
+                    ✓ Oferta verificada
+                  </span>
+
+
+                  <span class="badge">
+                    ↔️ Ida y vuelta
+                  </span>
+
+
+                  <span class="badge">
+                    ✈️ ${esc(stopsText(x))}
+                  </span>
+
+                </div>
+
+
+                <div class="detail">
+
+                  📅
+                  ${date(x.departure)}
+                  –
+                  ${date(x.returnDate)}
+
+                </div>
+
+
+                <div class="detail">
+
+                  🧳
+                  ${days}
+                  ${
+                    days === 1
+                      ? "día"
+                      : "días"
+                  }
+                  de viaje
+
+                </div>
+
+
+                <div class="detail">
+
+                  📍 Sale desde
+                  ${esc(originName)}
+                  (${esc(x.origin)})
+
+                </div>
+
+
+                <div class="bottom">
+
+
+                  <div class="price">
+
+                    <small>
+                      Precio ida y vuelta
+                    </small>
+
+                    <strong>
+                      USD ${
+                        Number(
+                          x.price
+                        ).toFixed(0)
+                      }
+                    </strong>
+
+                  </div>
+
+
+                  <a
+                    class="link"
+                    href="${esc(x.url)}"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    Ver en Google Flights
+                  </a>
+
+
+                </div>
+
+              </div>
+
+            </article>
+
+          `;
+
+        })
+        .join("");
   }
+
+
+  /*
+   * CARGAR RESULTS.JSON
+   */
 
   async function load(){
 
-    button.disabled=true;
-    button.textContent="Cargando…";
+    button.disabled =
+      true;
+
+    button.textContent =
+      "Cargando…";
+
 
     try{
 
-      const response=await fetch(
-        "./results.json",
-        {cache:"no-store"}
-      );
+      const response =
+        await fetch(
+          "./results.json",
+          {
+            cache:
+              "no-store"
+          }
+        );
 
-      if(!response.ok){
-        throw new Error("No se pudo cargar results.json");
+
+      if(
+        !response.ok
+      ){
+
+        throw new Error(
+          "No se pudo cargar results.json"
+        );
       }
 
-      const data=await response.json();
 
-      offers=Array.isArray(data.offers)
-        ? data.offers.filter(x=>
-            x.origin &&
-            x.destination &&
-            x.departure &&
-            x.returnDate &&
-            x.roundTrip===true &&
-            x.url &&
-            Number.isFinite(Number(x.price))
-          )
-        : [];
+      const data =
+        await response.json();
+
+
+      /*
+       * FILTRO DE SEGURIDAD
+       *
+       * La web directamente ignora
+       * cualquier resultado que:
+       *
+       * - no esté verificado
+       * - no sea ida y vuelta
+       * - no tenga link
+       * - no tenga origen/destino
+       * - no tenga fechas
+       * - no tenga precio válido
+       */
+
+      offers =
+        Array.isArray(
+          data.offers
+        )
+
+          ? data.offers.filter(
+              x =>
+
+                x.verified === true &&
+
+                x.roundTrip === true &&
+
+                Boolean(x.url) &&
+
+                Boolean(x.origin) &&
+
+                Boolean(x.destination) &&
+
+                Boolean(x.departure) &&
+
+                Boolean(x.returnDate) &&
+
+                Number.isFinite(
+                  Number(x.price)
+                )
+            )
+
+          : [];
+
 
       populateFilters();
+
       render();
 
-      if(data.lastRun){
 
-        const when=new Intl.DateTimeFormat(
-          "es-AR",
-          {
-            dateStyle:"medium",
-            timeStyle:"short"
-          }
-        ).format(new Date(data.lastRun));
+      /*
+       * ULTIMA ACTUALIZACION
+       */
 
-        topUpdated.textContent=`Última búsqueda: ${when}`;
+      if(
+        data.lastRun
+      ){
+
+        const when =
+          new Intl.DateTimeFormat(
+            "es-AR",
+            {
+              dateStyle:
+                "medium",
+
+              timeStyle:
+                "short"
+            }
+          ).format(
+            new Date(
+              data.lastRun
+            )
+          );
+
+
+        topUpdated.textContent =
+          `Última búsqueda: ${when}`;
       }
+
 
     }catch(error){
 
-      console.error(error);
+      console.error(
+        error
+      );
 
-      status.textContent="No pudimos cargar las ofertas";
 
-      results.innerHTML=`
+      status.textContent =
+        "No pudimos cargar las ofertas";
+
+
+      results.innerHTML = `
         <div class="empty">
-          No pudimos cargar el radar en este momento.
+
+          No pudimos cargar
+          el radar en este momento.
+
         </div>
       `;
 
+
     }finally{
 
-      button.disabled=false;
-      button.textContent="Buscar ofertas";
+      button.disabled =
+        false;
+
+      button.textContent =
+        "Buscar ofertas";
     }
   }
 
-  button.addEventListener("click",render);
-  origin.addEventListener("change",render);
-  destination.addEventListener("change",render);
-  budget.addEventListener("change",render);
+
+  /*
+   * EVENTOS
+   */
+
+  button.addEventListener(
+    "click",
+    render
+  );
+
+  origin.addEventListener(
+    "change",
+    render
+  );
+
+  destination.addEventListener(
+    "change",
+    render
+  );
+
+  budget.addEventListener(
+    "change",
+    render
+  );
+
+
+  /*
+   * INICIAR
+   */
 
   load();
+
 </script>
 
 </body>
