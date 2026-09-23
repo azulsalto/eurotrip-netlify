@@ -7,63 +7,42 @@ const STATE_FILE = new URL("../public/results.json", import.meta.url);
 // CONFIGURACIÓN
 // ============================================================
 
-// Cualquier vuelo <= USD 800 genera alerta
 const EMAIL_MAX_PRICE = 800;
-
-// Vuelo DIRECTO <= USD 900 también genera alerta
 const DIRECT_EMAIL_MAX_PRICE = 900;
-
-// La web muestra hasta USD 1000
 const WEBSITE_MAX_PRICE = 1000;
 
 // ============================================================
-// ORÍGENES
-// Argentina + Chile + Brasil
+// AEROPUERTOS DE SALIDA
 // ============================================================
 
-const originGroups = [
+const origins = [
   {
+    airport: "EZE",
+    city: "Buenos Aires",
     country: "Argentina",
     flag: "🇦🇷",
-    gl: "ar",
-    airports: [
-      "EZE",
-      "AEP",
-      "COR",
-      "MDZ",
-      "ROS",
-      "SLA",
-      "TUC",
-      "NQN",
-      "BRC",
-      "IGR",
-      "USH"
-    ]
+    gl: "ar"
   },
   {
+    airport: "SCL",
+    city: "Santiago",
     country: "Chile",
     flag: "🇨🇱",
-    gl: "cl",
-    airports: [
-      "SCL"
-    ]
+    gl: "cl"
   },
   {
+    airport: "GRU",
+    city: "São Paulo",
     country: "Brasil",
     flag: "🇧🇷",
-    gl: "br",
-    airports: [
-      "GRU",
-      "GIG",
-      "VCP",
-      "BSB",
-      "CNF",
-      "POA",
-      "CWB",
-      "SSA",
-      "REC",
-      "FOR"
-    ]
+    gl: "br"
+  },
+  {
+    airport: "GIG",
+    city: "Río de Janeiro",
+    country: "Brasil",
+    flag: "🇧🇷",
+    gl: "br"
   }
 ];
 
@@ -100,12 +79,11 @@ function required(name) {
 // BUSCAR VUELOS
 // ============================================================
 
-async function searchEurope(originGroup, duration) {
+async function searchEurope(origin, duration) {
   const query = new URLSearchParams({
     engine: "google_travel_explore",
 
-    // Varios aeropuertos del mismo país
-    departure_id: originGroup.airports.join(","),
+    departure_id: origin.airport,
 
     // Europa
     arrival_area_id: "/m/02j9z",
@@ -116,10 +94,8 @@ async function searchEurope(originGroup, duration) {
     // Fechas flexibles
     month: "0",
 
-    // 1 o 2 semanas
     travel_duration: duration.value,
 
-    // Económica
     travel_class: "1",
 
     adults: "1",
@@ -132,7 +108,7 @@ async function searchEurope(originGroup, duration) {
 
     hl: "en",
 
-    gl: originGroup.gl,
+    gl: origin.gl,
 
     api_key: required("SERPAPI_KEY")
   });
@@ -143,83 +119,50 @@ async function searchEurope(originGroup, duration) {
 
   if (!response.ok) {
     throw new Error(
-      `SerpApi respondió ${response.status} buscando desde ${originGroup.country}`
+      `SerpApi ${response.status}`
     );
   }
 
   const data = await response.json();
 
   if (data.error) {
-    throw new Error(
-      `${originGroup.country}: ${data.error}`
-    );
+    throw new Error(data.error);
   }
 
   return data.destinations || [];
 }
 
 // ============================================================
-// OBTENER AEROPUERTO DE ORIGEN
-// ============================================================
-
-function getOrigin(item, originGroup) {
-  const possibleOrigins = [
-    item.departure_airport?.code,
-    item.origin_airport?.code,
-    item.departure_airport_code,
-    item.origin_airport_code,
-    item.departure_id,
-    item.origin
-  ];
-
-  const detected = possibleOrigins.find(
-    value =>
-      typeof value === "string" &&
-      value.trim().length >= 3
-  );
-
-  if (detected) {
-    return detected.trim().toUpperCase();
-  }
-
-  /*
-   * Si el resultado no especifica qué aeropuerto
-   * del grupo produjo el precio, NO inventamos uno.
-   */
-  if (originGroup.airports.length === 1) {
-    return originGroup.airports[0];
-  }
-
-  return originGroup.country;
-}
-
-// ============================================================
-// OBTENER ESCALAS DE FORMA SEGURA
+// ESCALAS
 // ============================================================
 
 function getStops(item) {
-  const rawStops = item.number_of_stops;
+  const raw = item.number_of_stops;
 
+  // MUY IMPORTANTE:
+  // null/undefined NO significa directo.
   if (
-    rawStops === null ||
-    rawStops === undefined ||
-    rawStops === ""
+    raw === null ||
+    raw === undefined ||
+    raw === ""
   ) {
     return null;
   }
 
-  const parsed = Number(rawStops);
+  const parsed = Number(raw);
 
-  return Number.isFinite(parsed)
-    ? parsed
-    : null;
+  if (!Number.isFinite(parsed)) {
+    return null;
+  }
+
+  return parsed;
 }
 
 // ============================================================
-// NORMALIZAR RESULTADO
+// NORMALIZAR RESULTADOS
 // ============================================================
 
-function summarize(item, duration, originGroup) {
+function summarize(item, duration, origin) {
   const destinationAirport =
     item.destination_airport || {};
 
@@ -228,23 +171,19 @@ function summarize(item, duration, originGroup) {
     item.destination_airport_code ||
     item.name;
 
-  const origin =
-    getOrigin(item, originGroup);
-
-  const stops =
-    getStops(item);
+  const stops = getStops(item);
 
   return {
     key:
-      `${origin}-${destination}-${item.start_date}-${item.end_date}-${duration.value}`,
+      `${origin.airport}-${destination}-${item.start_date}-${item.end_date}-${duration.value}`,
 
-    origin,
+    origin: origin.airport,
 
-    originCountry:
-      originGroup.country,
+    originCity: origin.city,
 
-    originFlag:
-      originGroup.flag,
+    originCountry: origin.country,
+
+    originFlag: origin.flag,
 
     destination,
 
@@ -255,7 +194,7 @@ function summarize(item, duration, originGroup) {
       item.country || "Europa",
 
     route:
-      `${origin} → ${destination}`,
+      `${origin.airport} → ${destination}`,
 
     departure:
       item.start_date,
@@ -274,26 +213,23 @@ function summarize(item, duration, originGroup) {
     direct:
       stops === 0,
 
+    duration:
+      duration.label,
+
     season:
       `Fechas flexibles · ${duration.label}`,
 
-    duration:
-      duration.label,
+    source:
+      "Google Travel / SerpApi",
 
     foundAt:
       new Date().toISOString(),
 
-    foundToday:
-      true,
+    foundToday: true,
 
-    previousPrice:
-      null,
+    previousPrice: null,
 
-    priceDrop:
-      0,
-
-    source:
-      "Google Travel / SerpApi",
+    priceDrop: 0,
 
     url:
       item.link ||
@@ -306,8 +242,7 @@ function summarize(item, duration, originGroup) {
 // ============================================================
 
 async function sendEmail(result) {
-  const user =
-    required("EMAIL_USER");
+  const user = required("EMAIL_USER");
 
   const transporter =
     nodemailer.createTransport({
@@ -317,8 +252,7 @@ async function sendEmail(result) {
 
       auth: {
         user,
-        pass:
-          required("EMAIL_APP_PASSWORD")
+        pass: required("EMAIL_APP_PASSWORD")
       }
     });
 
@@ -333,10 +267,10 @@ async function sendEmail(result) {
 
   const stopsText =
     result.stops === null
-      ? "consultar"
+      ? "Consultar"
       : result.stops === 0
         ? "Directo"
-        : `${result.stops}`;
+        : `${result.stops} escala${result.stops > 1 ? "s" : ""}`;
 
   await transporter.sendMail({
     from:
@@ -347,36 +281,24 @@ async function sendEmail(result) {
 
     subject:
       direct
-        ? `✈️ DIRECTO ${result.origin} → ${result.destinationName} por USD ${result.price.toFixed(0)}`
-        : `🔥 ${result.origin} → ${result.destinationName} por USD ${result.price.toFixed(0)}`,
+        ? `✈️ DIRECTO ${result.origin} → ${result.destinationName} · USD ${result.price.toFixed(0)}`
+        : `🔥 ${result.origin} → ${result.destinationName} · USD ${result.price.toFixed(0)}`,
 
     text: [
       reason,
-
       "",
-
-      `${result.originFlag} Salida desde ${result.originCountry}`,
-
+      `${result.originFlag} Salida desde ${result.originCity}, ${result.originCountry}`,
+      "",
       result.route,
-
       "",
-
       `Destino: ${result.destinationName}, ${result.country}`,
-
       `Fechas: ${result.departure} al ${result.returnDate}`,
-
       `Precio ida y vuelta: USD ${result.price.toFixed(2)}`,
-
       `Aerolínea: ${result.airlines}`,
-
       `Escalas: ${stopsText}`,
-
       `Duración: ${result.duration}`,
-
       `Fuente: ${result.source}`,
-
       "",
-
       `Verificar vuelo: ${result.url}`
     ].join("\n")
   });
@@ -403,7 +325,6 @@ try {
   };
 }
 
-// Mantener alertas históricas
 state.alerted ||= {};
 
 // ============================================================
@@ -413,70 +334,149 @@ state.alerted ||= {};
 try {
 
   // ==========================================================
-  // 3 PAÍSES × 2 DURACIONES = 6 BÚSQUEDAS
+  // CREAR LAS 8 BÚSQUEDAS
+  //
+  // EZE x 2
+  // SCL x 2
+  // GRU x 2
+  // GIG x 2
   // ==========================================================
 
   const jobs = [];
 
-  for (const originGroup of originGroups) {
+  for (const origin of origins) {
     for (const duration of durations) {
       jobs.push({
-        originGroup,
+        origin,
         duration
       });
     }
   }
 
-  const searches =
-    await Promise.all(
+  // ==========================================================
+  // EJECUTAR SIN QUE UNA FALLA ROMPA TODO
+  // ==========================================================
+
+  const results =
+    await Promise.allSettled(
       jobs.map(
-        async ({
-          originGroup,
-          duration
-        }) => {
+        async ({ origin, duration }) => {
 
           const destinations =
             await searchEurope(
-              originGroup,
+              origin,
               duration
             );
 
-          return destinations
-
-            .filter(
-              item =>
-                Number.isFinite(
-                  Number(
-                    item.flight_price
-                  )
-                ) &&
-                item.start_date &&
-                item.end_date
-            )
-
-            .map(
-              item =>
-                summarize(
-                  item,
-                  duration,
-                  originGroup
-                )
-            );
+          return {
+            origin,
+            duration,
+            destinations
+          };
         }
       )
     );
 
   // ==========================================================
-  // JUNTAR RESULTADOS
+  // PROCESAR RESULTADOS
   // ==========================================================
 
-  const found =
-    searches.flat();
+  const found = [];
+  const searchErrors = [];
+
+  results.forEach(
+    (result, index) => {
+
+      const job =
+        jobs[index];
+
+      if (
+        result.status === "rejected"
+      ) {
+
+        const message =
+          `${job.origin.airport} · ${job.duration.label}: ${result.reason?.message || "Error desconocido"}`;
+
+        searchErrors.push(message);
+
+        console.warn(
+          `⚠️ ${message}`
+        );
+
+        return;
+      }
+
+      const {
+        origin,
+        duration,
+        destinations
+      } = result.value;
+
+      console.log(
+        `✓ ${origin.airport} · ${duration.label}: ${destinations.length} destinos`
+      );
+
+      for (
+        const item of destinations
+      ) {
+
+        if (
+          !Number.isFinite(
+            Number(item.flight_price)
+          )
+        ) {
+          continue;
+        }
+
+        if (
+          !item.start_date ||
+          !item.end_date
+        ) {
+          continue;
+        }
+
+        found.push(
+          summarize(
+            item,
+            duration,
+            origin
+          )
+        );
+      }
+    }
+  );
+
+  // ==========================================================
+  // SI FALLAN TODAS LAS BÚSQUEDAS
+  // ==========================================================
+
+  if (
+    found.length === 0 &&
+    searchErrors.length === jobs.length
+  ) {
+    throw new Error(
+      "Fallaron todas las búsquedas de vuelos."
+    );
+  }
+
+  // ==========================================================
+  // SOLO VUELOS FUTUROS + <= USD 1000
+  // ==========================================================
 
   const today =
     new Date()
       .toISOString()
       .slice(0, 10);
+
+  const validOffers =
+    found.filter(
+      offer =>
+        offer.returnDate >= today &&
+        Number.isFinite(
+          Number(offer.price)
+        ) &&
+        offer.price <= WEBSITE_MAX_PRICE
+    );
 
   // ==========================================================
   // ELIMINAR DUPLICADOS
@@ -485,28 +485,7 @@ try {
   const uniqueMap =
     new Map();
 
-  for (const offer of found) {
-
-    if (
-      offer.returnDate < today
-    ) {
-      continue;
-    }
-
-    if (
-      !Number.isFinite(
-        Number(offer.price)
-      )
-    ) {
-      continue;
-    }
-
-    if (
-      offer.price >
-      WEBSITE_MAX_PRICE
-    ) {
-      continue;
-    }
+  for (const offer of validOffers) {
 
     const duplicateKey =
       [
@@ -521,14 +500,9 @@ try {
         duplicateKey
       );
 
-    /*
-     * Si encontramos la misma ruta/fecha
-     * más de una vez, conservar la más barata.
-     */
     if (
       !existing ||
-      offer.price <
-        existing.price
+      offer.price < existing.price
     ) {
       uniqueMap.set(
         duplicateKey,
@@ -538,28 +512,18 @@ try {
   }
 
   // ==========================================================
-  // RESULTADOS ACTUALES
+  // ORDENAR
   // ==========================================================
 
   const currentOffers =
     [...uniqueMap.values()]
-
       .sort(
         (a, b) =>
           a.price - b.price
       )
+      .slice(0, 200);
 
-      .slice(0, 150);
-
-  /*
-   * IMPORTANTE:
-   *
-   * Seguimos mostrando solamente
-   * resultados de ESTA ejecución.
-   *
-   * No volvemos a acumular ofertas viejas.
-   */
-
+  // La web muestra SOLAMENTE esta búsqueda.
   state.offers =
     currentOffers;
 
@@ -567,8 +531,9 @@ try {
     new Date()
       .toISOString();
 
+  // Guardamos errores parciales si los hubo.
   state.lastErrors =
-    [];
+    searchErrors;
 
   // ==========================================================
   // ALERTAS
@@ -599,15 +564,15 @@ try {
       .filter(
         offer => {
 
-          const previousAlert =
+          const previous =
             state.alerted[
               offer.key
             ];
 
           return (
-            !previousAlert ||
+            !previous ||
             offer.price <
-              previousAlert.price
+              previous.price
           );
         }
       )
@@ -617,10 +582,7 @@ try {
           a.price - b.price
       );
 
-  // ==========================================================
-  // ENVIAR SOLO LA MEJOR ALERTA
-  // ==========================================================
-
+  // Mandar solamente la mejor alerta
   const newest =
     alertCandidates[0];
 
@@ -649,7 +611,7 @@ try {
   }
 
   // ==========================================================
-  // ESTADÍSTICAS
+  // CONTADORES
   // ==========================================================
 
   const argentina =
@@ -680,19 +642,53 @@ try {
     ).length;
 
   // ==========================================================
-  // LOG
+  // RESUMEN
   // ==========================================================
 
+  console.log("");
+  console.log("==========================================");
+  console.log("🌍 EUROTRIP — RESULTADO");
+  console.log("==========================================");
+
   console.log(
-    [
-      `Europa: ${currentOffers.length} ofertas actuales.`,
-      `🇦🇷 Argentina: ${argentina}.`,
-      `🇨🇱 Chile: ${chile}.`,
-      `🇧🇷 Brasil: ${brasil}.`,
-      `✈️ Directas: ${directCount}.`,
-      `📧 Correo: ${newest ? "sí" : "no"}.`
-    ].join(" ")
+    `Ofertas actuales: ${currentOffers.length}`
   );
+
+  console.log(
+    `🇦🇷 Argentina: ${argentina}`
+  );
+
+  console.log(
+    `🇨🇱 Chile: ${chile}`
+  );
+
+  console.log(
+    `🇧🇷 Brasil: ${brasil}`
+  );
+
+  console.log(
+    `✈️ Directas confirmadas: ${directCount}`
+  );
+
+  console.log(
+    `📧 Correo enviado: ${newest ? "sí" : "no"}`
+  );
+
+  console.log(
+    `⚠️ Búsquedas con error: ${searchErrors.length}`
+  );
+
+  if (currentOffers.length > 0) {
+
+    const cheapest =
+      currentOffers[0];
+
+    console.log(
+      `💰 Más barata: ${cheapest.route} · USD ${cheapest.price}`
+    );
+  }
+
+  console.log("==========================================");
 
 } catch (error) {
 
