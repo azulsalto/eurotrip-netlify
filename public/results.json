@@ -461,10 +461,16 @@
       "sentAt": "2026-10-06T18:11:58.778Z",
       "origin": "GRU",
       "destination": "HEL"
+    },
+    "GRU-VLC-2027-04-15-2027-04-29": {
+      "price": 783,
+      "sentAt": "2026-10-07T18:11:34.413Z",
+      "origin": "GRU",
+      "destination": "VLC"
     }
   },
   "durationCursor": 0,
-  "lastRun": "2026-10-06T18:11:57.613Z",
+  "lastRun": "2026-10-07T18:11:32.009Z",
   "lastErrors": [
     "EZE · Fin de semana: SerpApi HTTP 429",
     "EZE · Una semana: SerpApi HTTP 429",
@@ -481,11 +487,11 @@
     "GIG · Fin de semana: SerpApi HTTP 429",
     "GIG · Una semana: SerpApi HTTP 429",
     "GIG · Dos semanas: SerpApi HTTP 429",
-    "FUTURO GIG · 2027-10-12: SerpApi HTTP 429",
-    "FUTURO EZE · 2027-11-11: SerpApi HTTP 429"
+    "FUTURO AEP · 2027-11-11: SerpApi HTTP 429",
+    "FUTURO SCL · 2027-11-11: SerpApi HTTP 429"
   ],
   "futureRadar": {
     "cursor": "2027-11-11",
-    "originIndex": 36
+    "originIndex": 38
   }
 }
