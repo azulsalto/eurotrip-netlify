@@ -516,7 +516,7 @@
     }
   },
   "durationCursor": 0,
-  "lastRun": "2026-11-11T19:27:09.425Z",
+  "lastRun": "2026-11-12T19:45:05.826Z",
   "lastErrors": [
     "EZE · Fin de semana: SerpApi HTTP 429",
     "EZE · Una semana: SerpApi HTTP 429",
@@ -533,11 +533,11 @@
     "GIG · Fin de semana: SerpApi HTTP 429",
     "GIG · Una semana: SerpApi HTTP 429",
     "GIG · Dos semanas: SerpApi HTTP 429",
-    "FUTURO GRU · 2027-12-12: SerpApi HTTP 429",
-    "FUTURO GIG · 2027-12-12: SerpApi HTTP 429"
+    "FUTURO EZE · 2028-01-11: SerpApi HTTP 429",
+    "FUTURO AEP · 2028-01-11: SerpApi HTTP 429"
   ],
   "futureRadar": {
     "cursor": "2028-01-11",
-    "originIndex": 140
+    "originIndex": 142
   }
 }
